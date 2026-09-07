@@ -1,29 +1,13 @@
 {
-  "generated_at": "2026-09-06T03:58:53.352Z",
+  "generated_at": "2026-09-07T03:58:20.506Z",
   "summary": {
     "gateways": 17,
-    "failed": 2,
-    "partial": 4,
-    "total_fetched": 1947,
-    "total_errors": 7
+    "failed": 3,
+    "partial": 5,
+    "total_fetched": 1777,
+    "total_errors": 8
   },
   "gateways": [
-    {
-      "plugin": "cerebras",
-      "provider_id": "cerebras",
-      "status": "ok",
-      "fetched": 3,
-      "errors": [],
-      "duration_ms": 1545
-    },
-    {
-      "plugin": "groq",
-      "provider_id": "groq",
-      "status": "ok",
-      "fetched": 14,
-      "errors": [],
-      "duration_ms": 1626
-    },
     {
       "plugin": "fireworks",
       "provider_id": "fireworks",
@@ -32,18 +16,65 @@
       "errors": [
         "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
       ],
-      "duration_ms": 1720
+      "duration_ms": 2284
     },
     {
-      "plugin": "inferx",
-      "provider_id": "inferx",
+      "plugin": "cerebras",
+      "provider_id": "cerebras",
+      "status": "ok",
+      "fetched": 3,
+      "errors": [],
+      "duration_ms": 2411
+    },
+    {
+      "plugin": "groq",
+      "provider_id": "groq",
+      "status": "ok",
+      "fetched": 14,
+      "errors": [],
+      "duration_ms": 2413
+    },
+    {
+      "plugin": "together",
+      "provider_id": "together",
       "status": "partial",
       "fetched": 0,
       "errors": [
-        "No API key is registered for gateway inferx.",
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
+        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
       ],
-      "duration_ms": 1703
+      "duration_ms": 2391
+    },
+    {
+      "plugin": "mistral-ai",
+      "provider_id": "mistral-ai",
+      "status": "ok",
+      "fetched": 46,
+      "errors": [],
+      "duration_ms": 2519
+    },
+    {
+      "plugin": "openrouter",
+      "provider_id": "openrouter",
+      "status": "ok",
+      "fetched": 430,
+      "errors": [],
+      "duration_ms": 2564
+    },
+    {
+      "plugin": "hyperbolic",
+      "provider_id": "hyperbolic",
+      "status": "ok",
+      "fetched": 5,
+      "errors": [],
+      "duration_ms": 2609
+    },
+    {
+      "plugin": "deepinfra",
+      "provider_id": "deepinfra",
+      "status": "ok",
+      "fetched": 189,
+      "errors": [],
+      "duration_ms": 2745
     },
     {
       "plugin": "helicone",
@@ -53,31 +84,7 @@
       "errors": [
         "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
       ],
-      "duration_ms": 1823
-    },
-    {
-      "plugin": "openrouter",
-      "provider_id": "openrouter",
-      "status": "ok",
-      "fetched": 431,
-      "errors": [],
-      "duration_ms": 1814
-    },
-    {
-      "plugin": "deepinfra",
-      "provider_id": "deepinfra",
-      "status": "ok",
-      "fetched": 189,
-      "errors": [],
-      "duration_ms": 1873
-    },
-    {
-      "plugin": "mistral-ai",
-      "provider_id": "mistral-ai",
-      "status": "ok",
-      "fetched": 46,
-      "errors": [],
-      "duration_ms": 1927
+      "duration_ms": 2854
     },
     {
       "plugin": "cloudflare",
@@ -87,39 +94,7 @@
       "errors": [
         "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
       ],
-      "duration_ms": 2023
-    },
-    {
-      "plugin": "google",
-      "provider_id": "google",
-      "status": "ok",
-      "fetched": 50,
-      "errors": [],
-      "duration_ms": 2021
-    },
-    {
-      "plugin": "hyperbolic",
-      "provider_id": "hyperbolic",
-      "status": "ok",
-      "fetched": 5,
-      "errors": [],
-      "duration_ms": 2055
-    },
-    {
-      "plugin": "openai",
-      "provider_id": "openai",
-      "status": "ok",
-      "fetched": 119,
-      "errors": [],
-      "duration_ms": 2079
-    },
-    {
-      "plugin": "vercel",
-      "provider_id": "vercel",
-      "status": "ok",
-      "fetched": 373,
-      "errors": [],
-      "duration_ms": 2107
+      "duration_ms": 3119
     },
     {
       "plugin": "anthropic",
@@ -127,7 +102,7 @@
       "status": "ok",
       "fetched": 11,
       "errors": [],
-      "duration_ms": 2295
+      "duration_ms": 3151
     },
     {
       "plugin": "requesty",
@@ -135,10 +110,28 @@
       "status": "ok",
       "fetched": 706,
       "errors": [],
-      "duration_ms": 2506
+      "duration_ms": 3202
     },
     {
       "plugin": "portkey",
+      "provider_id": "portkey",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
+      ],
+      "duration_ms": 3442
+    },
+    {
+      "plugin": "vercel",
+      "provider_id": "vercel",
+      "status": "ok",
+      "fetched": 373,
+      "errors": [],
+      "duration_ms": 3555
+    },
+    {
+      "plugin": "google",
       "status": "failed",
       "fetched": 0,
       "errors": [
@@ -147,7 +140,16 @@
       "duration_ms": 0
     },
     {
-      "plugin": "together",
+      "plugin": "inferx",
+      "status": "failed",
+      "fetched": 0,
+      "errors": [
+        "Error: Plugin worker exited before responding (code 0)."
+      ],
+      "duration_ms": 0
+    },
+    {
+      "plugin": "openai",
       "status": "failed",
       "fetched": 0,
       "errors": [
