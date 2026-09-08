@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "da0cd5a",
-  "generated_at": "2026-09-07T04:01:32.955Z",
+  "source_revision": "de3bbb6",
+  "generated_at": "2026-09-08T04:03:03.930Z",
   "tier_definitions": {
     "free": "Both input and output cost $0 per 1M tokens.",
     "budget": "Blended cost < $0.50 per 1M tokens.",
@@ -15,17 +15,17 @@
     "formula": "blended = (input * 3 + output * 1) / 4 per 1M tokens"
   },
   "enrichment": {
-    "generated_at": "2026-09-07T03:58:26.297Z",
+    "generated_at": "2026-09-08T04:00:09.297Z",
     "fatal": false,
     "sources": {
       "openrouter": "ok",
-      "provider_pricing_models": 706,
-      "huggingface_models": 139
+      "provider_pricing_models": 707,
+      "huggingface_models": 137
     },
     "coverage": {
       "total_models": 1843,
-      "tiered_models": 1254,
-      "pct": 68
+      "tiered_models": 1250,
+      "pct": 67.8
     },
     "errors": [
       "Failed to fetch inferx pricing catalog: Pricing catalog failed: HTTP 401 Unauthorized"
