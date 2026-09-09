@@ -2,7 +2,7 @@
   "model_id": "openrouter/glm-5.2-batch",
   "provider_id": "openrouter",
   "name": "z-ai/glm-5.2:batch",
-  "context_window": 1048575,
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
@@ -17,9 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1048575
+    "max_input_tokens": 1048576
   },
   "capability_ids": [],
-  "status": "discontinued",
-  "updated_at": "2026-08-27T08:37:22.935Z"
+  "status": "active",
+  "updated_at": "2026-09-09T04:07:06.849Z"
 }

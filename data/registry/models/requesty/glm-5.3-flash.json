@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5.3-flash",
   "provider_id": "requesty",
-  "name": "novita/glm-5.3-flash",
+  "name": "runware/glm-5.3-flash",
   "description": "GLM-5.3-Flash is a native multimodal model from Z.ai, suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while reducing compute overhead. Accepts text, image and video input.",
   "context_window": 1048576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-08T04:00:09.084Z"
+  "updated_at": "2026-09-09T04:07:07.077Z"
 }

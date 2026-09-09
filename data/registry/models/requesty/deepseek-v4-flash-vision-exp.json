@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/deepseek-v4-flash-vision-exp",
+  "provider_id": "requesty",
+  "name": "fireworks/deepseek-v4-flash-vision-exp",
+  "description": "DeepSeek V4 Flash Vision Exp is the first experimental multimodal model in the DeepSeek V4 family. It builds on DeepSeek V4 Flash with added visual modules and continued training for visual understanding, with substantially improved multimodal agent capabilities while remaining comparable on text only agent tasks. 305B MoE, 1M token context. Served via Fireworks.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-09T04:07:07.036Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

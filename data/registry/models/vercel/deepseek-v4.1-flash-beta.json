@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/deepseek-v4.1-flash-beta",
+  "provider_id": "vercel",
+  "name": "DeepSeek V4.1 Flash Beta",
+  "description": "An experimental beta version of DeepSeek V4.1 Flash that expires on September 10th 2026.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-09T04:06:56.456Z"
+}

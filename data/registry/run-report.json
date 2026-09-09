@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-09-08T04:00:03.374Z",
+  "generated_at": "2026-09-09T04:07:01.185Z",
   "summary": {
     "gateways": 17,
-    "failed": 2,
-    "partial": 4,
-    "total_fetched": 1943,
-    "total_errors": 6
+    "failed": 0,
+    "partial": 6,
+    "total_fetched": 1950,
+    "total_errors": 7
   },
   "gateways": [
+    {
+      "plugin": "cerebras",
+      "provider_id": "cerebras",
+      "status": "ok",
+      "fetched": 3,
+      "errors": [],
+      "duration_ms": 2405
+    },
     {
       "plugin": "fireworks",
       "provider_id": "fireworks",
@@ -16,23 +24,26 @@
       "errors": [
         "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
       ],
-      "duration_ms": 2326
+      "duration_ms": 2498
     },
     {
-      "plugin": "cerebras",
-      "provider_id": "cerebras",
-      "status": "ok",
-      "fetched": 3,
-      "errors": [],
-      "duration_ms": 2390
+      "plugin": "inferx",
+      "provider_id": "inferx",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "No API key is registered for gateway inferx.",
+        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
+      ],
+      "duration_ms": 2543
     },
     {
-      "plugin": "groq",
-      "provider_id": "groq",
+      "plugin": "hyperbolic",
+      "provider_id": "hyperbolic",
       "status": "ok",
-      "fetched": 14,
+      "fetched": 5,
       "errors": [],
-      "duration_ms": 2395
+      "duration_ms": 2562
     },
     {
       "plugin": "together",
@@ -42,7 +53,23 @@
       "errors": [
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
       ],
-      "duration_ms": 2370
+      "duration_ms": 2495
+    },
+    {
+      "plugin": "groq",
+      "provider_id": "groq",
+      "status": "ok",
+      "fetched": 14,
+      "errors": [],
+      "duration_ms": 2628
+    },
+    {
+      "plugin": "deepinfra",
+      "provider_id": "deepinfra",
+      "status": "ok",
+      "fetched": 190,
+      "errors": [],
+      "duration_ms": 2660
     },
     {
       "plugin": "mistral-ai",
@@ -50,31 +77,15 @@
       "status": "ok",
       "fetched": 46,
       "errors": [],
-      "duration_ms": 2458
+      "duration_ms": 2689
     },
     {
       "plugin": "openrouter",
       "provider_id": "openrouter",
       "status": "ok",
-      "fetched": 428,
+      "fetched": 431,
       "errors": [],
-      "duration_ms": 2486
-    },
-    {
-      "plugin": "hyperbolic",
-      "provider_id": "hyperbolic",
-      "status": "ok",
-      "fetched": 5,
-      "errors": [],
-      "duration_ms": 2547
-    },
-    {
-      "plugin": "deepinfra",
-      "provider_id": "deepinfra",
-      "status": "ok",
-      "fetched": 189,
-      "errors": [],
-      "duration_ms": 2675
+      "duration_ms": 2909
     },
     {
       "plugin": "helicone",
@@ -84,7 +95,7 @@
       "errors": [
         "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
       ],
-      "duration_ms": 3007
+      "duration_ms": 2980
     },
     {
       "plugin": "openai",
@@ -92,15 +103,17 @@
       "status": "ok",
       "fetched": 119,
       "errors": [],
-      "duration_ms": 2985
+      "duration_ms": 2969
     },
     {
-      "plugin": "requesty",
-      "provider_id": "requesty",
-      "status": "ok",
-      "fetched": 707,
-      "errors": [],
-      "duration_ms": 3237
+      "plugin": "cloudflare",
+      "provider_id": "cloudflare",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
+      ],
+      "duration_ms": 3197
     },
     {
       "plugin": "google",
@@ -108,23 +121,15 @@
       "status": "ok",
       "fetched": 50,
       "errors": [],
-      "duration_ms": 3434
+      "duration_ms": 3363
     },
     {
-      "plugin": "anthropic",
-      "provider_id": "anthropic",
+      "plugin": "requesty",
+      "provider_id": "requesty",
       "status": "ok",
-      "fetched": 11,
+      "fetched": 708,
       "errors": [],
-      "duration_ms": 3528
-    },
-    {
-      "plugin": "vercel",
-      "provider_id": "vercel",
-      "status": "ok",
-      "fetched": 371,
-      "errors": [],
-      "duration_ms": 3627
+      "duration_ms": 3398
     },
     {
       "plugin": "portkey",
@@ -134,25 +139,23 @@
       "errors": [
         "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
       ],
-      "duration_ms": 3823
+      "duration_ms": 3521
     },
     {
-      "plugin": "cloudflare",
-      "status": "failed",
-      "fetched": 0,
-      "errors": [
-        "Error: Plugin worker exited before responding (code 0)."
-      ],
-      "duration_ms": 0
+      "plugin": "vercel",
+      "provider_id": "vercel",
+      "status": "ok",
+      "fetched": 373,
+      "errors": [],
+      "duration_ms": 3503
     },
     {
-      "plugin": "inferx",
-      "status": "failed",
-      "fetched": 0,
-      "errors": [
-        "Error: Plugin worker exited before responding (code 0)."
-      ],
-      "duration_ms": 0
+      "plugin": "anthropic",
+      "provider_id": "anthropic",
+      "status": "ok",
+      "fetched": 11,
+      "errors": [],
+      "duration_ms": 3852
     }
   ]
 }

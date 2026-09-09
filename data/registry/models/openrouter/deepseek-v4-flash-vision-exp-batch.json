@@ -1,0 +1,26 @@
+{
+  "model_id": "openrouter/deepseek-v4-flash-vision-exp-batch",
+  "provider_id": "openrouter",
+  "name": "deepseek/deepseek-v4-flash-vision-exp:batch",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-09T04:07:06.822Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

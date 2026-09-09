@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-6-astra-flex",
   "provider_id": "requesty",
-  "name": "openai-responses/gpt-6-astra:flex",
+  "name": "openai/gpt-6-astra:flex",
   "description": "GPT-6 Astra is OpenAI's most capable model, built for the hardest end-to-end work. It is suited for complex reasoning, coding, computer use, research, and document creation, with reasoning effort levels from low up to xhigh and max.",
   "context_window": 1050000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-08T04:00:09.124Z"
+  "updated_at": "2026-09-09T04:07:07.122Z"
 }

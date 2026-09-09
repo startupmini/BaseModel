@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/kimi-k3",
   "provider_id": "requesty",
-  "name": "nebius/kimi-k3",
+  "name": "sference/kimi-k3",
   "description": "Kimi K3 is Moonshot AI's flagship reasoning model with a 1M token context window, vision input, strong agentic tool use, and long horizon task execution. Served via TensorX.",
   "context_window": 1048576,
   "modality": [
@@ -10,17 +10,17 @@
   "open_weight": false,
   "reasoning_support": true,
   "function_calling": true,
-  "structured_output": false,
+  "structured_output": true,
   "vision_support": false,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
-  "tier": "balanced",
+  "tier": "premium",
   "limits": {
     "max_input_tokens": 1048576
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-08T04:00:09.139Z"
+  "updated_at": "2026-09-09T04:07:07.136Z"
 }

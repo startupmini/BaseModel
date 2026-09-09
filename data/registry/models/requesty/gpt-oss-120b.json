@@ -1,9 +1,9 @@
 {
   "model_id": "requesty/gpt-oss-120b",
   "provider_id": "requesty",
-  "name": "scaleway/gpt-oss-120b",
+  "name": "runware/gpt-oss-120b",
   "description": "Open-weight agentic model with configurable reasoning, full CoT visibility, strong tool use, and fine-tuning support.",
-  "context_window": 128000,
+  "context_window": 131072,
   "modality": [
     "text"
   ],
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-08T04:00:09.124Z"
+  "updated_at": "2026-09-09T04:07:07.123Z"
 }

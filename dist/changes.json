@@ -1,32 +1,54 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "de3bbb6",
-  "generated_at": "2026-09-08T04:03:03.930Z",
+  "source_revision": "e0ea43c",
+  "generated_at": "2026-09-09T04:10:09.078Z",
   "summary": {
-    "added": 0,
+    "added": 11,
     "removed": 0,
-    "status_changed": 4
+    "status_changed": 6
   },
-  "added": [],
+  "added": [
+    "deepinfra/ling-3.0-flash-vl",
+    "openrouter/deepseek-v4-flash-vision-exp-batch",
+    "openrouter/glm-5.3-batch",
+    "openrouter/mercury-2.5",
+    "openrouter/nex-n2.5-mini-free",
+    "openrouter/nex-n2.5-pro-free",
+    "requesty/deepseek-v4-flash-vision-exp",
+    "vercel/deepseek-v4.1-flash-beta",
+    "vercel/gpt-image-2.5-flare",
+    "vercel/gpt-image-2.5-sunburst",
+    "vercel/mercury-2.5"
+  ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/minimax-m2.7-free",
+      "model_id": "openrouter/glm-5.2-batch",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "openrouter/mercury-2.5-preview",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/minimax-m3-free",
+      "model_id": "openrouter/nex-n2-mini",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "vercel/minimax-m2.7-free",
+      "model_id": "openrouter/nex-n2-pro",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "vercel/minimax-m3-free",
+      "model_id": "vercel/glm-5.3-promo-50",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/mimo-v2.5-pro-ultraspeed",
       "from": "active",
       "to": "discontinued"
     }
