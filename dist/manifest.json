@@ -1,21 +1,21 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e0ea43c",
-  "generated_at": "2026-09-09T04:10:09.078Z",
+  "source_revision": "7799a55",
+  "generated_at": "2026-09-10T04:07:59.216Z",
   "files": {
-    "apis.json": "60300acc3570991826f56a4f321b7b123542eae4d5c2bc843b0aa63d626077cd",
-    "benchmarks.json": "a268b50ccd00371aae9adc7c716669f203beb0442cdbc1d68fb37bea121d2692",
-    "capabilities.json": "a857e2f6f5d3298d9ecffa8349bf9c3dbee40b2454a0179270102721515090fe",
-    "changes.json": "0dd86205bef81480e3d92b7f38434028438b23442dfda4bb651099f650e89237",
-    "intelligence.json": "28bef048be194fd075d956eea4638a9665d73b36b2763030771a85ac9b5c3ad9",
-    "licenses.json": "1499707e8f126f36451a17c77808e3fd6159aef18f3dd577a6cea49276aee60f",
-    "metadata.json": "12d18ceae47f623096a139c88fbf618e14a0f42cc6584f83096020f7196a7971",
-    "models.json": "5b30f9daf4d16795ff3be28a42adcba29f2012a6f27881112c7c3c5ae016551b",
-    "pricing.json": "3f6644fc6b8ab8bee4bf6dc0f3e31acb63560f60925f22708c1ed08bd4d5240f",
-    "providers.json": "59d24e2612c4fc22534dec53c9630a2bfc494850a774260d62c566b7bce9834b",
-    "v2/intelligence.json": "59ecf6ea22b5a81eab694eff779be825db1b331b7cf2abd17d46db0be737cd96",
-    "v2/models.csv": "915fd135d35a25228752595af4315324424061eaaa933570bc61ed709559cf06",
-    "v2/models.json": "0d53b3b147b5d73a4c47cd50e6106f9c628f2654211480c7723764ea07eef390",
-    "v2/offerings.json": "2c638169374c8f0b69043b628aba67d952cd3454988ea6114301825bcc22574c"
+    "apis.json": "7e9c96644035c92d2486c143a4ab6ae25f16244de084b06e75b7451dc5fe6a27",
+    "benchmarks.json": "b87d54040ed83f94f2967693c7f35ed948b9281ce299e431827086342620b308",
+    "capabilities.json": "fcb9e84ec5df224e08723ee90ca2453c8628fc8752f05e5e5449e4bbdfbbde7c",
+    "changes.json": "155541b2169204be9fd31f53031283647958a5c5160291a003f40a6a67266bf7",
+    "intelligence.json": "1c45bc11c48f03bb8184f4bf7ff13abe3a082f62e3add76d0a3cfa3b57d2197e",
+    "licenses.json": "5c2c06efbfa0798fbf5eea019f2d8edebb4946e92a31933aba3ab2af4a9cc7a9",
+    "metadata.json": "0a1250dd786f19e6c64c77ea619fadf95fb375acae394e534b4d5adaa6c5bd45",
+    "models.json": "3a8cef126a67b72991ca713881a1bf8522ba915f6ca503f94fb9d6ab0b921dc4",
+    "pricing.json": "9be8a1da28ff9121fb9bd930485be1b3b6157fc545491934ad518cdce28acc91",
+    "providers.json": "45882de25832dce67d3c185b670eb2a3566aec8211aacbf458dcfafaf88cec49",
+    "v2/intelligence.json": "184c5cae228c06b20d62e48245003c000d6f288a6041e54af2a6e99447cfdbbd",
+    "v2/models.csv": "285050ecc2cd7e494a2acd8a3e3cd9ed20246c7fae73ecb759ffa465820d5beb",
+    "v2/models.json": "9fecc9926ffc91635dd4b82825c00e9ca4f250953555614805a28483c1ebfcf5",
+    "v2/offerings.json": "140f97323f4c340111e36e6d176662374bef0cce50f4e7e8aa33718e8fe90946"
   }
 }

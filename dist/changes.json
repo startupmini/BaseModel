@@ -1,54 +1,52 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e0ea43c",
-  "generated_at": "2026-09-09T04:10:09.078Z",
+  "source_revision": "7799a55",
+  "generated_at": "2026-09-10T04:07:59.216Z",
   "summary": {
-    "added": 11,
+    "added": 4,
     "removed": 0,
-    "status_changed": 6
+    "status_changed": 7
   },
   "added": [
-    "deepinfra/ling-3.0-flash-vl",
-    "openrouter/deepseek-v4-flash-vision-exp-batch",
-    "openrouter/glm-5.3-batch",
-    "openrouter/mercury-2.5",
-    "openrouter/nex-n2.5-mini-free",
-    "openrouter/nex-n2.5-pro-free",
-    "requesty/deepseek-v4-flash-vision-exp",
-    "vercel/deepseek-v4.1-flash-beta",
-    "vercel/gpt-image-2.5-flare",
-    "vercel/gpt-image-2.5-sunburst",
-    "vercel/mercury-2.5"
+    "openai/gpt-image-2.5-flare-2026-09-08",
+    "openai/gpt-image-2.5-flare",
+    "openai/gpt-image-2.5-sunburst-2026-09-08",
+    "openai/gpt-image-2.5-sunburst"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/glm-5.2-batch",
+      "model_id": "openrouter/codestral-2508-batch",
       "from": "discontinued",
       "to": "active"
     },
     {
-      "model_id": "openrouter/mercury-2.5-preview",
+      "model_id": "openrouter/hermes-4-70b",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/nex-n2-mini",
-      "from": "active",
-      "to": "discontinued"
+      "model_id": "openrouter/ministral-8b-2512-batch",
+      "from": "discontinued",
+      "to": "active"
     },
     {
-      "model_id": "openrouter/nex-n2-pro",
-      "from": "active",
-      "to": "discontinued"
+      "model_id": "openrouter/mistral-large-2512-batch",
+      "from": "discontinued",
+      "to": "active"
     },
     {
-      "model_id": "vercel/glm-5.3-promo-50",
-      "from": "active",
-      "to": "discontinued"
+      "model_id": "openrouter/mistral-medium-3.1-batch",
+      "from": "discontinued",
+      "to": "active"
     },
     {
-      "model_id": "vercel/mimo-v2.5-pro-ultraspeed",
+      "model_id": "openrouter/mistral-small-2603-batch",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "vercel/grok-imagine-video-1.5-preview",
       "from": "active",
       "to": "discontinued"
     }
