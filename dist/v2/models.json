@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "7799a55",
-  "generated_at": "2026-09-10T04:07:59.216Z",
-  "count": 1282,
+  "source_revision": "a22eb55",
+  "generated_at": "2026-09-11T04:05:18.774Z",
+  "count": 1312,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -1880,10 +1880,9 @@
         "vercel/claude-opus-4.6"
       ],
       "quality": {
-        "score": 89.69,
-        "benchmark_count": 2,
+        "score": 87.25,
+        "benchmark_count": 1,
         "categories": [
-          "code",
           "text"
         ],
         "sources": [
@@ -2000,10 +1999,9 @@
         "vercel/claude-opus-4.7"
       ],
       "quality": {
-        "score": 90.69,
-        "benchmark_count": 2,
+        "score": 86.75,
+        "benchmark_count": 1,
         "categories": [
-          "code",
           "text"
         ],
         "sources": [
@@ -2247,17 +2245,7 @@
         "openrouter/claude-opus-4.8",
         "requesty/claude-opus-4-8",
         "vercel/claude-opus-4.8"
-      ],
-      "quality": {
-        "score": 92.5,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "claude-opus-4-8-ap-northeast-1",
@@ -3180,17 +3168,7 @@
         "openrouter/claude-sonnet-4.6",
         "requesty/claude-sonnet-4-6",
         "vercel/claude-sonnet-4.6"
-      ],
-      "quality": {
-        "score": 90.13,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "claude-sonnet-4-6-ap-northeast-1",
@@ -4758,7 +4736,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 32000,
+      "context_window": 64000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -4971,7 +4949,8 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -4979,7 +4958,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": false,
+      "image_generation": true,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5094,6 +5073,35 @@
       ]
     },
     {
+      "model_id": "deepseek-v4-1-flash",
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "description": "DeepSeek V4.1 Flash is a 552B parameter Mixture of Experts model built on a new Causal Encoder Decoder architecture that activates only 8B parameters for input and 16B for output, giving frontier level intelligence at a fraction of the cost. It is the smallest model in the new DeepSeek architecture family and the first Flash with native vision and multimodal understanding. V4.1 Flash beats DeepSeek V4 Pro on performance, cost, speed and task completion time and scores 88.1 on CyberGym. Its KV cache is compressed to 890 bytes per token, four times smaller than V4 Flash and over 400 times smaller than V1, cutting the cache hit costs that dominate agent workloads. 1M token context window, 384K max output, thinking and non thinking modes, tool calling, structured JSON output and prompt caching. Served on Novita at $0.30 input, $0.006 cache read and $1.20 output per 1M tokens. Open weights are published on Hugging Face. Ideal for coding agents, long context RAG, high throughput batch processing and multimodal assistants.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "deepseek-v4.1-flash"
+      ],
+      "offering_ids": [
+        "deepinfra/deepseek-v4.1-flash",
+        "openrouter/deepseek-v4.1-flash",
+        "requesty/deepseek-v4.1-flash",
+        "vercel/deepseek-v4.1-flash"
+      ]
+    },
+    {
       "model_id": "deepseek-v4-1-flash-beta",
       "name": "DeepSeek V4.1 Flash Beta",
       "description": "An experimental beta version of DeepSeek V4.1 Flash that expires on September 10th 2026.",
@@ -5111,7 +5119,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "deepseek-v4.1-flash-beta"
       ],
@@ -5149,7 +5157,7 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "novita/deepseek/deepseek-v4-flash-0424",
+      "name": "deepinfra/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
@@ -5157,7 +5165,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -6768,7 +6776,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-central2",
-      "name": "coding/gemini-2.5-flash@europe-central2",
+      "name": "vertex/gemini-2.5-flash@europe-central2",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -6777,7 +6785,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -6794,7 +6802,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-north1",
-      "name": "coding/gemini-2.5-flash@europe-north1",
+      "name": "vertex/gemini-2.5-flash@europe-north1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -6803,7 +6811,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -6820,7 +6828,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-west1",
-      "name": "coding/gemini-2.5-flash@europe-west1",
+      "name": "vertex/gemini-2.5-flash@europe-west1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -6829,7 +6837,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -6846,7 +6854,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-west4",
-      "name": "coding/gemini-2.5-flash@europe-west4",
+      "name": "vertex/gemini-2.5-flash@europe-west4",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -6855,7 +6863,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -6872,7 +6880,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-west8",
-      "name": "coding/gemini-2.5-flash@europe-west8",
+      "name": "vertex/gemini-2.5-flash@europe-west8",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -6881,7 +6889,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7747,7 +7755,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-central1",
-      "name": "coding/gemini-2.5-flash@us-central1",
+      "name": "vertex/gemini-2.5-flash@us-central1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7756,7 +7764,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7773,7 +7781,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-east1",
-      "name": "coding/gemini-2.5-flash@us-east1",
+      "name": "vertex/gemini-2.5-flash@us-east1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7782,7 +7790,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7799,7 +7807,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-east5",
-      "name": "coding/gemini-2.5-flash@us-east5",
+      "name": "vertex/gemini-2.5-flash@us-east5",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7808,7 +7816,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7825,7 +7833,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-south1",
-      "name": "coding/gemini-2.5-flash@us-south1",
+      "name": "vertex/gemini-2.5-flash@us-south1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7834,7 +7842,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7851,7 +7859,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-west1",
-      "name": "coding/gemini-2.5-flash@us-west1",
+      "name": "vertex/gemini-2.5-flash@us-west1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7860,7 +7868,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7934,7 +7942,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-central2",
-      "name": "coding/gemini-2.5-pro@europe-central2",
+      "name": "vertex/gemini-2.5-pro@europe-central2",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -7943,7 +7951,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7960,7 +7968,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-north1",
-      "name": "coding/gemini-2.5-pro@europe-north1",
+      "name": "vertex/gemini-2.5-pro@europe-north1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -7969,7 +7977,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7986,7 +7994,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-west1",
-      "name": "coding/gemini-2.5-pro@europe-west1",
+      "name": "vertex/gemini-2.5-pro@europe-west1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -7995,7 +8003,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8012,7 +8020,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-west4",
-      "name": "coding/gemini-2.5-pro@europe-west4",
+      "name": "vertex/gemini-2.5-pro@europe-west4",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8021,7 +8029,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8038,7 +8046,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-west8",
-      "name": "coding/gemini-2.5-pro@europe-west8",
+      "name": "vertex/gemini-2.5-pro@europe-west8",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8047,7 +8055,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8168,7 +8176,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-central1",
-      "name": "coding/gemini-2.5-pro@us-central1",
+      "name": "vertex/gemini-2.5-pro@us-central1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8177,7 +8185,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8194,7 +8202,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-east1",
-      "name": "coding/gemini-2.5-pro@us-east1",
+      "name": "vertex/gemini-2.5-pro@us-east1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8203,7 +8211,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8220,7 +8228,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-east5",
-      "name": "coding/gemini-2.5-pro@us-east5",
+      "name": "vertex/gemini-2.5-pro@us-east5",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8229,7 +8237,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8246,7 +8254,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-south1",
-      "name": "coding/gemini-2.5-pro@us-south1",
+      "name": "vertex/gemini-2.5-pro@us-south1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8255,7 +8263,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8272,7 +8280,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-west1",
-      "name": "coding/gemini-2.5-pro@us-west1",
+      "name": "vertex/gemini-2.5-pro@us-west1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8281,7 +8289,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -10148,7 +10156,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 262144,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -10755,17 +10763,7 @@
         "openrouter/glm-5.1",
         "requesty/glm-5.1",
         "vercel/glm-5.1"
-      ],
-      "quality": {
-        "score": 88.5,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "glm-5-1-flex",
@@ -10927,14 +10925,13 @@
       "name": "zai-org/GLM-5.3",
       "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -11539,7 +11536,7 @@
     },
     {
       "model_id": "gpt-4-1-francecentral",
-      "name": "azure/gpt-4.1@francecentral",
+      "name": "azure/openai-responses/gpt-4.1@francecentral",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -11561,6 +11558,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-4.1-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-4-1-germanywestcentral",
+      "name": "azure/gpt-4.1@germanywestcentral",
+      "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1047576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4.1-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-4.1-germanywestcentral"
       ]
     },
     {
@@ -11851,7 +11874,7 @@
     },
     {
       "model_id": "gpt-4-1-nano-eastus2",
-      "name": "azure/openai-responses/gpt-4.1-nano@eastus2",
+      "name": "azure/gpt-4.1-nano@eastus2",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11928,8 +11951,34 @@
       ]
     },
     {
+      "model_id": "gpt-4-1-nano-germanywestcentral",
+      "name": "azure/gpt-4.1-nano@germanywestcentral",
+      "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1047576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4.1-nano-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-4.1-nano-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "gpt-4-1-nano-swedencentral",
-      "name": "azure/gpt-4.1-nano@swedencentral",
+      "name": "azure/openai-responses/gpt-4.1-nano@swedencentral",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -11980,8 +12029,34 @@
       ]
     },
     {
+      "model_id": "gpt-4-1-nano-westeurope",
+      "name": "azure/gpt-4.1-nano@westeurope",
+      "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1047576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4.1-nano-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-4.1-nano-westeurope"
+      ]
+    },
+    {
       "model_id": "gpt-4-1-nano-westus3",
-      "name": "azure/gpt-4.1-nano@westus3",
+      "name": "azure/openai-responses/gpt-4.1-nano@westus3",
       "description": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million token context window, and scores 80.1% on MMLU, 50.3% on GPQA, and 9.8% on Aider polyglot coding – even higher than GPT‑4o mini. It’s ideal for tasks like classification or autocompletion.",
       "modality": [
         "text",
@@ -12058,8 +12133,34 @@
       ]
     },
     {
+      "model_id": "gpt-4-1-westeurope",
+      "name": "azure/gpt-4.1@westeurope",
+      "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1047576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4.1-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-4.1-westeurope"
+      ]
+    },
+    {
       "model_id": "gpt-4-1-westus3",
-      "name": "azure/gpt-4.1@westus3",
+      "name": "azure/openai-responses/gpt-4.1@westus3",
       "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and GPT-4.5 across coding (54.6% SWE-bench Verified), instruction compliance (87.4% IFEval), and multimodal understanding benchmarks. It is tuned for precise code diffs, agent reliability, and high recall in large document contexts, making it ideal for agents, IDE tooling, and enterprise knowledge retrieval.",
       "modality": [
         "text",
@@ -12473,6 +12574,32 @@
       ]
     },
     {
+      "model_id": "gpt-4o-mini-germanywestcentral",
+      "name": "azure/gpt-4o-mini@germanywestcentral",
+      "description": "GPT-4o mini is a fast, affordable small model for lightweight tasks. Supports vision, tools, and caching.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4o-mini-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-4o-mini-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "gpt-4o-mini-search-preview",
       "name": "gpt-4o-mini-search-preview",
       "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute web search queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call.",
@@ -12693,6 +12820,32 @@
       ],
       "offering_ids": [
         "openai/gpt-4o-mini-tts-2025-12-15"
+      ]
+    },
+    {
+      "model_id": "gpt-4o-mini-westeurope",
+      "name": "azure/gpt-4o-mini@westeurope",
+      "description": "GPT-4o mini is a fast, affordable small model for lightweight tasks. Supports vision, tools, and caching.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-4o-mini-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-4o-mini-westeurope"
       ]
     },
     {
@@ -13792,7 +13945,7 @@
     },
     {
       "model_id": "gpt-5-4-eastus2",
-      "name": "azure/openai-responses/gpt-5.4@eastus2",
+      "name": "azure/gpt-5.4@eastus2",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -13870,7 +14023,7 @@
     },
     {
       "model_id": "gpt-5-4-francecentral",
-      "name": "azure/openai-responses/gpt-5.4@francecentral",
+      "name": "azure/gpt-5.4@francecentral",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -13892,6 +14045,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.4-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-5-4-germanywestcentral",
+      "name": "azure/gpt-5.4@germanywestcentral",
+      "description": "GPT 5.4 is OpenAI's frontier model designed for complex professional workloads, with strong reasoning, high reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large scale reasoning, coding, and multimodal workflows within a single system.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.4-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.4-germanywestcentral"
       ]
     },
     {
@@ -14284,7 +14463,7 @@
     },
     {
       "model_id": "gpt-5-4-swedencentral",
-      "name": "azure/openai-responses/gpt-5.4@swedencentral",
+      "name": "azure/gpt-5.4@swedencentral",
       "description": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling high-context reasoning, coding, and multimodal analysis within the same workflow.\n\nThe model delivers improved performance in coding, document understanding, tool use, and instruction following. It is designed as a strong default for both general-purpose tasks and software engineering, capable of generating production-quality code, synthesizing information across multiple sources, and executing complex multi-step workflows with fewer iterations and greater token efficiency.\n",
       "modality": [
         "text",
@@ -14384,6 +14563,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.4-us-west-2"
+      ]
+    },
+    {
+      "model_id": "gpt-5-4-westeurope",
+      "name": "azure/gpt-5.4@westeurope",
+      "description": "GPT 5.4 is OpenAI's frontier model designed for complex professional workloads, with strong reasoning, high reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large scale reasoning, coding, and multimodal workflows within a single system.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.4-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.4-westeurope"
       ]
     },
     {
@@ -14543,6 +14748,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-5-germanywestcentral",
+      "name": "azure/gpt-5.5@germanywestcentral",
+      "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.5-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.5-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "gpt-5-5-pro",
       "name": "gpt-5.5-pro",
       "description": "GPT-5.5 Pro is OpenAI's high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, and is designed for long-horizon problem solving, agentic coding, and precise execution across multi-step workflows.",
@@ -14622,7 +14853,7 @@
     },
     {
       "model_id": "gpt-5-5-swedencentral",
-      "name": "azure/openai-responses/gpt-5.5@swedencentral",
+      "name": "azure/gpt-5.5@swedencentral",
       "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
       "modality": [
         "text",
@@ -14699,6 +14930,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-5-westeurope",
+      "name": "azure/gpt-5.5@westeurope",
+      "description": "GPT-5.5 is OpenAI's frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token context window (922K input, 128K output) with support for text and image inputs, enabling large-scale reasoning, coding, and multimodal workflows within a single system.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.5-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.5-westeurope"
+      ]
+    },
+    {
       "model_id": "gpt-5-6-luna",
       "name": "gpt-5.6-luna",
       "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
@@ -14754,7 +15011,7 @@
     },
     {
       "model_id": "gpt-5-6-luna-eastus2",
-      "name": "azure/gpt-5.6-luna@eastus2",
+      "name": "azure/openai-responses/gpt-5.6-luna@eastus2",
       "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
       "modality": [
         "text",
@@ -14828,6 +15085,58 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.6-luna-flex"
+      ]
+    },
+    {
+      "model_id": "gpt-5-6-luna-francecentral",
+      "name": "azure/gpt-5.6-luna@francecentral",
+      "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-luna-francecentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-luna-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-5-6-luna-germanywestcentral",
+      "name": "azure/gpt-5.6-luna@germanywestcentral",
+      "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-luna-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-luna-germanywestcentral"
       ]
     },
     {
@@ -14985,6 +15294,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-6-luna-westeurope",
+      "name": "azure/gpt-5.6-luna@westeurope",
+      "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for its price tier.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-luna-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-luna-westeurope"
+      ]
+    },
+    {
       "model_id": "gpt-5-6-sol",
       "name": "gpt-5.6-sol",
       "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
@@ -15040,7 +15375,7 @@
     },
     {
       "model_id": "gpt-5-6-sol-eastus2",
-      "name": "azure/gpt-5.6-sol@eastus2",
+      "name": "azure/openai-responses/gpt-5.6-sol@eastus2",
       "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
       "modality": [
         "text",
@@ -15117,6 +15452,58 @@
       ]
     },
     {
+      "model_id": "gpt-5-6-sol-francecentral",
+      "name": "azure/gpt-5.6-sol@francecentral",
+      "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-sol-francecentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-sol-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-5-6-sol-germanywestcentral",
+      "name": "azure/gpt-5.6-sol@germanywestcentral",
+      "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-sol-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-sol-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "gpt-5-6-sol-pro",
       "name": "openai/gpt-5.6-sol-pro",
       "modality": [
@@ -15168,7 +15555,7 @@
     },
     {
       "model_id": "gpt-5-6-sol-swedencentral",
-      "name": "azure/openai-responses/gpt-5.6-sol@swedencentral",
+      "name": "azure/gpt-5.6-sol@swedencentral",
       "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
       "modality": [
         "text",
@@ -15245,6 +15632,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-6-sol-westeurope",
+      "name": "azure/gpt-5.6-sol@westeurope",
+      "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks and long-horizon problem solving.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-sol-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-sol-westeurope"
+      ]
+    },
+    {
       "model_id": "gpt-5-6-terra",
       "name": "gpt-5.6-terra",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
@@ -15300,7 +15713,7 @@
     },
     {
       "model_id": "gpt-5-6-terra-eastus2",
-      "name": "azure/openai-responses/gpt-5.6-terra@eastus2",
+      "name": "azure/gpt-5.6-terra@eastus2",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
       "modality": [
         "text",
@@ -15377,6 +15790,58 @@
       ]
     },
     {
+      "model_id": "gpt-5-6-terra-francecentral",
+      "name": "azure/gpt-5.6-terra@francecentral",
+      "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-terra-francecentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-terra-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-5-6-terra-germanywestcentral",
+      "name": "azure/gpt-5.6-terra@germanywestcentral",
+      "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-terra-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-terra-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "gpt-5-6-terra-pro",
       "name": "openai/gpt-5.6-terra-pro",
       "modality": [
@@ -15428,7 +15893,7 @@
     },
     {
       "model_id": "gpt-5-6-terra-swedencentral",
-      "name": "azure/openai-responses/gpt-5.6-terra@swedencentral",
+      "name": "azure/gpt-5.6-terra@swedencentral",
       "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
       "modality": [
         "text",
@@ -15528,6 +15993,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5.6-terra-us-west-2"
+      ]
+    },
+    {
+      "model_id": "gpt-5-6-terra-westeurope",
+      "name": "azure/gpt-5.6-terra@westeurope",
+      "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic tasks where capability and cost need to be balanced, offering strong performance at roughly half the cost of Sol.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5.6-terra-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5.6-terra-westeurope"
       ]
     },
     {
@@ -15734,6 +16225,32 @@
       ],
       "offering_ids": [
         "requesty/gpt-5-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-5-germanywestcentral",
+      "name": "azure/gpt-5@germanywestcentral",
+      "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like \"think hard about this.\" Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5-germanywestcentral"
       ]
     },
     {
@@ -15967,6 +16484,31 @@
       ]
     },
     {
+      "model_id": "gpt-5-mini-germanywestcentral",
+      "name": "azure/gpt-5-mini@germanywestcentral",
+      "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for well-defined tasks and precise prompts.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-mini-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5-mini-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "gpt-5-mini-priority",
       "name": "openai/gpt-5-mini:priority",
       "description": "GPT-5 is OpenAI's flagship model for coding, reasoning, and agentic tasks across domains.",
@@ -16040,6 +16582,31 @@
       ],
       "offering_ids": [
         "requesty/gpt-5-mini-uksouth"
+      ]
+    },
+    {
+      "model_id": "gpt-5-mini-westeurope",
+      "name": "azure/gpt-5-mini@westeurope",
+      "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for well-defined tasks and precise prompts.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-mini-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5-mini-westeurope"
       ]
     },
     {
@@ -16197,6 +16764,31 @@
       ]
     },
     {
+      "model_id": "gpt-5-nano-germanywestcentral",
+      "name": "azure/gpt-5-nano@germanywestcentral",
+      "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for summarization and classification tasks.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-nano-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5-nano-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "gpt-5-nano-swedencentral",
       "name": "azure/gpt-5-nano@swedencentral",
       "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for summarization and classification tasks.",
@@ -16219,6 +16811,31 @@
       ],
       "offering_ids": [
         "requesty/gpt-5-nano-swedencentral"
+      ]
+    },
+    {
+      "model_id": "gpt-5-nano-westeurope",
+      "name": "azure/gpt-5-nano@westeurope",
+      "description": "GPT-5 Nano is our fastest, cheapest version of GPT-5. It's great for summarization and classification tasks.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-nano-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5-nano-westeurope"
       ]
     },
     {
@@ -16426,6 +17043,32 @@
       ]
     },
     {
+      "model_id": "gpt-5-westeurope",
+      "name": "azure/gpt-5@westeurope",
+      "description": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy in high-stakes use cases. It supports test-time routing features and advanced prompt understanding, including user-specified intent like \"think hard about this.\" Improvements include reductions in hallucination, sycophancy, and better performance in coding, writing, and health-related tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 400000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-5-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-5-westeurope"
+      ]
+    },
+    {
       "model_id": "gpt-6-astra",
       "name": "gpt-6-astra",
       "description": "GPT-6 Astra is OpenAI's most capable model, built for the hardest end-to-end work. It is suited for complex reasoning, coding, computer use, research, and document creation, with reasoning effort levels from low up to xhigh and max.",
@@ -16480,7 +17123,7 @@
     },
     {
       "model_id": "gpt-6-astra-eastus2",
-      "name": "azure-responses/openai-responses/gpt-6-astra@eastus2",
+      "name": "azure/gpt-6-astra@eastus2",
       "description": "GPT-6 Astra is OpenAI's most capable model, built for the hardest end-to-end work. It is suited for complex reasoning, coding, computer use, research, and document creation, with reasoning effort levels from low up to xhigh and max.",
       "modality": [
         "text",
@@ -17017,6 +17660,29 @@
       ],
       "offering_ids": [
         "openrouter/gpt-latest"
+      ]
+    },
+    {
+      "model_id": "gpt-live-1",
+      "name": "gpt-live-1",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-live-1"
+      ],
+      "offering_ids": [
+        "openai/gpt-live-1"
       ]
     },
     {
@@ -18179,17 +18845,7 @@
         "openrouter/grok-4.5",
         "requesty/grok-4.5",
         "vercel/grok-4.5"
-      ],
-      "quality": {
-        "score": 94.5,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "grok-4-6",
@@ -18981,17 +19637,7 @@
         "openrouter/hy3",
         "requesty/hy3",
         "vercel/hy3"
-      ],
-      "quality": {
-        "score": 88.75,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "hy3-preview",
@@ -19737,17 +20383,7 @@
         "openrouter/kimi-k2.6",
         "requesty/kimi-k2.6",
         "vercel/kimi-k2.6"
-      ],
-      "quality": {
-        "score": 88.63,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "kimi-k2-6-flex",
@@ -19802,17 +20438,7 @@
         "openrouter/kimi-k2.7-code",
         "requesty/kimi-k2.7-code",
         "vercel/kimi-k2.7-code"
-      ],
-      "quality": {
-        "score": 84,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "kimi-k2-7-code-batch",
@@ -20936,6 +21562,30 @@
       ],
       "offering_ids": [
         "deepinfra/ling-3.0-flash-vl"
+      ]
+    },
+    {
+      "model_id": "ling-3-0-flash-vl-free",
+      "name": "inclusionai/ling-3.0-flash-vl:free",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "ling-3.0-flash-vl-free"
+      ],
+      "offering_ids": [
+        "openrouter/ling-3.0-flash-vl-free"
       ]
     },
     {
@@ -22150,17 +22800,7 @@
         "openrouter/mimo-v2.5-pro",
         "requesty/mimo-v2.5-pro",
         "vercel/mimo-v2.5-pro"
-      ],
-      "quality": {
-        "score": 84.38,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "mimo-v2-5-pro-flex",
@@ -22820,17 +23460,7 @@
         "openrouter/minimax-m3",
         "requesty/minimax-m3",
         "vercel/minimax-m3"
-      ],
-      "quality": {
-        "score": 85.75,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "minimax-m3-batch",
@@ -24477,10 +25107,9 @@
         "vercel/muse-spark-1.1"
       ],
       "quality": {
-        "score": 89.56,
-        "benchmark_count": 2,
+        "score": 86.5,
+        "benchmark_count": 1,
         "categories": [
-          "code",
           "text"
         ],
         "sources": [
@@ -26596,6 +27225,31 @@
       ]
     },
     {
+      "model_id": "o4-mini-germanywestcentral",
+      "name": "azure/o4-mini@germanywestcentral",
+      "description": "o4-mini is OpenAI's most recent small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini also supports key developer features, like Structured Outputs, function calling, Batch API, and more. Like other models in the o-series, it is designed to excel at science, math, and coding tasks.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "o4-mini-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/o4-mini-germanywestcentral"
+      ]
+    },
+    {
       "model_id": "o4-mini-high",
       "name": "openai/o4-mini-high",
       "description": "o4-mini is OpenAI's most recent small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini also supports key developer features, like Structured Outputs, function calling, Batch API, and more. Like other models in the o-series, it is designed to excel at science, math, and coding tasks.",
@@ -26718,6 +27372,31 @@
       ],
       "offering_ids": [
         "requesty/o4-mini-swedencentral"
+      ]
+    },
+    {
+      "model_id": "o4-mini-westeurope",
+      "name": "azure/o4-mini@westeurope",
+      "description": "o4-mini is OpenAI's most recent small reasoning model, providing high intelligence at the same cost and latency targets of o1-mini. o3-mini also supports key developer features, like Structured Outputs, function calling, Batch API, and more. Like other models in the o-series, it is designed to excel at science, math, and coding tasks.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 200000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "o4-mini-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/o4-mini-westeurope"
       ]
     },
     {
@@ -28099,13 +28778,14 @@
       "name": "qwen/qwen3-30b-a3b-instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": true,
+      "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -28366,7 +29046,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -28711,17 +29391,7 @@
       ],
       "offering_ids": [
         "openrouter/qwen3.6-max-preview"
-      ],
-      "quality": {
-        "score": 84.88,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "qwen3-6-plus",
@@ -28928,7 +29598,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [

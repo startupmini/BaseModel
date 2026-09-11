@@ -1,52 +1,56 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "7799a55",
-  "generated_at": "2026-09-10T04:07:59.216Z",
+  "source_revision": "a22eb55",
+  "generated_at": "2026-09-11T04:05:18.774Z",
   "summary": {
-    "added": 4,
+    "added": 33,
     "removed": 0,
-    "status_changed": 7
+    "status_changed": 2
   },
   "added": [
-    "openai/gpt-image-2.5-flare-2026-09-08",
-    "openai/gpt-image-2.5-flare",
-    "openai/gpt-image-2.5-sunburst-2026-09-08",
-    "openai/gpt-image-2.5-sunburst"
+    "deepinfra/deepseek-v4.1-flash",
+    "openai/gpt-live-1",
+    "openrouter/deepseek-v4.1-flash",
+    "openrouter/ling-3.0-flash-vl-free",
+    "requesty/deepseek-v4.1-flash",
+    "requesty/gpt-4.1-germanywestcentral",
+    "requesty/gpt-4.1-nano-germanywestcentral",
+    "requesty/gpt-4.1-nano-westeurope",
+    "requesty/gpt-4.1-westeurope",
+    "requesty/gpt-4o-mini-germanywestcentral",
+    "requesty/gpt-4o-mini-westeurope",
+    "requesty/gpt-5-germanywestcentral",
+    "requesty/gpt-5-mini-germanywestcentral",
+    "requesty/gpt-5-mini-westeurope",
+    "requesty/gpt-5-nano-germanywestcentral",
+    "requesty/gpt-5-nano-westeurope",
+    "requesty/gpt-5-westeurope",
+    "requesty/gpt-5.4-germanywestcentral",
+    "requesty/gpt-5.4-westeurope",
+    "requesty/gpt-5.5-germanywestcentral",
+    "requesty/gpt-5.5-westeurope",
+    "requesty/gpt-5.6-luna-francecentral",
+    "requesty/gpt-5.6-luna-germanywestcentral",
+    "requesty/gpt-5.6-luna-westeurope",
+    "requesty/gpt-5.6-sol-francecentral",
+    "requesty/gpt-5.6-sol-germanywestcentral",
+    "requesty/gpt-5.6-sol-westeurope",
+    "requesty/gpt-5.6-terra-francecentral",
+    "requesty/gpt-5.6-terra-germanywestcentral",
+    "requesty/gpt-5.6-terra-westeurope",
+    "requesty/o4-mini-germanywestcentral",
+    "requesty/o4-mini-westeurope",
+    "vercel/deepseek-v4.1-flash"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/codestral-2508-batch",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "openrouter/hermes-4-70b",
+      "model_id": "vercel/deepseek-v4.1-flash-beta",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/ministral-8b-2512-batch",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "openrouter/mistral-large-2512-batch",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "openrouter/mistral-medium-3.1-batch",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "openrouter/mistral-small-2603-batch",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "vercel/grok-imagine-video-1.5-preview",
+      "model_id": "vercel/qwen3.8-flash-next",
       "from": "active",
       "to": "discontinued"
     }
