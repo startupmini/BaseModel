@@ -1,56 +1,27 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "a22eb55",
-  "generated_at": "2026-09-11T04:05:18.774Z",
+  "source_revision": "c9fe81d",
+  "generated_at": "2026-09-12T04:07:05.132Z",
   "summary": {
-    "added": 33,
+    "added": 9,
     "removed": 0,
-    "status_changed": 2
+    "status_changed": 1
   },
   "added": [
-    "deepinfra/deepseek-v4.1-flash",
-    "openai/gpt-live-1",
-    "openrouter/deepseek-v4.1-flash",
-    "openrouter/ling-3.0-flash-vl-free",
-    "requesty/deepseek-v4.1-flash",
-    "requesty/gpt-4.1-germanywestcentral",
-    "requesty/gpt-4.1-nano-germanywestcentral",
-    "requesty/gpt-4.1-nano-westeurope",
-    "requesty/gpt-4.1-westeurope",
-    "requesty/gpt-4o-mini-germanywestcentral",
-    "requesty/gpt-4o-mini-westeurope",
-    "requesty/gpt-5-germanywestcentral",
-    "requesty/gpt-5-mini-germanywestcentral",
-    "requesty/gpt-5-mini-westeurope",
-    "requesty/gpt-5-nano-germanywestcentral",
-    "requesty/gpt-5-nano-westeurope",
-    "requesty/gpt-5-westeurope",
-    "requesty/gpt-5.4-germanywestcentral",
-    "requesty/gpt-5.4-westeurope",
-    "requesty/gpt-5.5-germanywestcentral",
-    "requesty/gpt-5.5-westeurope",
-    "requesty/gpt-5.6-luna-francecentral",
-    "requesty/gpt-5.6-luna-germanywestcentral",
-    "requesty/gpt-5.6-luna-westeurope",
-    "requesty/gpt-5.6-sol-francecentral",
-    "requesty/gpt-5.6-sol-germanywestcentral",
-    "requesty/gpt-5.6-sol-westeurope",
-    "requesty/gpt-5.6-terra-francecentral",
-    "requesty/gpt-5.6-terra-germanywestcentral",
-    "requesty/gpt-5.6-terra-westeurope",
-    "requesty/o4-mini-germanywestcentral",
-    "requesty/o4-mini-westeurope",
-    "vercel/deepseek-v4.1-flash"
+    "openrouter/fugu-max",
+    "openrouter/fugu-ultra-v2",
+    "openrouter/gpt-astra-latest",
+    "openrouter/gpt-luna-latest",
+    "openrouter/gpt-sol-latest",
+    "openrouter/gpt-terra-latest",
+    "openrouter/ling-3.0-flash-vl",
+    "openrouter/schematron-v2-small",
+    "openrouter/schematron-v2-turbo"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "vercel/deepseek-v4.1-flash-beta",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/qwen3.8-flash-next",
+      "model_id": "openrouter/gpt-latest",
       "from": "active",
       "to": "discontinued"
     }

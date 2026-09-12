@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "a22eb55",
-  "generated_at": "2026-09-11T04:05:18.774Z",
+  "source_revision": "c9fe81d",
+  "generated_at": "2026-09-12T04:07:05.132Z",
   "count": 12,
   "providers": [
     {
@@ -14,7 +14,7 @@
       "description": "AI safety company and developer of the Claude model family.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:07.082Z"
+      "updated_at": "2026-09-12T04:03:52.724Z"
     },
     {
       "provider_id": "cerebras",
@@ -23,7 +23,7 @@
       "website": "https://www.cerebras.ai",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:06.325Z"
+      "updated_at": "2026-09-12T04:03:52.235Z"
     },
     {
       "provider_id": "deepinfra",
@@ -32,7 +32,7 @@
       "website": "https://deepinfra.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:06.515Z"
+      "updated_at": "2026-09-12T04:03:52.406Z"
     },
     {
       "provider_id": "google",
@@ -44,7 +44,7 @@
       "description": "Technology company and developer of the Gemini model family and other AI research.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:07.022Z"
+      "updated_at": "2026-09-12T04:03:52.922Z"
     },
     {
       "provider_id": "groq",
@@ -53,7 +53,7 @@
       "website": "https://groq.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:06.391Z"
+      "updated_at": "2026-09-12T04:03:52.285Z"
     },
     {
       "provider_id": "hyperbolic",
@@ -62,7 +62,7 @@
       "website": "https://hyperbolic.xyz",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:06.675Z"
+      "updated_at": "2026-09-12T04:03:52.357Z"
     },
     {
       "provider_id": "meta",
@@ -85,7 +85,7 @@
       "description": "French AI company known for open-weight and efficient language models.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:06.362Z"
+      "updated_at": "2026-09-12T04:03:52.483Z"
     },
     {
       "provider_id": "openai",
@@ -97,7 +97,7 @@
       "description": "American AI research laboratory and developer of the GPT model family, DALL-E, and other AI systems.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:06.846Z"
+      "updated_at": "2026-09-12T04:03:52.862Z"
     },
     {
       "provider_id": "openrouter",
@@ -106,7 +106,7 @@
       "website": "https://openrouter.ai",
       "provider_type": "router",
       "status": "active",
-      "updated_at": "2026-09-11T04:02:06.651Z"
+      "updated_at": "2026-09-12T04:03:52.478Z"
     },
     {
       "provider_id": "requesty",

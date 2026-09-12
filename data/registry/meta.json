@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T04:02:16.166Z",
+  "generated_at": "2026-09-12T04:04:02.898Z",
   "fatal": false,
   "sources": {
     "openrouter": "ok",
-    "provider_pricing_models": 736,
-    "huggingface_models": 138
+    "provider_pricing_models": 682,
+    "huggingface_models": 137
   },
   "coverage": {
-    "total_models": 1891,
-    "tiered_models": 1291,
+    "total_models": 1900,
+    "tiered_models": 1298,
     "pct": 68.3
   },
   "errors": [

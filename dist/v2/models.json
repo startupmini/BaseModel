@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "a22eb55",
-  "generated_at": "2026-09-11T04:05:18.774Z",
-  "count": 1312,
+  "source_revision": "c9fe81d",
+  "generated_at": "2026-09-12T04:07:05.132Z",
+  "count": 1320,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -6429,6 +6429,30 @@
       ]
     },
     {
+      "model_id": "fugu-max",
+      "name": "sakana/fugu-max",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "fugu-max"
+      ],
+      "offering_ids": [
+        "openrouter/fugu-max"
+      ]
+    },
+    {
       "model_id": "fugu-ultra",
       "name": "sakana/fugu-ultra",
       "description": "Fugu Ultra is built on a pool of publicly accessible frontier models, rather than running as a single model. It coordinates several models, routing work to 1-3 agents depending on the problem and combining their results into a single answer.",
@@ -6454,6 +6478,30 @@
         "openrouter/fugu-ultra",
         "requesty/fugu-ultra",
         "vercel/fugu-ultra"
+      ]
+    },
+    {
+      "model_id": "fugu-ultra-v2",
+      "name": "sakana/fugu-ultra-v2",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "fugu-ultra-v2"
+      ],
+      "offering_ids": [
+        "openrouter/fugu-ultra-v2"
       ]
     },
     {
@@ -10156,7 +10204,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 262144,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -17248,6 +17296,30 @@
       ]
     },
     {
+      "model_id": "gpt-astra-latest",
+      "name": "~openai/gpt-astra-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-astra-latest"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-astra-latest"
+      ]
+    },
+    {
       "model_id": "gpt-audio",
       "name": "gpt-audio",
       "modality": [
@@ -17654,7 +17726,7 @@
       "embedding_support": false,
       "context_window": 1050000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-latest"
       ],
@@ -17707,6 +17779,30 @@
       ],
       "offering_ids": [
         "openai/gpt-live-transcribe"
+      ]
+    },
+    {
+      "model_id": "gpt-luna-latest",
+      "name": "~openai/gpt-luna-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-luna-latest"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-luna-latest"
       ]
     },
     {
@@ -18229,6 +18325,54 @@
       "offering_ids": [
         "openai/gpt-realtime-whisper",
         "vercel/gpt-realtime-whisper"
+      ]
+    },
+    {
+      "model_id": "gpt-sol-latest",
+      "name": "~openai/gpt-sol-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-sol-latest"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-sol-latest"
+      ]
+    },
+    {
+      "model_id": "gpt-terra-latest",
+      "name": "~openai/gpt-terra-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-terra-latest"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-terra-latest"
       ]
     },
     {
@@ -21555,13 +21699,15 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
+      "context_window": 131072,
       "capability_ids": [],
       "status": "active",
       "aliases": [
         "ling-3.0-flash-vl"
       ],
       "offering_ids": [
-        "deepinfra/ling-3.0-flash-vl"
+        "deepinfra/ling-3.0-flash-vl",
+        "openrouter/ling-3.0-flash-vl"
       ]
     },
     {
@@ -24726,7 +24872,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 131072,
+      "context_window": 256000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -31333,6 +31479,54 @@
       ],
       "offering_ids": [
         "openrouter/sakana-namazu"
+      ]
+    },
+    {
+      "model_id": "schematron-v2-small",
+      "name": "inference-net/schematron-v2-small",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "schematron-v2-small"
+      ],
+      "offering_ids": [
+        "openrouter/schematron-v2-small"
+      ]
+    },
+    {
+      "model_id": "schematron-v2-turbo",
+      "name": "inference-net/schematron-v2-turbo",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "schematron-v2-turbo"
+      ],
+      "offering_ids": [
+        "openrouter/schematron-v2-turbo"
       ]
     },
     {
