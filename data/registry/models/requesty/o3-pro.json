@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/o3-pro",
   "provider_id": "requesty",
-  "name": "openai-responses/o3-pro",
+  "name": "openai/o3-pro",
   "description": "The o3 series of models are trained with reinforcement learning to perform complex reasoning. o1 models think before they answer, producing a long internal chain of thought before responding to the user. The o1 reasoning model is designed to solve hard problems across domains. The knowledge cutoff for o1 and o1-mini models is October, 2023.",
   "context_window": 200000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-12T04:04:02.754Z"
+  "updated_at": "2026-09-13T05:51:36.574Z"
 }

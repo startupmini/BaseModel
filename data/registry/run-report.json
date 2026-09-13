@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T04:03:56.685Z",
+  "generated_at": "2026-09-13T05:51:30.658Z",
   "summary": {
     "gateways": 17,
-    "failed": 2,
+    "failed": 1,
     "partial": 6,
-    "total_fetched": 889,
-    "total_errors": 9
+    "total_fetched": 1899,
+    "total_errors": 8
   },
   "gateways": [
     {
@@ -16,33 +16,7 @@
       "errors": [
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
       ],
-      "duration_ms": 2176
-    },
-    {
-      "plugin": "cerebras",
-      "provider_id": "cerebras",
-      "status": "ok",
-      "fetched": 3,
-      "errors": [],
-      "duration_ms": 2359
-    },
-    {
-      "plugin": "groq",
-      "provider_id": "groq",
-      "status": "ok",
-      "fetched": 14,
-      "errors": [],
-      "duration_ms": 2362
-    },
-    {
-      "plugin": "fireworks",
-      "provider_id": "fireworks",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
-      ],
-      "duration_ms": 2429
+      "duration_ms": 2042
     },
     {
       "plugin": "inferx",
@@ -53,15 +27,33 @@
         "No API key is registered for gateway inferx.",
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
       ],
-      "duration_ms": 2436
+      "duration_ms": 2137
     },
     {
-      "plugin": "hyperbolic",
-      "provider_id": "hyperbolic",
+      "plugin": "cerebras",
+      "provider_id": "cerebras",
       "status": "ok",
-      "fetched": 5,
+      "fetched": 3,
       "errors": [],
-      "duration_ms": 2471
+      "duration_ms": 2224
+    },
+    {
+      "plugin": "fireworks",
+      "provider_id": "fireworks",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
+      ],
+      "duration_ms": 2309
+    },
+    {
+      "plugin": "groq",
+      "provider_id": "groq",
+      "status": "ok",
+      "fetched": 14,
+      "errors": [],
+      "duration_ms": 2352
     },
     {
       "plugin": "deepinfra",
@@ -69,7 +61,15 @@
       "status": "ok",
       "fetched": 191,
       "errors": [],
-      "duration_ms": 2548
+      "duration_ms": 2425
+    },
+    {
+      "plugin": "hyperbolic",
+      "provider_id": "hyperbolic",
+      "status": "ok",
+      "fetched": 5,
+      "errors": [],
+      "duration_ms": 2491
     },
     {
       "plugin": "openrouter",
@@ -77,7 +77,7 @@
       "status": "ok",
       "fetched": 445,
       "errors": [],
-      "duration_ms": 2549
+      "duration_ms": 2558
     },
     {
       "plugin": "mistral-ai",
@@ -85,33 +85,7 @@
       "status": "ok",
       "fetched": 46,
       "errors": [],
-      "duration_ms": 2574
-    },
-    {
-      "plugin": "anthropic",
-      "provider_id": "anthropic",
-      "status": "ok",
-      "fetched": 11,
-      "errors": [],
-      "duration_ms": 2881
-    },
-    {
-      "plugin": "helicone",
-      "provider_id": "helicone",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
-      ],
-      "duration_ms": 2855
-    },
-    {
-      "plugin": "openai",
-      "provider_id": "openai",
-      "status": "ok",
-      "fetched": 124,
-      "errors": [],
-      "duration_ms": 2941
+      "duration_ms": 2590
     },
     {
       "plugin": "cloudflare",
@@ -121,15 +95,33 @@
       "errors": [
         "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
       ],
-      "duration_ms": 3033
+      "duration_ms": 2736
     },
     {
-      "plugin": "google",
-      "provider_id": "google",
+      "plugin": "helicone",
+      "provider_id": "helicone",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
+      ],
+      "duration_ms": 2785
+    },
+    {
+      "plugin": "openai",
+      "provider_id": "openai",
       "status": "ok",
-      "fetched": 50,
+      "fetched": 124,
       "errors": [],
-      "duration_ms": 3062
+      "duration_ms": 2873
+    },
+    {
+      "plugin": "anthropic",
+      "provider_id": "anthropic",
+      "status": "ok",
+      "fetched": 11,
+      "errors": [],
+      "duration_ms": 3139
     },
     {
       "plugin": "portkey",
@@ -139,19 +131,26 @@
       "errors": [
         "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
       ],
-      "duration_ms": 3229
-    },
-    {
-      "plugin": "requesty",
-      "status": "failed",
-      "fetched": 0,
-      "errors": [
-        "Error: Plugin worker exited before responding (code 0)."
-      ],
-      "duration_ms": 0
+      "duration_ms": 3051
     },
     {
       "plugin": "vercel",
+      "provider_id": "vercel",
+      "status": "ok",
+      "fetched": 376,
+      "errors": [],
+      "duration_ms": 3296
+    },
+    {
+      "plugin": "requesty",
+      "provider_id": "requesty",
+      "status": "ok",
+      "fetched": 684,
+      "errors": [],
+      "duration_ms": 3384
+    },
+    {
+      "plugin": "google",
       "status": "failed",
       "fetched": 0,
       "errors": [

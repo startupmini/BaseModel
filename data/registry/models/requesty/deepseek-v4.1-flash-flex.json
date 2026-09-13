@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/deepseek-v4.1-flash-flex",
+  "provider_id": "requesty",
+  "name": "deepinfra/deepseek-v4.1-flash:flex",
+  "description": "DeepSeek V4.1 Flash is a 552B parameter Mixture of Experts model built on a new Causal Encoder Decoder architecture that activates only 8B parameters for input and 16B for output, giving frontier level intelligence at a fraction of the cost. It is the smallest model in the new DeepSeek architecture family and the first Flash with native vision and multimodal understanding. V4.1 Flash beats DeepSeek V4 Pro on performance, cost, speed and task completion time and scores 88.1 on CyberGym. Its KV cache is compressed to 890 bytes per token, four times smaller than V4 Flash and over 400 times smaller than V1, cutting the cache hit costs that dominate agent workloads. 1M token context window, 384K max output, thinking and non thinking modes, tool calling, structured JSON output and prompt caching. Served on DeepInfra in FP8 at $0.20 input, $0.006 cache read and $0.60 output per 1M tokens, with a flex tier at 0.8x. Open weights are published on Hugging Face. Ideal for coding agents, long context RAG, high throughput batch processing and multimodal assistants.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-13T05:51:36.429Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

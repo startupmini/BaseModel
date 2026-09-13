@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/gpt-5-pro",
   "provider_id": "requesty",
-  "name": "openai-responses/gpt-5-pro",
+  "name": "openai/gpt-5-pro",
   "description": "GPT-5 Pro is OpenAI’s extended-reasoning tier of GPT-5, built to push reliability on hard problems, long tool chains, and agentic workflows. It keeps GPT-5’s multimodal skills and very large context (API page lists up to 400K tokens) while allocating more compute to think longer and plan better, improving code generation, math, and complex writing beyond standard GPT-5/“Thinking.” OpenAI positions Pro as the version that “uses extended reasoning for even more comprehensive and accurate answers,” targeting high-stakes tasks and enterprise use.",
   "context_window": 400000,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-12T04:04:02.680Z"
+  "updated_at": "2026-09-13T05:51:36.498Z"
 }

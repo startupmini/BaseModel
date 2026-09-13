@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/ling-3.0-flash-vl-free",
+  "provider_id": "vercel",
+  "name": "Ling 3.0 Flash VL (Free)",
+  "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash with stronger language capabilities, native visual perception, and visual agent capabilities. It supports text, image, and video inputs with text output, reasoning, and function calling.",
+  "context_window": 256000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-13T05:51:36.654Z",
+  "is_free": true,
+  "tier": "free",
+  "limits": {
+    "max_input_tokens": 262144
+  }
+}
