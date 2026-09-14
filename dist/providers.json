@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "f8797d3",
-  "generated_at": "2026-09-13T05:54:38.754Z",
+  "source_revision": "bf561fa",
+  "generated_at": "2026-09-14T04:24:49.684Z",
   "count": 12,
   "providers": [
     {
@@ -23,7 +23,7 @@
       "website": "https://www.cerebras.ai",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-13T05:51:24.941Z"
+      "updated_at": "2026-09-14T04:21:35.314Z"
     },
     {
       "provider_id": "deepinfra",
@@ -32,7 +32,7 @@
       "website": "https://deepinfra.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-13T05:51:25.055Z"
+      "updated_at": "2026-09-14T04:21:36.909Z"
     },
     {
       "provider_id": "google",
@@ -44,7 +44,7 @@
       "description": "Technology company and developer of the Gemini model family and other AI research.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-12T04:03:52.922Z"
+      "updated_at": "2026-09-14T04:21:35.927Z"
     },
     {
       "provider_id": "groq",
@@ -85,7 +85,7 @@
       "description": "French AI company known for open-weight and efficient language models.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-13T05:51:25.257Z"
+      "updated_at": "2026-09-14T04:21:35.693Z"
     },
     {
       "provider_id": "openai",
@@ -97,7 +97,7 @@
       "description": "American AI research laboratory and developer of the GPT model family, DALL-E, and other AI systems.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-09-13T05:51:25.553Z"
+      "updated_at": "2026-09-14T04:21:36.165Z"
     },
     {
       "provider_id": "openrouter",
@@ -106,7 +106,7 @@
       "website": "https://openrouter.ai",
       "provider_type": "router",
       "status": "active",
-      "updated_at": "2026-09-13T05:51:25.249Z"
+      "updated_at": "2026-09-14T04:21:35.414Z"
     },
     {
       "provider_id": "requesty",
@@ -115,7 +115,7 @@
       "website": "https://requesty.ai",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-09-13T05:51:26.094Z"
+      "updated_at": "2026-09-14T04:21:36.292Z"
     },
     {
       "provider_id": "vercel",
@@ -124,7 +124,7 @@
       "website": "https://vercel.com",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-09-13T05:51:26.055Z"
+      "updated_at": "2026-09-14T04:21:36.284Z"
     }
   ]
 }

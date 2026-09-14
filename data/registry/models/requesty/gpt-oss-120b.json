@@ -1,14 +1,14 @@
 {
   "model_id": "requesty/gpt-oss-120b",
   "provider_id": "requesty",
-  "name": "groq/openai/gpt-oss-120b",
+  "name": "scaleway/gpt-oss-120b",
   "description": "Open-weight agentic model with configurable reasoning, full CoT visibility, strong tool use, and fine-tuning support.",
-  "context_window": 131072,
+  "context_window": 128000,
   "modality": [
     "text"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
   "vision_support": false,
@@ -18,9 +18,9 @@
   "is_free": false,
   "tier": "budget",
   "limits": {
-    "max_input_tokens": 128000
+    "max_input_tokens": 131072
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-13T05:51:36.531Z"
+  "updated_at": "2026-09-14T04:21:45.232Z"
 }

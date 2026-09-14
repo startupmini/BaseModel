@@ -1,36 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "f8797d3",
-  "generated_at": "2026-09-13T05:54:38.754Z",
+  "source_revision": "bf561fa",
+  "generated_at": "2026-09-14T04:24:49.684Z",
   "summary": {
-    "added": 6,
+    "added": 0,
     "removed": 0,
-    "status_changed": 3
+    "status_changed": 0
   },
-  "added": [
-    "requesty/deepseek-v4.1-flash-flex",
-    "vercel/fugu-max",
-    "vercel/fugu-ultra-v2",
-    "vercel/ling-3.0-flash-vl-free",
-    "vercel/ling-3.0-flash-vl",
-    "vercel/seed-2.1-turbo"
-  ],
+  "added": [],
   "removed": [],
-  "status_changed": [
-    {
-      "model_id": "requesty/gpt-5-codex",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "requesty/gpt-5.4-pro-eastus2",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "requesty/thinkingcap-qwen3.6-27b",
-      "from": "active",
-      "to": "discontinued"
-    }
-  ]
+  "status_changed": []
 }

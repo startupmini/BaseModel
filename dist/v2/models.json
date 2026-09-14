@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "f8797d3",
-  "generated_at": "2026-09-13T05:54:38.754Z",
+  "source_revision": "bf561fa",
+  "generated_at": "2026-09-14T04:24:49.684Z",
   "count": 1321,
   "models": [
     {
@@ -1588,17 +1588,7 @@
       ],
       "offering_ids": [
         "anthropic/claude-opus-4-5-20251101"
-      ],
-      "quality": {
-        "score": 83.63,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "claude-opus-4-5-batch",
@@ -1890,9 +1880,10 @@
         "vercel/claude-opus-4.6"
       ],
       "quality": {
-        "score": 87.13,
-        "benchmark_count": 1,
+        "score": 89.63,
+        "benchmark_count": 2,
         "categories": [
+          "code",
           "text"
         ],
         "sources": [
@@ -2009,9 +2000,10 @@
         "vercel/claude-opus-4.7"
       ],
       "quality": {
-        "score": 86.75,
-        "benchmark_count": 1,
+        "score": 90.69,
+        "benchmark_count": 2,
         "categories": [
+          "code",
           "text"
         ],
         "sources": [
@@ -2257,10 +2249,10 @@
         "vercel/claude-opus-4.8"
       ],
       "quality": {
-        "score": 84.13,
+        "score": 92.38,
         "benchmark_count": 1,
         "categories": [
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -3190,10 +3182,10 @@
         "vercel/claude-sonnet-4.6"
       ],
       "quality": {
-        "score": 84.13,
+        "score": 90.13,
         "benchmark_count": 1,
         "categories": [
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -4979,8 +4971,7 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -4988,7 +4979,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": true,
+      "image_generation": false,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5213,14 +5204,14 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "doubleword/deepseek-v4-flash-0424",
+      "name": "novita/deepseek/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": false,
+      "function_calling": true,
       "structured_output": false,
       "vision_support": false,
       "audio_support": false,
@@ -5238,15 +5229,15 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424-flex",
-      "name": "doubleword/deepseek-v4-flash-0424:flex",
+      "name": "deepinfra/deepseek-v4-flash-0424:flex",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5471,15 +5462,15 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424",
-      "name": "doubleword/deepseek-v4-pro-0424",
+      "name": "deepinfra/deepseek-v4-pro-0424",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": true,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5496,15 +5487,15 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424-flex",
-      "name": "doubleword/deepseek-v4-pro-0424:flex",
+      "name": "deepinfra/deepseek-v4-pro-0424:flex",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": true,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -9524,17 +9515,7 @@
       ],
       "offering_ids": [
         "vercel/gemini-3-flash"
-      ],
-      "quality": {
-        "score": 84.25,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "gemini-3-flash-preview",
@@ -10885,10 +10866,10 @@
         "vercel/glm-5.1"
       ],
       "quality": {
-        "score": 83.13,
+        "score": 88.5,
         "benchmark_count": 1,
         "categories": [
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -11003,20 +10984,20 @@
     },
     {
       "model_id": "glm-5-2-flex",
-      "name": "doubleword/glm-5.2:flex",
+      "name": "deepinfra/glm-5.2:flex",
       "description": "Z.ai's next-generation flagship model for agentic software engineering, with significantly stronger coding capabilities than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -11157,11 +11138,10 @@
         "vercel/glm-5.3-flash"
       ],
       "quality": {
-        "score": 92.19,
-        "benchmark_count": 2,
+        "score": 100,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -14024,17 +14004,7 @@
         "openrouter/gpt-5.4",
         "requesty/gpt-5.4",
         "vercel/gpt-5.4"
-      ],
-      "quality": {
-        "score": 83.25,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "gpt-5-4-2026-03-05",
@@ -14760,17 +14730,7 @@
         "openrouter/gpt-5.5",
         "requesty/gpt-5.5",
         "vercel/gpt-5.5"
-      ],
-      "quality": {
-        "score": 84.5,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "gpt-5-5-2026-04-23",
@@ -19095,10 +19055,10 @@
         "vercel/grok-4.5"
       ],
       "quality": {
-        "score": 83.63,
+        "score": 94.38,
         "benchmark_count": 1,
         "categories": [
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -19895,7 +19855,17 @@
         "openrouter/hy3",
         "requesty/hy3",
         "vercel/hy3"
-      ]
+      ],
+      "quality": {
+        "score": 89.13,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "hy3-preview",
@@ -20641,7 +20611,17 @@
         "openrouter/kimi-k2.6",
         "requesty/kimi-k2.6",
         "vercel/kimi-k2.6"
-      ]
+      ],
+      "quality": {
+        "score": 88.63,
+        "benchmark_count": 1,
+        "categories": [
+          "code"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "kimi-k2-6-flex",
@@ -23066,17 +23046,7 @@
         "openrouter/mimo-v2.5-pro",
         "requesty/mimo-v2.5-pro",
         "vercel/mimo-v2.5-pro"
-      ],
-      "quality": {
-        "score": 83.5,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "mimo-v2-5-pro-flex",
@@ -25383,9 +25353,10 @@
         "vercel/muse-spark-1.1"
       ],
       "quality": {
-        "score": 86.75,
-        "benchmark_count": 1,
+        "score": 89.75,
+        "benchmark_count": 2,
         "categories": [
+          "code",
           "text"
         ],
         "sources": [
@@ -26018,7 +25989,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -29054,14 +29025,13 @@
       "name": "qwen/qwen3-30b-a3b-instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -29991,11 +29961,10 @@
         "vercel/qwen3.8-max"
       ],
       "quality": {
-        "score": 92.56,
-        "benchmark_count": 2,
+        "score": 100,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
