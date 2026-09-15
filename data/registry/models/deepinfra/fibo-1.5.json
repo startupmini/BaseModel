@@ -1,0 +1,19 @@
+{
+  "model_id": "deepinfra/fibo-1.5",
+  "provider_id": "deepinfra",
+  "name": "Bria/fibo-1.5",
+  "modality": [
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": true,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-15T04:22:01.664Z"
+}

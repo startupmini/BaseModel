@@ -1,13 +1,36 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "bf561fa",
-  "generated_at": "2026-09-14T04:24:49.684Z",
+  "source_revision": "9995a33",
+  "generated_at": "2026-09-15T04:25:13.452Z",
   "summary": {
-    "added": 0,
+    "added": 6,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 3
   },
-  "added": [],
+  "added": [
+    "deepinfra/fibo-1.5",
+    "deepinfra/fibo-edit-1.5",
+    "deepinfra/qwen3.8-flash",
+    "google/antigravity-preview-09-2026",
+    "openrouter/deepseek-flash-latest",
+    "openrouter/deepseek-pro-latest"
+  ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "google/gemini-2.5-flash-native-audio-preview-09-2025",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gemini-2.5-pro-preview-05-06",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-4-turbo-preview",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }
