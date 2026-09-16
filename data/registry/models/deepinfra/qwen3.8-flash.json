@@ -2,6 +2,7 @@
   "model_id": "deepinfra/qwen3.8-flash",
   "provider_id": "deepinfra",
   "name": "Qwen/Qwen3.8-Flash",
+  "context_window": 1000000,
   "modality": [
     "text"
   ],
@@ -13,13 +14,12 @@
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-09-15T04:22:12.157Z",
   "is_free": false,
   "tier": "budget",
   "limits": {
     "max_input_tokens": 1000000
   },
-  "context_window": 1000000
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-16T04:17:43.004Z"
 }

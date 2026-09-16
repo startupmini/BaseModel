@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "9995a33",
-  "generated_at": "2026-09-15T04:25:13.452Z",
+  "source_revision": "d99a347",
+  "generated_at": "2026-09-16T04:20:59.142Z",
   "count": 1326,
   "models": [
     {
@@ -5022,8 +5022,7 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -5031,7 +5030,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": true,
+      "image_generation": false,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5256,13 +5255,13 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "parasail/deepseek-v4-flash-0424",
+      "name": "deepinfra/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
@@ -5514,13 +5513,13 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424",
-      "name": "tensorx/deepseek-v4-pro-0424",
+      "name": "deepinfra/deepseek-v4-pro-0424",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": true,
+      "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
@@ -6975,7 +6974,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-central2",
-      "name": "coding/gemini-2.5-flash@europe-central2",
+      "name": "vertex/gemini-2.5-flash@europe-central2",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -6984,7 +6983,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7001,7 +7000,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-north1",
-      "name": "coding/gemini-2.5-flash@europe-north1",
+      "name": "vertex/gemini-2.5-flash@europe-north1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7010,7 +7009,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7027,7 +7026,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-west1",
-      "name": "coding/gemini-2.5-flash@europe-west1",
+      "name": "vertex/gemini-2.5-flash@europe-west1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7036,7 +7035,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7053,7 +7052,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-west4",
-      "name": "coding/gemini-2.5-flash@europe-west4",
+      "name": "vertex/gemini-2.5-flash@europe-west4",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7062,7 +7061,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7079,7 +7078,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-europe-west8",
-      "name": "coding/gemini-2.5-flash@europe-west8",
+      "name": "vertex/gemini-2.5-flash@europe-west8",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7088,7 +7087,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7954,7 +7953,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-central1",
-      "name": "coding/gemini-2.5-flash@us-central1",
+      "name": "vertex/gemini-2.5-flash@us-central1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7963,7 +7962,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -7980,7 +7979,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-east1",
-      "name": "coding/gemini-2.5-flash@us-east1",
+      "name": "vertex/gemini-2.5-flash@us-east1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -7989,7 +7988,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8006,7 +8005,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-east5",
-      "name": "coding/gemini-2.5-flash@us-east5",
+      "name": "vertex/gemini-2.5-flash@us-east5",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -8015,7 +8014,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8032,7 +8031,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-south1",
-      "name": "coding/gemini-2.5-flash@us-south1",
+      "name": "vertex/gemini-2.5-flash@us-south1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -8041,7 +8040,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8058,7 +8057,7 @@
     },
     {
       "model_id": "gemini-2-5-flash-us-west1",
-      "name": "coding/gemini-2.5-flash@us-west1",
+      "name": "vertex/gemini-2.5-flash@us-west1",
       "description": "Google's first hybrid reasoning model which supports a 1M token context window and has thinking budgets. Most balanced Gemini model, optimized for low latency use cases.",
       "modality": [
         "text",
@@ -8067,7 +8066,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8141,7 +8140,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-central2",
-      "name": "coding/gemini-2.5-pro@europe-central2",
+      "name": "vertex/gemini-2.5-pro@europe-central2",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8150,7 +8149,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8167,7 +8166,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-north1",
-      "name": "coding/gemini-2.5-pro@europe-north1",
+      "name": "vertex/gemini-2.5-pro@europe-north1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8176,7 +8175,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8193,7 +8192,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-west1",
-      "name": "coding/gemini-2.5-pro@europe-west1",
+      "name": "vertex/gemini-2.5-pro@europe-west1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8202,7 +8201,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8219,7 +8218,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-west4",
-      "name": "coding/gemini-2.5-pro@europe-west4",
+      "name": "vertex/gemini-2.5-pro@europe-west4",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8228,7 +8227,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8245,7 +8244,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-europe-west8",
-      "name": "coding/gemini-2.5-pro@europe-west8",
+      "name": "vertex/gemini-2.5-pro@europe-west8",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8254,7 +8253,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8375,7 +8374,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-central1",
-      "name": "coding/gemini-2.5-pro@us-central1",
+      "name": "vertex/gemini-2.5-pro@us-central1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8384,7 +8383,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8401,7 +8400,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-east1",
-      "name": "coding/gemini-2.5-pro@us-east1",
+      "name": "vertex/gemini-2.5-pro@us-east1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8410,7 +8409,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8427,7 +8426,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-east5",
-      "name": "coding/gemini-2.5-pro@us-east5",
+      "name": "vertex/gemini-2.5-pro@us-east5",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8436,7 +8435,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8453,7 +8452,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-south1",
-      "name": "coding/gemini-2.5-pro@us-south1",
+      "name": "vertex/gemini-2.5-pro@us-south1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8462,7 +8461,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8479,7 +8478,7 @@
     },
     {
       "model_id": "gemini-2-5-pro-us-west1",
-      "name": "coding/gemini-2.5-pro@us-west1",
+      "name": "vertex/gemini-2.5-pro@us-west1",
       "description": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced accuracy and nuanced context handling. Gemini 2.5 Pro achieves top-tier performance on multiple benchmarks, including first-place positioning on the LMArena leaderboard, reflecting superior human-preference alignment and complex problem-solving abilities.",
       "modality": [
         "text",
@@ -8488,7 +8487,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8675,7 +8674,7 @@
     },
     {
       "model_id": "gemini-3-1-flash-lite-flex",
-      "name": "google/gemini-3.1-flash-lite:flex",
+      "name": "vertex/gemini-3.1-flash-lite:flex",
       "description": "Gemini 3.1 Flash Lite Preview is the most cost-efficient model in the Gemini family, optimized for high-volume, low-latency tasks. It delivers fast responses with solid quality for everyday use cases including summarization, classification, and simple reasoning.",
       "modality": [
         "text",
@@ -8961,7 +8960,7 @@
     },
     {
       "model_id": "gemini-3-1-pro-preview-flex",
-      "name": "google/gemini-3.1-pro-preview:flex",
+      "name": "vertex/gemini-3.1-pro-preview:flex",
       "description": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly capable, natively multimodal reasoning models. As of this model card’s date of publication, Gemini 3.1 Pro is Google’s most advanced model for complex tasks. Geminin 3.1 Pro can comprehend vast datasets and challenging problems from massively multimodal information sources, including text, audio, images, video, and entire code repositories.",
       "modality": [
         "text",
@@ -9070,7 +9069,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-flex",
-      "name": "google/gemini-3.5-flash:flex",
+      "name": "vertex/gemini-3.5-flash:flex",
       "description": "Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale.",
       "modality": [
         "text",
@@ -9178,7 +9177,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-lite-flex",
-      "name": "google/gemini-3.5-flash-lite:flex",
+      "name": "vertex/gemini-3.5-flash-lite:flex",
       "description": "Gemini 3.5 Flash-Lite is a high efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi agent workflows.",
       "modality": [
         "text",
@@ -9372,7 +9371,7 @@
     },
     {
       "model_id": "gemini-3-6-flash-flex",
-      "name": "google/gemini-3.6-flash:flex",
+      "name": "vertex/gemini-3.6-flash:flex",
       "description": "Gemini 3.6 Flash is the latest Flash model in the Gemini series, delivering frontier level intelligence at high speed and low cost. Built for the agentic era, it excels at sub agent deployment, multi step workflows, and long horizon tasks at scale.",
       "modality": [
         "text",
@@ -9672,7 +9671,7 @@
     },
     {
       "model_id": "gemini-3-flash-preview-flex",
-      "name": "google/gemini-3-flash-preview:flex",
+      "name": "vertex/gemini-3-flash-preview:flex",
       "description": "Gemini 3 Flash Preview is designed to deliver strong agentic capabilities (near-Pro level) at substantial speed and value. Making it perfect for engaging multi-turn chats, and collaborating back and forth with your coding agent without getting out of flow. Compared to 2.5 Flash it delivers significant improvements across the board.",
       "modality": [
         "text",
@@ -10434,7 +10433,7 @@
       "image_generation": false,
       "embedding_support": false,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemma-4-31b"
       ],
@@ -10488,7 +10487,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemma-4-31b-it-batch"
       ],
@@ -11109,9 +11108,9 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 256000,
+      "context_window": 32768,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "glm-5.2-free"
       ],
@@ -18126,7 +18125,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-oss-20b-batch"
       ],
@@ -20225,7 +20224,7 @@
       "embedding_support": false,
       "context_window": 524288,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "inkling-small-batch"
       ],
@@ -23666,7 +23665,7 @@
     },
     {
       "model_id": "minimax-m2-7-highspeed",
-      "name": "minimaxi/minimax-m2.7-highspeed",
+      "name": "novita/minimax/minimax-m2.7-highspeed",
       "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
       "modality": [
         "text"
@@ -29796,7 +29795,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -29810,21 +29809,20 @@
     },
     {
       "model_id": "qwen3-8",
-      "name": "tensorx/qwen3.8",
+      "name": "deepinfra/qwen3.8",
       "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of Qwen3.8 Max, with 95 billion active parameters out of 2.4 trillion total. It is suited for coding, research, complex reasoning, and agentic workflows.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 262144,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -30464,14 +30462,13 @@
       "name": "Qwen/Qwen3-Max",
       "description": "This is the best-performing model in the Qwen series. It is ideal for complex, multi-step tasks.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,

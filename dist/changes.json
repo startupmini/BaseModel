@@ -1,34 +1,42 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "9995a33",
-  "generated_at": "2026-09-15T04:25:13.452Z",
+  "source_revision": "d99a347",
+  "generated_at": "2026-09-16T04:20:59.142Z",
   "summary": {
-    "added": 6,
+    "added": 0,
     "removed": 0,
-    "status_changed": 3
+    "status_changed": 6
   },
-  "added": [
-    "deepinfra/fibo-1.5",
-    "deepinfra/fibo-edit-1.5",
-    "deepinfra/qwen3.8-flash",
-    "google/antigravity-preview-09-2026",
-    "openrouter/deepseek-flash-latest",
-    "openrouter/deepseek-pro-latest"
-  ],
+  "added": [],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "google/gemini-2.5-flash-native-audio-preview-09-2025",
+      "model_id": "cerebras/gemma-4-31b",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/gemini-2.5-pro-preview-05-06",
+      "model_id": "groq/qwen3.6-27b",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/gpt-4-turbo-preview",
+      "model_id": "openrouter/gemma-4-31b-it-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/glm-5.2-free",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "openrouter/gpt-oss-20b-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/inkling-small-batch",
       "from": "active",
       "to": "discontinued"
     }

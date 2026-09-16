@@ -2,7 +2,7 @@
   "model_id": "openrouter/glm-5.2-free",
   "provider_id": "openrouter",
   "name": "z-ai/glm-5.2:free",
-  "context_window": 256000,
+  "context_window": 32768,
   "modality": [
     "text"
   ],
@@ -17,9 +17,9 @@
   "is_free": true,
   "tier": "free",
   "limits": {
-    "max_input_tokens": 256000
+    "max_input_tokens": 32768
   },
   "capability_ids": [],
-  "status": "discontinued",
-  "updated_at": "2026-09-07T03:58:18.626Z"
+  "status": "active",
+  "updated_at": "2026-09-16T04:17:43.093Z"
 }

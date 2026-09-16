@@ -1,9 +1,9 @@
 {
   "model_id": "requesty/glm-5.3",
   "provider_id": "requesty",
-  "name": "zai/glm-5.3",
+  "name": "runware/glm-5.3",
   "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
-  "context_window": 1000000,
+  "context_window": 1048576,
   "modality": [
     "text",
     "image"
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-15T04:22:12.406Z"
+  "updated_at": "2026-09-16T04:17:43.308Z"
 }
