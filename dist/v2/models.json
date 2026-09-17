@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d99a347",
-  "generated_at": "2026-09-16T04:20:59.142Z",
-  "count": 1326,
+  "source_revision": "5cc0c97",
+  "generated_at": "2026-09-17T04:27:15.022Z",
+  "count": 1327,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -4809,7 +4809,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 64000,
+      "context_window": 32000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -5022,7 +5022,8 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -5030,7 +5031,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": false,
+      "image_generation": true,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5255,15 +5256,15 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "deepinfra/deepseek-v4-flash-0424",
+      "name": "doubleword/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": true,
-      "structured_output": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5280,15 +5281,15 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424-flex",
-      "name": "deepinfra/deepseek-v4-flash-0424:flex",
+      "name": "doubleword/deepseek-v4-flash-0424:flex",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": true,
-      "structured_output": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5513,15 +5514,15 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424",
-      "name": "deepinfra/deepseek-v4-pro-0424",
+      "name": "doubleword/deepseek-v4-pro-0424",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": true,
-      "structured_output": true,
+      "reasoning_support": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5538,15 +5539,15 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424-flex",
-      "name": "deepinfra/deepseek-v4-pro-0424:flex",
+      "name": "doubleword/deepseek-v4-pro-0424:flex",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": true,
-      "structured_output": true,
+      "reasoning_support": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -8674,7 +8675,7 @@
     },
     {
       "model_id": "gemini-3-1-flash-lite-flex",
-      "name": "vertex/gemini-3.1-flash-lite:flex",
+      "name": "google/gemini-3.1-flash-lite:flex",
       "description": "Gemini 3.1 Flash Lite Preview is the most cost-efficient model in the Gemini family, optimized for high-volume, low-latency tasks. It delivers fast responses with solid quality for everyday use cases including summarization, classification, and simple reasoning.",
       "modality": [
         "text",
@@ -8960,7 +8961,7 @@
     },
     {
       "model_id": "gemini-3-1-pro-preview-flex",
-      "name": "vertex/gemini-3.1-pro-preview:flex",
+      "name": "google/gemini-3.1-pro-preview:flex",
       "description": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly capable, natively multimodal reasoning models. As of this model card’s date of publication, Gemini 3.1 Pro is Google’s most advanced model for complex tasks. Geminin 3.1 Pro can comprehend vast datasets and challenging problems from massively multimodal information sources, including text, audio, images, video, and entire code repositories.",
       "modality": [
         "text",
@@ -9069,7 +9070,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-flex",
-      "name": "vertex/gemini-3.5-flash:flex",
+      "name": "google/gemini-3.5-flash:flex",
       "description": "Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale.",
       "modality": [
         "text",
@@ -9177,7 +9178,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-lite-flex",
-      "name": "vertex/gemini-3.5-flash-lite:flex",
+      "name": "google/gemini-3.5-flash-lite:flex",
       "description": "Gemini 3.5 Flash-Lite is a high efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi agent workflows.",
       "modality": [
         "text",
@@ -9371,7 +9372,7 @@
     },
     {
       "model_id": "gemini-3-6-flash-flex",
-      "name": "vertex/gemini-3.6-flash:flex",
+      "name": "google/gemini-3.6-flash:flex",
       "description": "Gemini 3.6 Flash is the latest Flash model in the Gemini series, delivering frontier level intelligence at high speed and low cost. Built for the agentic era, it excels at sub agent deployment, multi step workflows, and long horizon tasks at scale.",
       "modality": [
         "text",
@@ -9671,7 +9672,7 @@
     },
     {
       "model_id": "gemini-3-flash-preview-flex",
-      "name": "vertex/gemini-3-flash-preview:flex",
+      "name": "google/gemini-3-flash-preview:flex",
       "description": "Gemini 3 Flash Preview is designed to deliver strong agentic capabilities (near-Pro level) at substantial speed and value. Making it perfect for engaging multi-turn chats, and collaborating back and forth with your coding agent without getting out of flow. Compared to 2.5 Flash it delivers significant improvements across the board.",
       "modality": [
         "text",
@@ -11071,20 +11072,20 @@
     },
     {
       "model_id": "glm-5-2-flex",
-      "name": "deepinfra/glm-5.2:flex",
+      "name": "doubleword/glm-5.2:flex",
       "description": "Z.ai's next-generation flagship model for agentic software engineering, with significantly stronger coding capabilities than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": true,
-      "structured_output": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -11123,14 +11124,13 @@
       "name": "zai-org/GLM-5.3",
       "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -23665,7 +23665,7 @@
     },
     {
       "model_id": "minimax-m2-7-highspeed",
-      "name": "novita/minimax/minimax-m2.7-highspeed",
+      "name": "minimaxi/minimax-m2.7-highspeed",
       "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
       "modality": [
         "text"
@@ -26045,7 +26045,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -29349,7 +29349,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": true,
+      "structured_output": false,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -30006,7 +30006,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -30462,13 +30462,14 @@
       "name": "Qwen/Qwen3-Max",
       "description": "This is the best-performing model in the Qwen series. It is ideal for complex, multi-step tasks.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -32983,6 +32984,30 @@
       ],
       "offering_ids": [
         "openrouter/ui-tars-1.5-7b"
+      ]
+    },
+    {
+      "model_id": "union-alpha",
+      "name": "stealth/union-alpha",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "union-alpha"
+      ],
+      "offering_ids": [
+        "openrouter/union-alpha"
       ]
     },
     {

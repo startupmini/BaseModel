@@ -1,44 +1,21 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d99a347",
-  "generated_at": "2026-09-16T04:20:59.142Z",
+  "source_revision": "5cc0c97",
+  "generated_at": "2026-09-17T04:27:15.022Z",
   "summary": {
-    "added": 0,
+    "added": 1,
     "removed": 0,
-    "status_changed": 6
+    "status_changed": 1
   },
-  "added": [],
+  "added": [
+    "openrouter/union-alpha"
+  ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "cerebras/gemma-4-31b",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "groq/qwen3.6-27b",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gemma-4-31b-it-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/glm-5.2-free",
+      "model_id": "requesty/deepseek-v4-pro",
       "from": "discontinued",
       "to": "active"
-    },
-    {
-      "model_id": "openrouter/gpt-oss-20b-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/inkling-small-batch",
-      "from": "active",
-      "to": "discontinued"
     }
   ]
 }
