@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "name": "Qwen3 Next 80B A3B Instruct",
   "description": "A new generation of open-source, non-thinking mode model powered by Qwen3. This version demonstrates superior Chinese text understanding, augmented logical reasoning, and enhanced capabilities in text generation tasks over the previous iteration (Qwen3-235B-A22B-Instruct-2507).",
-  "context_window": 131072,
+  "context_window": 262114,
   "modality": [
     "text"
   ],
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-17T04:24:18.440Z"
+  "updated_at": "2026-09-18T04:08:14.636Z"
 }

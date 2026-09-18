@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "name": "Kimi K2.5",
   "description": "kimi-k2.5 is Kimi's most versatile model to date, featuring a native multimodal architecture that supports both visual and text input, thinking and non-thinking modes, and dialogue and agent tasks.",
-  "context_window": 262114,
+  "context_window": 256000,
   "modality": [
     "text",
     "image"
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-17T04:24:18.420Z"
+  "updated_at": "2026-09-18T04:08:14.617Z"
 }

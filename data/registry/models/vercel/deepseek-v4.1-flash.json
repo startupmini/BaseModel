@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "name": "DeepSeek V4.1 Flash",
   "description": "DeepSeek V4.1 Flash is an AI model from DeepSeek designed for fast, efficient multimodal interactions. It combines native multimodal capabilities with a new architecture focused on stronger performance, faster responses, and lower computational cost.",
-  "context_window": 1000000,
+  "context_window": 1048576,
   "modality": [
     "text",
     "image"
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-17T04:24:18.388Z"
+  "updated_at": "2026-09-18T04:08:14.590Z"
 }

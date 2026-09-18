@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "name": "Mistral Small",
   "description": "Mistral Small is the ideal choice for simple tasks that one can do in bulk - like Classification, Customer Support, or Text Generation. It offers excellent performance at an affordable price point.",
-  "context_window": 32000,
+  "context_window": 262144,
   "modality": [
     "text",
     "image"
@@ -18,5 +18,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-15T04:22:01.991Z"
+  "updated_at": "2026-09-18T04:08:05.626Z"
 }
