@@ -1,68 +1,31 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "1a9dbff",
-  "generated_at": "2026-09-18T04:11:08.870Z",
+  "source_revision": "abd47d0",
+  "generated_at": "2026-09-19T04:07:45.752Z",
   "summary": {
-    "added": 10,
+    "added": 3,
     "removed": 0,
-    "status_changed": 9
+    "status_changed": 3
   },
   "added": [
-    "openrouter/deepseek-v4-flash-0731-free",
-    "openrouter/pareto",
-    "openrouter/qwen3.8-27b-free",
-    "vercel/gemini-3.8-live-extended-thinking",
-    "vercel/gemini-3.8-live",
-    "vercel/gpt-live-1",
-    "vercel/jev",
-    "vercel/qwen3.8-omni-flash",
-    "vercel/schematron-v2-small",
-    "vercel/schematron-v2-turbo"
+    "openrouter/glm-5.3-flashx",
+    "openrouter/ternary-bonsai-2-27b",
+    "requesty/jev-1.13.0"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/union-alpha",
+      "model_id": "deepinfra/cosmos3-nano",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "vercel/devstral-2",
+      "model_id": "deepinfra/cosmos3-super",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "vercel/devstral-small-2",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/kat-coder-air-v2.5",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/kat-coder-pro-v1",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/kat-coder-pro-v2.5",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/kat-coder-pro-v2",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/mistral-medium",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/pixtral-12b",
+      "model_id": "openrouter/mistral-large-2512",
       "from": "active",
       "to": "discontinued"
     }
