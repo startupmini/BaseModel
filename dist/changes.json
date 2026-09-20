@@ -1,31 +1,42 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "abd47d0",
-  "generated_at": "2026-09-19T04:07:45.752Z",
+  "source_revision": "1219afd",
+  "generated_at": "2026-09-20T04:27:19.776Z",
   "summary": {
-    "added": 3,
+    "added": 4,
     "removed": 0,
-    "status_changed": 3
+    "status_changed": 5
   },
   "added": [
-    "openrouter/glm-5.3-flashx",
-    "openrouter/ternary-bonsai-2-27b",
-    "requesty/jev-1.13.0"
+    "vercel/arrow-2-telos",
+    "vercel/arrow-2",
+    "vercel/glm-5.3-flashx",
+    "vercel/toast-1"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "deepinfra/cosmos3-nano",
+      "model_id": "openrouter/deepseek-v4-flash-0731-free",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/cosmos3-super",
+      "model_id": "vercel/s1-free",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/mistral-large-2512",
+      "model_id": "vercel/s2-pro-free",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/s2.1-pro-free",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/transcribe-1-free",
       "from": "active",
       "to": "discontinued"
     }

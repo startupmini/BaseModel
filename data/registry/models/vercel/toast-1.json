@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/toast-1",
+  "provider_id": "vercel",
+  "name": "Toast 1",
+  "description": "Built for knowledge-intensive questions, multi-step retrieval, and evidence synthesis. Toast 1 can work with any backend exposed through function calling.",
+  "context_window": 131000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-20T04:24:06.269Z"
+}

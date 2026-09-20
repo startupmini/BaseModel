@@ -1,30 +1,20 @@
 {
-  "generated_at": "2026-09-19T04:04:59.639Z",
+  "generated_at": "2026-09-20T04:24:10.277Z",
   "summary": {
     "gateways": 17,
-    "failed": 1,
+    "failed": 2,
     "partial": 6,
-    "total_fetched": 1582,
-    "total_errors": 8
+    "total_fetched": 1819,
+    "total_errors": 9
   },
   "gateways": [
-    {
-      "plugin": "fireworks",
-      "provider_id": "fireworks",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
-      ],
-      "duration_ms": 2399
-    },
     {
       "plugin": "cerebras",
       "provider_id": "cerebras",
       "status": "ok",
       "fetched": 2,
       "errors": [],
-      "duration_ms": 2536
+      "duration_ms": 2233
     },
     {
       "plugin": "inferx",
@@ -35,15 +25,7 @@
         "No API key is registered for gateway inferx.",
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
       ],
-      "duration_ms": 2588
-    },
-    {
-      "plugin": "groq",
-      "provider_id": "groq",
-      "status": "ok",
-      "fetched": 13,
-      "errors": [],
-      "duration_ms": 2643
+      "duration_ms": 2248
     },
     {
       "plugin": "together",
@@ -53,15 +35,7 @@
       "errors": [
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
       ],
-      "duration_ms": 2533
-    },
-    {
-      "plugin": "mistral-ai",
-      "provider_id": "mistral-ai",
-      "status": "ok",
-      "fetched": 46,
-      "errors": [],
-      "duration_ms": 2626
+      "duration_ms": 2167
     },
     {
       "plugin": "deepinfra",
@@ -69,7 +43,25 @@
       "status": "ok",
       "fetched": 192,
       "errors": [],
-      "duration_ms": 2880
+      "duration_ms": 2319
+    },
+    {
+      "plugin": "fireworks",
+      "provider_id": "fireworks",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
+      ],
+      "duration_ms": 2358
+    },
+    {
+      "plugin": "openrouter",
+      "provider_id": "openrouter",
+      "status": "ok",
+      "fetched": 446,
+      "errors": [],
+      "duration_ms": 2476
     },
     {
       "plugin": "hyperbolic",
@@ -77,23 +69,15 @@
       "status": "ok",
       "fetched": 5,
       "errors": [],
-      "duration_ms": 2850
+      "duration_ms": 2578
     },
     {
-      "plugin": "openai",
-      "provider_id": "openai",
+      "plugin": "mistral-ai",
+      "provider_id": "mistral-ai",
       "status": "ok",
-      "fetched": 124,
+      "fetched": 46,
       "errors": [],
-      "duration_ms": 2835
-    },
-    {
-      "plugin": "openrouter",
-      "provider_id": "openrouter",
-      "status": "ok",
-      "fetched": 447,
-      "errors": [],
-      "duration_ms": 2965
+      "duration_ms": 2558
     },
     {
       "plugin": "helicone",
@@ -103,25 +87,7 @@
       "errors": [
         "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
       ],
-      "duration_ms": 3087
-    },
-    {
-      "plugin": "cloudflare",
-      "provider_id": "cloudflare",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
-      ],
-      "duration_ms": 3128
-    },
-    {
-      "plugin": "anthropic",
-      "provider_id": "anthropic",
-      "status": "ok",
-      "fetched": 11,
-      "errors": [],
-      "duration_ms": 3256
+      "duration_ms": 3299
     },
     {
       "plugin": "portkey",
@@ -131,7 +97,33 @@
       "errors": [
         "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
       ],
-      "duration_ms": 3190
+      "duration_ms": 3225
+    },
+    {
+      "plugin": "cloudflare",
+      "provider_id": "cloudflare",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
+      ],
+      "duration_ms": 3350
+    },
+    {
+      "plugin": "vercel",
+      "provider_id": "vercel",
+      "status": "ok",
+      "fetched": 375,
+      "errors": [],
+      "duration_ms": 3447
+    },
+    {
+      "plugin": "anthropic",
+      "provider_id": "anthropic",
+      "status": "ok",
+      "fetched": 11,
+      "errors": [],
+      "duration_ms": 3718
     },
     {
       "plugin": "google",
@@ -139,7 +131,7 @@
       "status": "ok",
       "fetched": 50,
       "errors": [],
-      "duration_ms": 3435
+      "duration_ms": 3753
     },
     {
       "plugin": "requesty",
@@ -147,10 +139,19 @@
       "status": "ok",
       "fetched": 692,
       "errors": [],
-      "duration_ms": 3505
+      "duration_ms": 3841
     },
     {
-      "plugin": "vercel",
+      "plugin": "groq",
+      "status": "failed",
+      "fetched": 0,
+      "errors": [
+        "Error: Plugin worker exited before responding (code 0)."
+      ],
+      "duration_ms": 0
+    },
+    {
+      "plugin": "openai",
       "status": "failed",
       "fetched": 0,
       "errors": [
