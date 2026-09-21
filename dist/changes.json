@@ -1,44 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "1219afd",
-  "generated_at": "2026-09-20T04:27:19.776Z",
+  "source_revision": "e36d450",
+  "generated_at": "2026-09-21T04:25:08.662Z",
   "summary": {
-    "added": 4,
+    "added": 0,
     "removed": 0,
-    "status_changed": 5
+    "status_changed": 0
   },
-  "added": [
-    "vercel/arrow-2-telos",
-    "vercel/arrow-2",
-    "vercel/glm-5.3-flashx",
-    "vercel/toast-1"
-  ],
+  "added": [],
   "removed": [],
-  "status_changed": [
-    {
-      "model_id": "openrouter/deepseek-v4-flash-0731-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/s1-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/s2-pro-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/s2.1-pro-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/transcribe-1-free",
-      "from": "active",
-      "to": "discontinued"
-    }
-  ]
+  "status_changed": []
 }

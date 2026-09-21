@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "1219afd",
-  "generated_at": "2026-09-20T04:27:19.776Z",
+  "source_revision": "e36d450",
+  "generated_at": "2026-09-21T04:25:08.662Z",
   "count": 1340,
   "models": [
     {
@@ -1946,10 +1946,9 @@
         "vercel/claude-opus-4.6"
       ],
       "quality": {
-        "score": 89.63,
-        "benchmark_count": 2,
+        "score": 87.13,
+        "benchmark_count": 1,
         "categories": [
-          "code",
           "text"
         ],
         "sources": [
@@ -2066,10 +2065,9 @@
         "vercel/claude-opus-4.7"
       ],
       "quality": {
-        "score": 90.69,
-        "benchmark_count": 2,
+        "score": 86.75,
+        "benchmark_count": 1,
         "categories": [
-          "code",
           "text"
         ],
         "sources": [
@@ -2313,17 +2311,7 @@
         "openrouter/claude-opus-4.8",
         "requesty/claude-opus-4-8",
         "vercel/claude-opus-4.8"
-      ],
-      "quality": {
-        "score": 92.38,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "claude-opus-4-8-ap-northeast-1",
@@ -3246,17 +3234,7 @@
         "openrouter/claude-sonnet-4.6",
         "requesty/claude-sonnet-4-6",
         "vercel/claude-sonnet-4.6"
-      ],
-      "quality": {
-        "score": 90.13,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "claude-sonnet-4-6-ap-northeast-1",
@@ -11098,17 +11076,7 @@
         "openrouter/glm-5.1",
         "requesty/glm-5.1",
         "vercel/glm-5.1"
-      ],
-      "quality": {
-        "score": 88.5,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "glm-5-1-flex",
@@ -19316,17 +19284,7 @@
         "openrouter/grok-4.5",
         "requesty/grok-4.5",
         "vercel/grok-4.5"
-      ],
-      "quality": {
-        "score": 94.38,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "grok-4-6",
@@ -20118,17 +20076,7 @@
         "openrouter/hy3",
         "requesty/hy3",
         "vercel/hy3"
-      ],
-      "quality": {
-        "score": 89.13,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "hy3-preview",
@@ -20924,17 +20872,7 @@
         "openrouter/kimi-k2.6",
         "requesty/kimi-k2.6",
         "vercel/kimi-k2.6"
-      ],
-      "quality": {
-        "score": 88.63,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "kimi-k2-6-flex",
@@ -25665,10 +25603,9 @@
         "vercel/muse-spark-1.1"
       ],
       "quality": {
-        "score": 89.69,
-        "benchmark_count": 2,
+        "score": 86.63,
+        "benchmark_count": 1,
         "categories": [
-          "code",
           "text"
         ],
         "sources": [
