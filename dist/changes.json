@@ -1,13 +1,71 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e36d450",
-  "generated_at": "2026-09-21T04:25:08.662Z",
+  "source_revision": "2605b4f",
+  "generated_at": "2026-09-22T04:20:53.645Z",
   "summary": {
-    "added": 0,
+    "added": 6,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 10
   },
-  "added": [],
+  "added": [
+    "deepinfra/mimo-v2.6-flash-rl",
+    "google/antigravity-preview-latest",
+    "openrouter/grok-4.7",
+    "openrouter/mimo-v2.6-flash",
+    "openrouter/mimo-v2.6-pro-ultraspeed",
+    "openrouter/mimo-v2.6-pro"
+  ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "google/gemini-2.5-flash-native-audio-latest",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "groq/compound-mini",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "groq/compound",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/claude-opus-4",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-oss-120b-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/inkling-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/kimi-k3-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/minimax-m3-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3.5-9b-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3.8-2.4t-a95b-batch",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }

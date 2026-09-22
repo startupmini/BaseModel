@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e36d450",
-  "generated_at": "2026-09-21T04:25:08.662Z",
-  "count": 1340,
+  "source_revision": "2605b4f",
+  "generated_at": "2026-09-22T04:20:53.645Z",
+  "count": 1346,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -241,6 +241,31 @@
       ],
       "offering_ids": [
         "google/antigravity-preview-09-2026"
+      ]
+    },
+    {
+      "model_id": "antigravity-preview-latest",
+      "name": "Antigravity Agent Preview Latest",
+      "description": "Latest preview release of Antigravity Agent",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "antigravity-preview-latest"
+      ],
+      "offering_ids": [
+        "google/antigravity-preview-latest"
       ]
     },
     {
@@ -4435,7 +4460,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "compound"
       ],
@@ -4459,7 +4484,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "compound-mini"
       ],
@@ -7924,7 +7949,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemini-2.5-flash-native-audio-latest"
       ],
@@ -8957,17 +8982,7 @@
         "openrouter/gemini-3.1-pro-preview",
         "requesty/gemini-3.1-pro-preview",
         "vercel/gemini-3.1-pro-preview"
-      ],
-      "quality": {
-        "score": 85.88,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "gemini-3-1-pro-preview-batch",
@@ -18170,7 +18185,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-oss-120b-batch"
       ],
@@ -19315,6 +19330,31 @@
       ]
     },
     {
+      "model_id": "grok-4-7",
+      "name": "x-ai/grok-4.7",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 500000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "grok-4.7"
+      ],
+      "offering_ids": [
+        "openrouter/grok-4.7"
+      ]
+    },
+    {
       "model_id": "grok-4-fast",
       "name": "xai/grok-4-fast",
       "description": "xAI's latest advancement in cost-efficient reasoning models",
@@ -20291,7 +20331,7 @@
       "embedding_support": false,
       "context_window": 524288,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "inkling-batch"
       ],
@@ -21078,7 +21118,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "kimi-k3-batch"
       ],
@@ -23398,6 +23438,101 @@
       ]
     },
     {
+      "model_id": "mimo-v2-6-flash",
+      "name": "xiaomi/mimo-v2.6-flash",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "mimo-v2.6-flash"
+      ],
+      "offering_ids": [
+        "openrouter/mimo-v2.6-flash"
+      ]
+    },
+    {
+      "model_id": "mimo-v2-6-flash-rl",
+      "name": "XiaomiMiMo/MiMo-V2.6-Flash-RL",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "mimo-v2.6-flash-rl"
+      ],
+      "offering_ids": [
+        "deepinfra/mimo-v2.6-flash-rl"
+      ]
+    },
+    {
+      "model_id": "mimo-v2-6-pro",
+      "name": "xiaomi/mimo-v2.6-pro",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "mimo-v2.6-pro"
+      ],
+      "offering_ids": [
+        "openrouter/mimo-v2.6-pro"
+      ]
+    },
+    {
+      "model_id": "mimo-v2-6-pro-ultraspeed",
+      "name": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "mimo-v2.6-pro-ultraspeed"
+      ],
+      "offering_ids": [
+        "openrouter/mimo-v2.6-pro-ultraspeed"
+      ]
+    },
+    {
       "model_id": "minimax-01",
       "name": "minimax/minimax-01",
       "modality": [
@@ -23975,7 +24110,7 @@
       "embedding_support": false,
       "context_window": 524288,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "minimax-m3-batch"
       ],
@@ -25601,17 +25736,7 @@
       "offering_ids": [
         "openrouter/muse-spark-1.1",
         "vercel/muse-spark-1.1"
-      ],
-      "quality": {
-        "score": 86.63,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "muse-spark-1-2",
@@ -29679,7 +29804,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen3.5-9b-batch"
       ],
@@ -30095,7 +30220,7 @@
       "embedding_support": false,
       "context_window": 1010000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen3.8-2.4t-a95b-batch"
       ],

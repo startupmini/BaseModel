@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "e36d450",
-  "generated_at": "2026-09-21T04:25:08.662Z",
-  "count": 26,
+  "source_revision": "2605b4f",
+  "generated_at": "2026-09-22T04:20:53.645Z",
+  "count": 24,
   "ranking": [
     {
       "model_id": "glm-5-3-flash",
@@ -13,7 +13,7 @@
       ],
       "cheapest_offering": "deepinfra/glm-5.3-flash",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.14250000000000002,
+      "blended_cost_per_1m": 0.2375,
       "pareto_optimal": true
     },
     {
@@ -73,7 +73,7 @@
       ],
       "cheapest_offering": "deepinfra/qwen3.8-27b",
       "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.775,
+      "blended_cost_per_1m": 1.065,
       "pareto_optimal": false
     },
     {
@@ -98,30 +98,6 @@
       "cheapest_offering": "openrouter/claude-opus-4.7",
       "cheapest_provider": "openrouter",
       "blended_cost_per_1m": 10,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "muse-spark-1-1",
-      "quality_score": 86.63,
-      "benchmark_count": 1,
-      "categories": [
-        "text"
-      ],
-      "cheapest_offering": "openrouter/muse-spark-1.1",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 2,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "gemini-3-1-pro-preview",
-      "quality_score": 85.88,
-      "benchmark_count": 1,
-      "categories": [
-        "text"
-      ],
-      "cheapest_offering": "google/gemini-3.1-pro-preview",
-      "cheapest_provider": "google",
-      "blended_cost_per_1m": 4.5,
       "pareto_optimal": false
     },
     {
@@ -154,7 +130,7 @@
       "cheapest_offering": "hyperbolic/llama-3.3-70b-instruct",
       "cheapest_provider": "hyperbolic",
       "blended_cost_per_1m": 0.15500000000000003,
-      "pareto_optimal": false
+      "pareto_optimal": true
     },
     {
       "model_id": "llama-3-1-70b-instruct",
@@ -169,7 +145,7 @@
       ],
       "cheapest_offering": "openrouter/llama-3.1-70b-instruct",
       "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 0.72,
+      "blended_cost_per_1m": 0.4,
       "pareto_optimal": false
     },
     {
