@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "2605b4f",
-  "generated_at": "2026-09-22T04:20:53.645Z",
-  "count": 1346,
+  "source_revision": "9162fb3",
+  "generated_at": "2026-09-23T04:17:59.172Z",
+  "count": 1378,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -2630,6 +2630,192 @@
       ]
     },
     {
+      "model_id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "description": "Claude Opus 5.5 is a step-change improvement over Opus 5, with the biggest gains in agentic coding, long-running agentic tasks, and knowledge work. It is also a much better collaborator on long-running work. It reports back in plain language on what it did, what it found, and what it needs next.",
+      "release_date": "2026-09-21",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "claude-opus-5-5",
+        "claude-opus-5.5"
+      ],
+      "offering_ids": [
+        "anthropic/claude-opus-5-5",
+        "openrouter/claude-opus-5.5",
+        "requesty/claude-opus-5-5",
+        "vercel/claude-opus-5.5"
+      ]
+    },
+    {
+      "model_id": "claude-opus-5-5-batch",
+      "name": "anthropic/claude-opus-5.5:batch",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "claude-opus-5.5-batch"
+      ],
+      "offering_ids": [
+        "openrouter/claude-opus-5.5-batch"
+      ]
+    },
+    {
+      "model_id": "claude-opus-5-5-eu-central-1",
+      "name": "bedrock/claude-opus-5-5@eu-central-1",
+      "description": "Claude Opus 5.5 is a step-change improvement over Opus 5, with the biggest gains in agentic coding, long-running agentic tasks, and knowledge work. It is also a much better collaborator on long-running work. It reports back in plain language on what it did, what it found, and what it needs next.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "claude-opus-5-5-eu-central-1"
+      ],
+      "offering_ids": [
+        "requesty/claude-opus-5-5-eu-central-1"
+      ]
+    },
+    {
+      "model_id": "claude-opus-5-5-eu-north-1",
+      "name": "bedrock/claude-opus-5-5@eu-north-1",
+      "description": "Claude Opus 5.5 is a step-change improvement over Opus 5, with the biggest gains in agentic coding, long-running agentic tasks, and knowledge work. It is also a much better collaborator on long-running work. It reports back in plain language on what it did, what it found, and what it needs next.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "claude-opus-5-5-eu-north-1"
+      ],
+      "offering_ids": [
+        "requesty/claude-opus-5-5-eu-north-1"
+      ]
+    },
+    {
+      "model_id": "claude-opus-5-5-eu-west-1",
+      "name": "bedrock/claude-opus-5-5@eu-west-1",
+      "description": "Claude Opus 5.5 is a step-change improvement over Opus 5, with the biggest gains in agentic coding, long-running agentic tasks, and knowledge work. It is also a much better collaborator on long-running work. It reports back in plain language on what it did, what it found, and what it needs next.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "claude-opus-5-5-eu-west-1"
+      ],
+      "offering_ids": [
+        "requesty/claude-opus-5-5-eu-west-1"
+      ]
+    },
+    {
+      "model_id": "claude-opus-5-5-eu-west-3",
+      "name": "bedrock/claude-opus-5-5@eu-west-3",
+      "description": "Claude Opus 5.5 is a step-change improvement over Opus 5, with the biggest gains in agentic coding, long-running agentic tasks, and knowledge work. It is also a much better collaborator on long-running work. It reports back in plain language on what it did, what it found, and what it needs next.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "claude-opus-5-5-eu-west-3"
+      ],
+      "offering_ids": [
+        "requesty/claude-opus-5-5-eu-west-3"
+      ]
+    },
+    {
+      "model_id": "claude-opus-5-5-fast",
+      "name": "Claude Opus 5.5 (Fast)",
+      "description": "Claude Opus 5.5 is a step-change improvement over Opus 5 for agentic coding, long-running agentic tasks, knowledge work, communication, and vision. It is more token-efficient per completed task and reports progress, findings, and next steps in clear language.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "claude-opus-5.5-fast"
+      ],
+      "offering_ids": [
+        "vercel/claude-opus-5.5-fast"
+      ]
+    },
+    {
       "model_id": "claude-opus-5-ap-northeast-1",
       "name": "bedrock/claude-opus-5@ap-northeast-1",
       "description": "Opus 5 is the most capable model in Anthropic's Opus family, built for long running, asynchronous agents operating with full autonomy. It advances the coding and agentic strengths of Opus 4.8 with stronger planning, more reliable execution across extended multi step workflows, and better judgment on when to act and when to escalate. It excels in asynchronous agent pipelines spanning large codebases, multi stage debugging, and end to end project orchestration. Beyond coding, Opus 5 delivers frontier knowledge work, from drafting documents and building presentations to deep data analysis, and maintains coherence across very long outputs and extended sessions, making it the default choice for work that requires persistence, judgment, and follow through.",
@@ -4373,6 +4559,30 @@
       ]
     },
     {
+      "model_id": "command-a-plus",
+      "name": "cohere/command-a-plus",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 192000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "command-a-plus"
+      ],
+      "offering_ids": [
+        "openrouter/command-a-plus"
+      ]
+    },
+    {
       "model_id": "command-r-08-2024",
       "name": "cohere/command-r-08-2024",
       "modality": [
@@ -4875,7 +5085,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 32000,
+      "context_window": 64000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -5240,6 +5450,30 @@
       ]
     },
     {
+      "model_id": "deepseek-v4-1-flash-batch",
+      "name": "deepseek/deepseek-v4.1-flash:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "deepseek-v4.1-flash-batch"
+      ],
+      "offering_ids": [
+        "openrouter/deepseek-v4.1-flash-batch"
+      ]
+    },
+    {
       "model_id": "deepseek-v4-1-flash-beta",
       "name": "DeepSeek V4.1 Flash Beta",
       "description": "An experimental beta version of DeepSeek V4.1 Flash that expires on September 10th 2026.",
@@ -5321,7 +5555,7 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "novita/deepseek/deepseek-v4-flash-0424",
+      "name": "deepinfra/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
@@ -5329,7 +5563,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5413,7 +5647,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "deepseek-v4-flash-0731-batch"
       ],
@@ -5565,7 +5799,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "deepseek-v4-flash-vision-exp-batch"
       ],
@@ -5603,13 +5837,13 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424",
-      "name": "tensorx/deepseek-v4-pro-0424",
+      "name": "deepinfra/deepseek-v4-pro-0424",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": true,
+      "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
@@ -5695,7 +5929,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "deepseek-v4-pro-0813-batch"
       ],
@@ -8764,7 +8998,7 @@
     },
     {
       "model_id": "gemini-3-1-flash-lite-flex",
-      "name": "vertex/gemini-3.1-flash-lite:flex",
+      "name": "google/gemini-3.1-flash-lite:flex",
       "description": "Gemini 3.1 Flash Lite Preview is the most cost-efficient model in the Gemini family, optimized for high-volume, low-latency tasks. It delivers fast responses with solid quality for everyday use cases including summarization, classification, and simple reasoning.",
       "modality": [
         "text",
@@ -9040,7 +9274,7 @@
     },
     {
       "model_id": "gemini-3-1-pro-preview-flex",
-      "name": "vertex/gemini-3.1-pro-preview:flex",
+      "name": "google/gemini-3.1-pro-preview:flex",
       "description": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly capable, natively multimodal reasoning models. As of this model card’s date of publication, Gemini 3.1 Pro is Google’s most advanced model for complex tasks. Geminin 3.1 Pro can comprehend vast datasets and challenging problems from massively multimodal information sources, including text, audio, images, video, and entire code repositories.",
       "modality": [
         "text",
@@ -9149,7 +9383,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-flex",
-      "name": "vertex/gemini-3.5-flash:flex",
+      "name": "google/gemini-3.5-flash:flex",
       "description": "Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale.",
       "modality": [
         "text",
@@ -9257,7 +9491,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-lite-flex",
-      "name": "vertex/gemini-3.5-flash-lite:flex",
+      "name": "google/gemini-3.5-flash-lite:flex",
       "description": "Gemini 3.5 Flash-Lite is a high efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi agent workflows.",
       "modality": [
         "text",
@@ -9451,7 +9685,7 @@
     },
     {
       "model_id": "gemini-3-6-flash-flex",
-      "name": "vertex/gemini-3.6-flash:flex",
+      "name": "google/gemini-3.6-flash:flex",
       "description": "Gemini 3.6 Flash is the latest Flash model in the Gemini series, delivering frontier level intelligence at high speed and low cost. Built for the agentic era, it excels at sub agent deployment, multi step workflows, and long horizon tasks at scale.",
       "modality": [
         "text",
@@ -9801,7 +10035,7 @@
     },
     {
       "model_id": "gemini-3-flash-preview-flex",
-      "name": "vertex/gemini-3-flash-preview:flex",
+      "name": "google/gemini-3-flash-preview:flex",
       "description": "Gemini 3 Flash Preview is designed to deliver strong agentic capabilities (near-Pro level) at substantial speed and value. Making it perfect for engaging multi-turn chats, and collaborating back and forth with your coding agent without getting out of flow. Compared to 2.5 Flash it delivers significant improvements across the board.",
       "modality": [
         "text",
@@ -11165,7 +11399,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "glm-5.2-batch"
       ],
@@ -11253,13 +11487,14 @@
       "name": "zai-org/GLM-5.3",
       "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -17603,6 +17838,520 @@
       ]
     },
     {
+      "model_id": "gpt-6-luna",
+      "name": "gpt-6-luna",
+      "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna"
+      ],
+      "offering_ids": [
+        "openai/gpt-6-luna",
+        "openrouter/gpt-6-luna",
+        "requesty/gpt-6-luna",
+        "vercel/gpt-6-luna"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-batch",
+      "name": "openai/gpt-6-luna:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-luna-batch"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-fast",
+      "name": "GPT-6 Luna (Fast)",
+      "description": "GPT-6 Luna is OpenAI's efficient reasoning model for focused, high-volume tasks. It accepts text and images, generates text, and supports a 1,050,000-token context window with up to 128,000 output tokens. Configurable reasoning effort, structured outputs, prompt caching, and Responses API tools support cost-sensitive applications, coding tasks, and automated workflows.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-6-luna-fast"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-flex",
+      "name": "openai/gpt-6-luna:flex",
+      "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-flex"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-luna-flex"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-francecentral",
+      "name": "azure/gpt-6-luna@francecentral",
+      "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-francecentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-luna-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-germanywestcentral",
+      "name": "azure/gpt-6-luna@germanywestcentral",
+      "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-luna-germanywestcentral"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-pro",
+      "name": "openai/gpt-6-luna-pro",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-pro"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-luna-pro"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-pro-batch",
+      "name": "openai/gpt-6-luna-pro:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-pro-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-luna-pro-batch"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-swedencentral",
+      "name": "azure/gpt-6-luna@swedencentral",
+      "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-swedencentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-luna-swedencentral"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna-westeurope",
+      "name": "azure/gpt-6-luna@westeurope",
+      "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-luna-westeurope"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol",
+      "name": "gpt-6-sol",
+      "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol"
+      ],
+      "offering_ids": [
+        "openai/gpt-6-sol",
+        "openrouter/gpt-6-sol",
+        "requesty/gpt-6-sol",
+        "vercel/gpt-6-sol"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-batch",
+      "name": "openai/gpt-6-sol:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-sol-batch"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-fast",
+      "name": "GPT-6 Sol (Fast)",
+      "description": "GPT-6 Sol is OpenAI's reasoning model for complex coding and agentic workflows. It accepts text and images, generates text, and supports a 1,050,000-token context window with up to 128,000 output tokens. Configurable reasoning effort, structured outputs, prompt caching, and Responses API tools make it suited to software development and multi-step automation.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-fast"
+      ],
+      "offering_ids": [
+        "vercel/gpt-6-sol-fast"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-flex",
+      "name": "openai/gpt-6-sol:flex",
+      "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-flex"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-sol-flex"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-francecentral",
+      "name": "azure/gpt-6-sol@francecentral",
+      "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-francecentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-sol-francecentral"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-germanywestcentral",
+      "name": "azure/gpt-6-sol@germanywestcentral",
+      "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-germanywestcentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-sol-germanywestcentral"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-pro",
+      "name": "openai/gpt-6-sol-pro",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-pro"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-sol-pro"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-pro-batch",
+      "name": "openai/gpt-6-sol-pro:batch",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-pro-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gpt-6-sol-pro-batch"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-swedencentral",
+      "name": "azure/gpt-6-sol@swedencentral",
+      "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-swedencentral"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-sol-swedencentral"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-westeurope",
+      "name": "azure/gpt-6-sol@westeurope",
+      "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-westeurope"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-sol-westeurope"
+      ]
+    },
+    {
       "model_id": "gpt-astra-latest",
       "name": "~openai/gpt-astra-latest",
       "modality": [
@@ -18284,7 +19033,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "gpt-oss-20b-batch"
       ],
@@ -19332,14 +20081,15 @@
     {
       "model_id": "grok-4-7",
       "name": "x-ai/grok-4.7",
+      "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and managing long context, and it improves on its predecessor at professional knowledge work such as drafting documents and presentations.\n\nThe model was trained with a longer reinforcement learning run weighted toward problems that take many hours to complete, and natively understands the Grok Bot harness for conversational tasks. It ships with a new safeguard stack that pairs strong jailbreak resistance with low refusal rates for legitimate cybersecurity and biology work. SpaceXAI's reported benchmark results use the xhigh reasoning effort.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -19351,7 +20101,9 @@
         "grok-4.7"
       ],
       "offering_ids": [
-        "openrouter/grok-4.7"
+        "openrouter/grok-4.7",
+        "requesty/grok-4.7",
+        "vercel/grok-4.7"
       ]
     },
     {
@@ -20636,7 +21388,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "kat-coder-pro-v2"
       ],
@@ -21118,7 +21870,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "kimi-k3-batch"
       ],
@@ -23439,15 +24191,17 @@
     },
     {
       "model_id": "mimo-v2-6-flash",
-      "name": "xiaomi/mimo-v2.6-flash",
+      "name": "XiaomiMiMo/MiMo-V2.6-Flash",
+      "description": "Xiaomi MiMo V2.6 Flash. 309B total / 15B active MoE with hybrid attention, native omni-modal input (text, image, video, audio), text output. 1M token context window, 128K max output. OpenAI-compatible.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -23458,7 +24212,10 @@
         "mimo-v2.6-flash"
       ],
       "offering_ids": [
-        "openrouter/mimo-v2.6-flash"
+        "deepinfra/mimo-v2.6-flash",
+        "openrouter/mimo-v2.6-flash",
+        "requesty/mimo-v2.6-flash",
+        "vercel/mimo-v2.6-flash"
       ]
     },
     {
@@ -23476,7 +24233,7 @@
       "image_generation": false,
       "embedding_support": false,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "mimo-v2.6-flash-rl"
       ],
@@ -23486,15 +24243,17 @@
     },
     {
       "model_id": "mimo-v2-6-pro",
-      "name": "xiaomi/mimo-v2.6-pro",
+      "name": "XiaomiMiMo/MiMo-V2.6-Pro",
+      "description": "Xiaomi MiMo V2.6 Pro. Flagship 1T+ parameter MoE, native omni-modal input (text, image, video, audio), text output. 1M token context window, 128K max output. OpenAI-compatible.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -23505,20 +24264,25 @@
         "mimo-v2.6-pro"
       ],
       "offering_ids": [
-        "openrouter/mimo-v2.6-pro"
+        "deepinfra/mimo-v2.6-pro",
+        "openrouter/mimo-v2.6-pro",
+        "requesty/mimo-v2.6-pro",
+        "vercel/mimo-v2.6-pro"
       ]
     },
     {
       "model_id": "mimo-v2-6-pro-ultraspeed",
       "name": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "description": "Xiaomi MiMo V2.6 Pro UltraSpeed. Same 1T+ MiMo V2.6 Pro checkpoint served at roughly 10x output speed for latency sensitive workloads. Omni-modal input (text, image, video, audio), text output. 1M token context window, 128K max output. OpenAI-compatible.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -23529,7 +24293,9 @@
         "mimo-v2.6-pro-ultraspeed"
       ],
       "offering_ids": [
-        "openrouter/mimo-v2.6-pro-ultraspeed"
+        "openrouter/mimo-v2.6-pro-ultraspeed",
+        "requesty/mimo-v2.6-pro-ultraspeed",
+        "vercel/mimo-v2.6-pro-ultraspeed"
       ]
     },
     {
@@ -25678,7 +26444,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "muse-glimmer-30b-batch"
       ],
@@ -26363,7 +27129,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -26596,6 +27362,30 @@
       ]
     },
     {
+      "model_id": "nex-n2-5-mini",
+      "name": "nex-agi/nex-n2.5-mini",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "nex-n2.5-mini"
+      ],
+      "offering_ids": [
+        "openrouter/nex-n2.5-mini"
+      ]
+    },
+    {
       "model_id": "nex-n2-5-mini-free",
       "name": "nex-agi/nex-n2.5-mini:free",
       "modality": [
@@ -26617,6 +27407,30 @@
       ],
       "offering_ids": [
         "openrouter/nex-n2.5-mini-free"
+      ]
+    },
+    {
+      "model_id": "nex-n2-5-pro",
+      "name": "nex-agi/nex-n2.5-pro",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "nex-n2.5-pro"
+      ],
+      "offering_ids": [
+        "openrouter/nex-n2.5-pro"
       ]
     },
     {
@@ -29423,14 +30237,13 @@
       "name": "qwen/qwen3-30b-a3b-instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -29691,7 +30504,7 @@
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -30137,7 +30950,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -30151,21 +30964,20 @@
     },
     {
       "model_id": "qwen3-8",
-      "name": "tensorx/qwen3.8",
+      "name": "deepinfra/qwen3.8",
       "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of Qwen3.8 Max, with 95 billion active parameters out of 2.4 trillion total. It is suited for coding, research, complex reasoning, and agentic workflows.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 262144,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -30435,7 +31247,7 @@
     },
     {
       "model_id": "qwen3-8-omni-flash",
-      "name": "Qwen 3.8 Omni Flash",
+      "name": "qwen/qwen3.8-omni-flash",
       "description": "Qwen3.8-Omni-Flash is Alibaba’s native multimodal model for understanding text, images, audio, and video and generating text. Built on Qwen3.8-Flash-Next, it supports a 1M-token context window, reasoning, and tool calling for coding, knowledge work, and multimedia analysis.",
       "modality": [
         "text",
@@ -30456,6 +31268,7 @@
         "qwen3.8-omni-flash"
       ],
       "offering_ids": [
+        "openrouter/qwen3.8-omni-flash",
         "vercel/qwen3.8-omni-flash"
       ]
     },
@@ -32954,6 +33767,32 @@
         "openrouter/step-3.7-flash",
         "requesty/step-3.7-flash",
         "vercel/step-3.7-flash"
+      ]
+    },
+    {
+      "model_id": "step-5-preview",
+      "name": "Step 5 Preview",
+      "description": "Step 5 Preview is StepFun’s flagship AI model for agentic coding, professional knowledge work, and financial analysis. Built on a sparse Mixture-of-Experts architecture with 600B total parameters and 27B active per token, it combines a 1M-token context window with vision input. From building interactive applications and debugging code to conducting research and producing analytical reports, it supports complex workflows that require sustained reasoning, tool use, and iterative refinement.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "step-5-preview"
+      ],
+      "offering_ids": [
+        "vercel/step-5-preview"
       ]
     },
     {

@@ -1,0 +1,21 @@
+{
+  "model_id": "anthropic/claude-opus-5-5",
+  "provider_id": "anthropic",
+  "name": "Claude Opus 5.5",
+  "release_date": "2026-09-21",
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-23T04:14:41.958Z"
+}

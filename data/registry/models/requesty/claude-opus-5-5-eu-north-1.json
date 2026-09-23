@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/claude-opus-5-5-eu-north-1",
+  "provider_id": "requesty",
+  "name": "bedrock/claude-opus-5-5@eu-north-1",
+  "description": "Claude Opus 5.5 is a step-change improvement over Opus 5, with the biggest gains in agentic coding, long-running agentic tasks, and knowledge work. It is also a much better collaborator on long-running work. It reports back in plain language on what it did, what it found, and what it needs next.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-23T04:14:53.347Z",
+  "is_free": false,
+  "tier": "premium",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}
