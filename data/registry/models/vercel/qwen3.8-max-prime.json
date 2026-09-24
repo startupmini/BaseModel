@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/qwen3.8-max-prime",
+  "provider_id": "vercel",
+  "name": "Qwen 3.8 Max Prime",
+  "description": "Qwen 3.8 Max Prime is the high-speed edition of Qwen 3.8 Max, retaining its 2.4-trillion-parameter MoE architecture and full capabilities while delivering 1.5–2× higher output throughput. Built for coding, office automation, and long-running agent workflows, it supports autonomous multi-day development, professional knowledge work, and visual understanding with a 1M-token context window.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-24T04:10:26.162Z",
+  "is_free": false,
+  "tier": "premium",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model_id": "google/gemini-3.8-flash-lite-tts",
+  "provider_id": "google",
+  "name": "Gemini 3.8 Flash Lite TTS",
+  "description": "Gemini 3.8 Flash Lite TTS",
+  "context_window": 8192,
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-24T04:10:13.006Z"
+}

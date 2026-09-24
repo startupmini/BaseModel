@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/recraft-v4.1-flash",
+  "provider_id": "vercel",
+  "name": "Recraft V4.1 Flash",
+  "description": "Recraft V4.1 Flash is a fast, low-cost model with quality close to Recraft V4.1, built for high-volume generation and rapid iteration. Strong use cases include photography, portraits, atmosphere, complex scenes, mixed media, and logo concepts.",
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": true,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-24T04:10:13.167Z"
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "9162fb3",
-  "generated_at": "2026-09-23T04:17:59.172Z",
-  "count": 1378,
+  "source_revision": "0714563",
+  "generated_at": "2026-09-24T04:12:49.947Z",
+  "count": 1384,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -2655,6 +2655,7 @@
       ],
       "offering_ids": [
         "anthropic/claude-opus-5-5",
+        "deepinfra/claude-opus-5-5",
         "openrouter/claude-opus-5.5",
         "requesty/claude-opus-5-5",
         "vercel/claude-opus-5.5"
@@ -5298,7 +5299,8 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -5306,7 +5308,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": false,
+      "image_generation": true,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5555,13 +5557,13 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "deepinfra/deepseek-v4-flash-0424",
+      "name": "parasail/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": true,
+      "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
@@ -9903,6 +9905,64 @@
       ]
     },
     {
+      "model_id": "gemini-3-8-flash-lite-tts",
+      "name": "Gemini 3.8 Flash Lite TTS",
+      "description": "Gemini 3.8 Flash Lite TTS",
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 8192,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-3.8-flash-lite-tts"
+      ],
+      "offering_ids": [
+        "google/gemini-3.8-flash-lite-tts",
+        "vercel/gemini-3.8-flash-lite-tts"
+      ]
+    },
+    {
+      "model_id": "gemini-3-8-flash-tts",
+      "name": "Gemini 3.8 Flash TTS",
+      "description": "Gemini 3.8 Flash TTS",
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 8192,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-3.8-flash-tts"
+      ],
+      "offering_ids": [
+        "google/gemini-3.8-flash-tts",
+        "vercel/gemini-3.8-flash-tts"
+      ]
+    },
+    {
       "model_id": "gemini-3-8-live",
       "name": "Gemini 3.8 Live",
       "description": "Gemini 3.8 Live is Google's model for real-time audio conversations. It supports spoken interactions for developers building voice assistants, conversational experiences, and applications that respond to users through audio.",
@@ -11487,14 +11547,13 @@
       "name": "zai-org/GLM-5.3",
       "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -17891,6 +17950,32 @@
       ]
     },
     {
+      "model_id": "gpt-6-luna-eastus2",
+      "name": "azure/gpt-6-luna@eastus2",
+      "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic tasks, and at higher reasoning effort it can take on complex software engineering and computer-use tasks that previously called for a Sol-tier model.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-luna-eastus2"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-luna-eastus2"
+      ]
+    },
+    {
       "model_id": "gpt-6-luna-fast",
       "name": "GPT-6 Luna (Fast)",
       "description": "GPT-6 Luna is OpenAI's efficient reasoning model for focused, high-volume tasks. It accepts text and images, generates text, and supports a 1,050,000-token context window with up to 128,000 output tokens. Configurable reasoning effort, structured outputs, prompt caching, and Responses API tools support cost-sensitive applications, coding tasks, and automated workflows.",
@@ -18145,6 +18230,32 @@
       ],
       "offering_ids": [
         "openrouter/gpt-6-sol-batch"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol-eastus2",
+      "name": "azure/gpt-6-sol@eastus2",
+      "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional work, agentic coding, business workflow automation, and computer use, and is particularly strong at long-horizon software engineering tasks in real codebases. It approaches Astra-level factual reliability at a much lower cost.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1050000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gpt-6-sol-eastus2"
+      ],
+      "offering_ids": [
+        "requesty/gpt-6-sol-eastus2"
       ]
     },
     {
@@ -24760,7 +24871,7 @@
     },
     {
       "model_id": "minimax-m2-7-highspeed",
-      "name": "novita/minimax/minimax-m2.7-highspeed",
+      "name": "minimaxi/minimax-m2.7-highspeed",
       "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
       "modality": [
         "text"
@@ -30237,13 +30348,14 @@
       "name": "qwen/qwen3-30b-a3b-instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": true,
+      "reasoning_support": false,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -31185,7 +31297,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -31244,6 +31356,32 @@
           "mirror"
         ]
       }
+    },
+    {
+      "model_id": "qwen3-8-max-prime",
+      "name": "Qwen 3.8 Max Prime",
+      "description": "Qwen 3.8 Max Prime is the high-speed edition of Qwen 3.8 Max, retaining its 2.4-trillion-parameter MoE architecture and full capabilities while delivering 1.5–2× higher output throughput. Built for coding, office automation, and long-running agent workflows, it supports autonomous multi-day development, professional knowledge work, and visual understanding with a 1M-token context window.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "qwen3.8-max-prime"
+      ],
+      "offering_ids": [
+        "vercel/qwen3.8-max-prime"
+      ]
     },
     {
       "model_id": "qwen3-8-omni-flash",
@@ -32246,6 +32384,31 @@
       ],
       "offering_ids": [
         "vercel/recraft-v4.1"
+      ]
+    },
+    {
+      "model_id": "recraft-v4-1-flash",
+      "name": "Recraft V4.1 Flash",
+      "description": "Recraft V4.1 Flash is a fast, low-cost model with quality close to Recraft V4.1, built for high-volume generation and rapid iteration. Strong use cases include photography, portraits, atmosphere, complex scenes, mixed media, and logo concepts.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "recraft-v4.1-flash"
+      ],
+      "offering_ids": [
+        "vercel/recraft-v4.1-flash"
       ]
     },
     {
@@ -34561,7 +34724,7 @@
       "embedding_support": false,
       "context_window": 480,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "veo-3.1-lite-generate-preview"
       ],
