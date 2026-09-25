@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "0714563",
-  "generated_at": "2026-09-24T04:12:49.947Z",
-  "count": 1384,
+  "source_revision": "7e671f6",
+  "generated_at": "2026-09-25T04:26:17.727Z",
+  "count": 1390,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -74,6 +74,54 @@
       ],
       "offering_ids": [
         "openrouter/aion-3.0-mini"
+      ]
+    },
+    {
+      "model_id": "aion-3-5",
+      "name": "aion-labs/aion-3.5",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "aion-3.5"
+      ],
+      "offering_ids": [
+        "openrouter/aion-3.5"
+      ]
+    },
+    {
+      "model_id": "aion-3-5-mini",
+      "name": "aion-labs/aion-3.5-mini",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "aion-3.5-mini"
+      ],
+      "offering_ids": [
+        "openrouter/aion-3.5-mini"
       ]
     },
     {
@@ -5299,8 +5347,7 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "description": "DeepSeek-V3.2 is a model that harmonizes high computational efficiency with superior reasoning and agent performance. DeepSeek's approach is built upon three key technical breakthroughs: DeepSeek Sparse Attention (DSA), scalable reinforcement learning framework, and large scale agentic task synthesis pipeline.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
@@ -5308,7 +5355,7 @@
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
-      "image_generation": true,
+      "image_generation": false,
       "embedding_support": false,
       "context_window": 163840,
       "capability_ids": [],
@@ -5557,13 +5604,13 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "parasail/deepseek-v4-flash-0424",
+      "name": "deepinfra/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
@@ -5839,20 +5886,20 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424",
-      "name": "deepinfra/deepseek-v4-pro-0424",
+      "name": "nebius/deepseek-v4-pro-0424",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 164000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -6261,6 +6308,33 @@
       ],
       "offering_ids": [
         "deepinfra/embeddinggemma-300m"
+      ]
+    },
+    {
+      "model_id": "ember-1",
+      "name": "fireworks/ember-1",
+      "description": "Ember-1 is Fireworks’ research-preview reasoning model built on Kimi K3 for coding and agentic workflows. It supports image input, function calling, and a 1M-token context window. Fireworks reports approximately 40% fewer generated tokens while maintaining comparable quality across its evaluations, helping reduce the cost of workloads with extensive reasoning.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "ember-1"
+      ],
+      "offering_ids": [
+        "openrouter/ember-1",
+        "vercel/ember-1"
       ]
     },
     {
@@ -11056,7 +11130,7 @@
       "image_generation": false,
       "embedding_support": false,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gemma-4-e4b-it"
       ],
@@ -11707,6 +11781,30 @@
       "offering_ids": [
         "openrouter/glm-5.3-flashx",
         "vercel/glm-5.3-flashx"
+      ]
+    },
+    {
+      "model_id": "glm-5-3-prime",
+      "name": "z-ai/glm-5.3-prime",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "glm-5.3-prime"
+      ],
+      "offering_ids": [
+        "openrouter/glm-5.3-prime"
       ]
     },
     {
@@ -19045,7 +19143,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "gpt-oss-120b-batch"
       ],
@@ -22949,7 +23047,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 256000,
+      "context_window": 262144,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -22979,7 +23077,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "ling-3.0-flash-vl-free"
       ],
@@ -23363,7 +23461,7 @@
       "open_weight": false,
       "reasoning_support": false,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -25461,7 +25559,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "mistral-large-2512"
       ],
@@ -27240,7 +27338,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -27488,7 +27586,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "nex-n2.5-mini"
       ],
@@ -27536,7 +27634,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "nex-n2.5-pro"
       ],
@@ -30222,7 +30320,7 @@
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
       "vision_support": false,
@@ -30348,14 +30446,13 @@
       "name": "qwen/qwen3-30b-a3b-instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -30402,9 +30499,9 @@
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
-      "structured_output": false,
+      "structured_output": true,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -31062,7 +31159,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -31297,7 +31394,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -31359,7 +31456,7 @@
     },
     {
       "model_id": "qwen3-8-max-prime",
-      "name": "Qwen 3.8 Max Prime",
+      "name": "qwen/qwen3.8-max-prime",
       "description": "Qwen 3.8 Max Prime is the high-speed edition of Qwen 3.8 Max, retaining its 2.4-trillion-parameter MoE architecture and full capabilities while delivering 1.5–2× higher output throughput. Built for coding, office automation, and long-running agent workflows, it supports autonomous multi-day development, professional knowledge work, and visual understanding with a 1M-token context window.",
       "modality": [
         "text",
@@ -31380,6 +31477,7 @@
         "qwen3.8-max-prime"
       ],
       "offering_ids": [
+        "openrouter/qwen3.8-max-prime",
         "vercel/qwen3.8-max-prime"
       ]
     },
@@ -33651,6 +33749,30 @@
       ]
     },
     {
+      "model_id": "solar-mini4",
+      "name": "upstage/solar-mini4",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 524288,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "solar-mini4"
+      ],
+      "offering_ids": [
+        "openrouter/solar-mini4"
+      ]
+    },
+    {
       "model_id": "solar-pro-3",
       "name": "upstage/solar-pro-3",
       "modality": [
@@ -33874,6 +33996,30 @@
       ],
       "offering_ids": [
         "openai/sora-2-pro"
+      ]
+    },
+    {
+      "model_id": "space-bunny-alpha",
+      "name": "stealth/space-bunny-alpha",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "space-bunny-alpha"
+      ],
+      "offering_ids": [
+        "openrouter/space-bunny-alpha"
       ]
     },
     {

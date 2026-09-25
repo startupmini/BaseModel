@@ -17,11 +17,11 @@
   "image_generation": false,
   "embedding_support": false,
   "is_free": false,
-  "tier": "premium",
+  "tier": "balanced",
   "limits": {
     "max_input_tokens": 1048576
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-24T04:10:26.127Z"
+  "updated_at": "2026-09-25T04:23:21.478Z"
 }
