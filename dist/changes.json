@@ -1,71 +1,42 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "7e671f6",
-  "generated_at": "2026-09-25T04:26:17.727Z",
+  "source_revision": "dcff8b4",
+  "generated_at": "2026-09-26T04:30:46.313Z",
   "summary": {
-    "added": 8,
+    "added": 4,
     "removed": 0,
-    "status_changed": 10
+    "status_changed": 5
   },
   "added": [
-    "openrouter/aion-3.5-mini",
-    "openrouter/aion-3.5",
-    "openrouter/ember-1",
-    "openrouter/glm-5.3-prime",
-    "openrouter/qwen3.8-max-prime",
-    "openrouter/solar-mini4",
-    "openrouter/space-bunny-alpha",
-    "vercel/ember-1"
+    "deepinfra/hy4-preview",
+    "openrouter/jev-router",
+    "openrouter/perceptron-mk1.5",
+    "vercel/pixel-canary"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "deepinfra/gemma-4-e4b-it",
+      "model_id": "openrouter/claude-3-haiku",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/glm-5.1",
+      "model_id": "openrouter/glm-5.2-free",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/llama-4-maverick-17b-128e-instruct-fp8",
+      "model_id": "openrouter/nex-n2.5-mini-free",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/qwen3.5-122b-a10b",
+      "model_id": "openrouter/nex-n2.5-pro-free",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/step-3.7-flash",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-oss-120b-batch",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "openrouter/ling-3.0-flash-vl-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/mistral-large-2512",
-      "from": "discontinued",
-      "to": "active"
-    },
-    {
-      "model_id": "openrouter/nex-n2.5-mini",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/nex-n2.5-pro",
+      "model_id": "vercel/ling-3.0-flash-fin-free",
       "from": "active",
       "to": "discontinued"
     }

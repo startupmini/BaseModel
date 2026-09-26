@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "7e671f6",
-  "generated_at": "2026-09-25T04:26:17.727Z",
-  "count": 148,
+  "source_revision": "dcff8b4",
+  "generated_at": "2026-09-26T04:30:46.313Z",
+  "count": 149,
   "benchmarks": [
     {
       "benchmark_id": "mirror-text-claude-opus-4-6",
@@ -10,7 +10,7 @@
       "benchmark_name": "text",
       "score": 87.125,
       "score_raw": 1497,
-      "evaluation_date": "2026-09-21",
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
         "text"
@@ -23,7 +23,7 @@
       "benchmark_name": "text",
       "score": 86.75,
       "score_raw": 1494,
-      "evaluation_date": "2026-09-21",
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
         "text"
@@ -31,17 +31,30 @@
       "rank": 7
     },
     {
-      "benchmark_id": "mirror-code-qwen3-8-max-0902",
-      "model_id": "qwen3.8-max-0902",
-      "benchmark_name": "code",
-      "score": 100,
-      "score_raw": 1681,
-      "evaluation_date": "2026-09-21",
+      "benchmark_id": "mirror-text-muse-spark-1-1",
+      "model_id": "muse-spark-1.1",
+      "benchmark_name": "text",
+      "score": 86.625,
+      "score_raw": 1493,
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
-        "code"
+        "text"
       ],
-      "rank": 4
+      "rank": 11
+    },
+    {
+      "benchmark_id": "mirror-text-gemini-3-1-pro-preview",
+      "model_id": "gemini-3.1-pro-preview",
+      "benchmark_name": "text",
+      "score": 85.875,
+      "score_raw": 1487,
+      "evaluation_date": "2026-09-25",
+      "source": "mirror",
+      "category": [
+        "text"
+      ],
+      "rank": 15
     },
     {
       "benchmark_id": "mirror-code-qwen3-8-max",
@@ -49,7 +62,7 @@
       "benchmark_name": "code",
       "score": 100,
       "score_raw": 1671,
-      "evaluation_date": "2026-09-21",
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
         "code"
@@ -57,25 +70,25 @@
       "rank": 6
     },
     {
-      "benchmark_id": "mirror-code-qwen3-8-flash-next",
-      "model_id": "qwen3.8-flash-next",
+      "benchmark_id": "mirror-code-qwen3-8-max-0902",
+      "model_id": "qwen3.8-max-0902",
       "benchmark_name": "code",
       "score": 100,
-      "score_raw": 1635,
-      "evaluation_date": "2026-09-21",
+      "score_raw": 1661,
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 9
+      "rank": 8
     },
     {
-      "benchmark_id": "mirror-code-hy4-preview",
-      "model_id": "hy4-preview",
+      "benchmark_id": "mirror-code-qwen3-8-flash-next",
+      "model_id": "qwen3.8-flash-next",
       "benchmark_name": "code",
       "score": 100,
-      "score_raw": 1624,
-      "evaluation_date": "2026-09-21",
+      "score_raw": 1636,
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
         "code"
@@ -83,30 +96,30 @@
       "rank": 11
     },
     {
-      "benchmark_id": "mirror-code-glm-5-3-flash",
-      "model_id": "glm-5.3-flash",
+      "benchmark_id": "mirror-code-hy4-preview",
+      "model_id": "hy4-preview",
       "benchmark_name": "code",
       "score": 100,
-      "score_raw": 1607,
-      "evaluation_date": "2026-09-21",
+      "score_raw": 1631,
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 17
+      "rank": 13
     },
     {
-      "benchmark_id": "mirror-code-qwen3-8-27b",
-      "model_id": "qwen3.8-27b",
+      "benchmark_id": "mirror-code-mimo-v2-6-pro",
+      "model_id": "mimo-v2.6-pro",
       "benchmark_name": "code",
-      "score": 99.125,
-      "score_raw": 1593,
-      "evaluation_date": "2026-09-21",
+      "score": 100,
+      "score_raw": 1619,
+      "evaluation_date": "2026-09-25",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "benchmark_id": "openllm-average-nousresearch-hermes-3-llama-3-1-70b",

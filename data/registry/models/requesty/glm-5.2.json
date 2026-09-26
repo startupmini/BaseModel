@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/glm-5.2",
   "provider_id": "requesty",
-  "name": "sail/glm-5.2",
+  "name": "sference/glm-5.2",
   "description": "GLM 5.2 is the latest Z.ai flagship model for long horizon coding, reasoning, and agentic workflows. It improves on GLM 5.1 with a 1M token context window, stronger engineering task performance, multiple thinking effort levels, and architectural changes that reduce long context inference cost while improving speculative decoding. Released under the MIT license, it is designed for sustained work over large repositories, complex tool use, and multi step technical tasks.",
   "context_window": 1048576,
   "modality": [
@@ -22,5 +22,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-25T04:23:21.350Z"
+  "updated_at": "2026-09-26T04:27:56.154Z"
 }
