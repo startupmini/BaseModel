@@ -1,16 +1,16 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "dcff8b4",
-  "generated_at": "2026-09-26T04:30:46.313Z",
-  "count": 149,
+  "source_revision": "ba14671",
+  "generated_at": "2026-09-27T04:48:37.848Z",
+  "count": 152,
   "benchmarks": [
     {
       "benchmark_id": "mirror-text-claude-opus-4-6",
       "model_id": "claude-opus-4-6",
       "benchmark_name": "text",
-      "score": 87.125,
-      "score_raw": 1497,
-      "evaluation_date": "2026-09-25",
+      "score": 87.25,
+      "score_raw": 1498,
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "text"
@@ -21,27 +21,27 @@
       "benchmark_id": "mirror-text-claude-opus-4-7",
       "model_id": "claude-opus-4-7",
       "benchmark_name": "text",
-      "score": 86.75,
-      "score_raw": 1494,
-      "evaluation_date": "2026-09-25",
+      "score": 86.875,
+      "score_raw": 1495,
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "text"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "benchmark_id": "mirror-text-muse-spark-1-1",
       "model_id": "muse-spark-1.1",
       "benchmark_name": "text",
-      "score": 86.625,
-      "score_raw": 1493,
-      "evaluation_date": "2026-09-25",
+      "score": 86.375,
+      "score_raw": 1491,
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "text"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "benchmark_id": "mirror-text-gemini-3-1-pro-preview",
@@ -49,20 +49,59 @@
       "benchmark_name": "text",
       "score": 85.875,
       "score_raw": 1487,
-      "evaluation_date": "2026-09-25",
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "text"
       ],
-      "rank": 15
+      "rank": 17
+    },
+    {
+      "benchmark_id": "mirror-text-mimo-v2-6-pro",
+      "model_id": "mimo-v2.6-pro",
+      "benchmark_name": "text",
+      "score": 85,
+      "score_raw": 1480,
+      "evaluation_date": "2026-09-26",
+      "source": "mirror",
+      "category": [
+        "text"
+      ],
+      "rank": 23
+    },
+    {
+      "benchmark_id": "mirror-text-qwen3-8-max",
+      "model_id": "qwen3.8-max",
+      "benchmark_name": "text",
+      "score": 84.875,
+      "score_raw": 1479,
+      "evaluation_date": "2026-09-26",
+      "source": "mirror",
+      "category": [
+        "text"
+      ],
+      "rank": 25
+    },
+    {
+      "benchmark_id": "mirror-text-gpt-5-5",
+      "model_id": "gpt-5.5",
+      "benchmark_name": "text",
+      "score": 84.625,
+      "score_raw": 1477,
+      "evaluation_date": "2026-09-26",
+      "source": "mirror",
+      "category": [
+        "text"
+      ],
+      "rank": 28
     },
     {
       "benchmark_id": "mirror-code-qwen3-8-max",
       "model_id": "qwen3.8-max",
       "benchmark_name": "code",
       "score": 100,
-      "score_raw": 1671,
-      "evaluation_date": "2026-09-25",
+      "score_raw": 1672,
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "code"
@@ -74,8 +113,8 @@
       "model_id": "qwen3.8-max-0902",
       "benchmark_name": "code",
       "score": 100,
-      "score_raw": 1661,
-      "evaluation_date": "2026-09-25",
+      "score_raw": 1662,
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "code"
@@ -88,7 +127,7 @@
       "benchmark_name": "code",
       "score": 100,
       "score_raw": 1636,
-      "evaluation_date": "2026-09-25",
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "code"
@@ -101,20 +140,20 @@
       "benchmark_name": "code",
       "score": 100,
       "score_raw": 1631,
-      "evaluation_date": "2026-09-25",
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "code"
       ],
-      "rank": 13
+      "rank": 12
     },
     {
       "benchmark_id": "mirror-code-mimo-v2-6-pro",
       "model_id": "mimo-v2.6-pro",
       "benchmark_name": "code",
       "score": 100,
-      "score_raw": 1619,
-      "evaluation_date": "2026-09-25",
+      "score_raw": 1618,
+      "evaluation_date": "2026-09-26",
       "source": "mirror",
       "category": [
         "code"

@@ -1,44 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "dcff8b4",
-  "generated_at": "2026-09-26T04:30:46.313Z",
+  "source_revision": "ba14671",
+  "generated_at": "2026-09-27T04:48:37.848Z",
   "summary": {
-    "added": 4,
+    "added": 0,
     "removed": 0,
-    "status_changed": 5
+    "status_changed": 0
   },
-  "added": [
-    "deepinfra/hy4-preview",
-    "openrouter/jev-router",
-    "openrouter/perceptron-mk1.5",
-    "vercel/pixel-canary"
-  ],
+  "added": [],
   "removed": [],
-  "status_changed": [
-    {
-      "model_id": "openrouter/claude-3-haiku",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/glm-5.2-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/nex-n2.5-mini-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/nex-n2.5-pro-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/ling-3.0-flash-fin-free",
-      "from": "active",
-      "to": "discontinued"
-    }
-  ]
+  "status_changed": []
 }
