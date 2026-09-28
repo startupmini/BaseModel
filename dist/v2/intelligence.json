@@ -1,9 +1,21 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ba14671",
-  "generated_at": "2026-09-27T04:48:37.848Z",
-  "count": 26,
+  "source_revision": "82842b9",
+  "generated_at": "2026-09-28T04:51:05.661Z",
+  "count": 28,
   "ranking": [
+    {
+      "model_id": "glm-5-3-flash",
+      "quality_score": 100,
+      "benchmark_count": 1,
+      "categories": [
+        "code"
+      ],
+      "cheapest_offering": "deepinfra/glm-5.3-flash",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 0.2375,
+      "pareto_optimal": true
+    },
     {
       "model_id": "qwen3-8-flash-next",
       "quality_score": 100,
@@ -14,7 +26,7 @@
       "cheapest_offering": "requesty/qwen3.8-flash-next",
       "cheapest_provider": "requesty",
       "blended_cost_per_1m": 0.275,
-      "pareto_optimal": true
+      "pareto_optimal": false
     },
     {
       "model_id": "hy4-preview",
@@ -38,6 +50,18 @@
       "cheapest_offering": "openrouter/qwen3.8-max-0902",
       "cheapest_provider": "openrouter",
       "blended_cost_per_1m": 3,
+      "pareto_optimal": false
+    },
+    {
+      "model_id": "qwen3-8-27b",
+      "quality_score": 98.88,
+      "benchmark_count": 1,
+      "categories": [
+        "code"
+      ],
+      "cheapest_offering": "deepinfra/qwen3.8-27b",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 1.065,
       "pareto_optimal": false
     },
     {
@@ -140,7 +164,7 @@
       "cheapest_offering": "requesty/qwen2.5-72b-instruct",
       "cheapest_provider": "requesty",
       "blended_cost_per_1m": 0.2725,
-      "pareto_optimal": true
+      "pareto_optimal": false
     },
     {
       "model_id": "llama-3-3-70b-instruct",
@@ -265,9 +289,9 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.345,
+      "cheapest_offering": "openrouter/deepseek-r1-distill-llama-70b",
+      "cheapest_provider": "openrouter",
+      "blended_cost_per_1m": 0.8,
       "pareto_optimal": false
     },
     {

@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/longcat-2.5-preview",
+  "provider_id": "vercel",
+  "name": "LongCat 2.5 Preview",
+  "description": "LongCat-2.5-Preview is Meituan’s multimodal reasoning model for coding and agentic workflows, with a 1M-token context window and support for text and image inputs. It combines image understanding, visual question answering, and content summarization with code generation, code understanding, and automated programming, and supports tool calling and optional thinking for complex tasks.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-28T04:47:49.877Z"
+}
