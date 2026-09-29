@@ -1,15 +1,49 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "82842b9",
-  "generated_at": "2026-09-28T04:51:05.661Z",
+  "source_revision": "9fe6ea3",
+  "generated_at": "2026-09-29T05:16:15.755Z",
   "summary": {
-    "added": 1,
+    "added": 4,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 6
   },
   "added": [
-    "vercel/longcat-2.5-preview"
+    "anthropic/claude-sonnet-5-5",
+    "openrouter/claude-sonnet-5.5-batch",
+    "openrouter/claude-sonnet-5.5",
+    "vercel/claude-sonnet-5.5"
   ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "openrouter/deepseek-r1-distill-llama-70b",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/ling-3.0-flash-fin-free",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/nex-n2.5-mini",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "openrouter/nex-n2.5-pro",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "vercel/sonar-pro",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/sonar-reasoning-pro",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }
