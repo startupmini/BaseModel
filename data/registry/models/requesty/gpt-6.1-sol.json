@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/gpt-6.1-sol",
+  "provider_id": "requesty",
+  "name": "openai/gpt-6.1-sol",
+  "description": "GPT-6.1 Sol delivers near-Astra performance at a lower cost for complex coding, computer use, and professional work. It succeeds GPT-6 Sol with the same 1M context and 128K output, cheaper cached input, and reasoning effort from low to max.",
+  "context_window": 1050000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-30T05:01:15.493Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1050000
+  }
+}

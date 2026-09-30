@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/ling-3.1-flash",
+  "provider_id": "vercel",
+  "name": "Ling 3.1 Flash",
+  "description": "Ling 3.1 Flash is InclusionAI's hybrid reasoning language model for coding, multi-step analysis, and tool-using agents. It has 560B total parameters with 25B activated parameters and supports long-context text workflows.",
+  "context_window": 262144,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-30T05:01:05.061Z"
+}

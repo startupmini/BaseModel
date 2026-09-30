@@ -2,7 +2,7 @@
   "model_id": "openrouter/glm-5.3",
   "provider_id": "openrouter",
   "name": "z-ai/glm-5.3",
-  "context_window": 1310720,
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
@@ -17,9 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1310720
+    "max_input_tokens": 1048576
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-29T05:13:22.312Z"
+  "updated_at": "2026-09-30T05:01:15.139Z"
 }

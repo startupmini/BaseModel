@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/kimi-k2.7-code-highspeed",
+  "provider_id": "requesty",
+  "name": "tencent/kimi-k2.7-code-highspeed",
+  "description": "Kimi K2.7 Code HighSpeed is the higher-throughput variant of Kimi K2.7 Code, Moonshot's coding model with a 256K context window that follows instructions reliably across long agentic sessions.",
+  "context_window": 262144,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-30T05:01:15.513Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 262144
+  }
+}

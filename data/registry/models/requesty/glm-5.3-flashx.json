@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/glm-5.3-flashx",
+  "provider_id": "requesty",
+  "name": "tencent/glm-5.3-flashx",
+  "description": "GLM-5.3-FlashX is the enhanced, high-speed (~200 tokens/s) variant of GLM-5.3-Flash with a 1M token context window and image, video and file understanding.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-09-30T05:01:15.420Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

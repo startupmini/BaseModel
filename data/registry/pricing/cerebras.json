@@ -5,9 +5,9 @@
     "pricing_type": "input-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.15,
+    "value": 0.037,
     "source": "openrouter",
-    "updated_at": "2026-09-29T05:13:22.950Z"
+    "updated_at": "2026-09-30T05:01:15.710Z"
   },
   {
     "pricing_id": "cerebras-gpt-oss-120b-output",
@@ -15,8 +15,8 @@
     "pricing_type": "output-token",
     "currency": "USD",
     "unit": "1M tokens",
-    "value": 0.6,
+    "value": 0.17,
     "source": "openrouter",
-    "updated_at": "2026-09-29T05:13:22.950Z"
+    "updated_at": "2026-09-30T05:01:15.710Z"
   }
 ]

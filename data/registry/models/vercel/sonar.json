@@ -9,7 +9,7 @@
     "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": false,
   "structured_output": false,
   "vision_support": true,
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-29T05:13:22.920Z"
+  "updated_at": "2026-09-30T05:01:15.666Z"
 }
