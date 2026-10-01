@@ -1,32 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6c5f2cd",
-  "generated_at": "2026-10-01T05:17:42.271Z",
+  "source_revision": "2a756f6b0",
+  "generated_at": "2026-10-01T11:32:48.602Z",
   "summary": {
-    "added": 2,
+    "added": 0,
     "removed": 0,
-    "status_changed": 3
+    "status_changed": 0
   },
-  "added": [
-    "deepinfra/claude-sonnet-5-5",
-    "requesty/qwen3.8-27b"
-  ],
+  "added": [],
   "removed": [],
-  "status_changed": [
-    {
-      "model_id": "deepinfra/minimax-m2.7-turbo",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-6.1-sol-batch",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/gpt-6.1-sol-pro-batch",
-      "from": "active",
-      "to": "discontinued"
-    }
-  ]
+  "status_changed": []
 }
