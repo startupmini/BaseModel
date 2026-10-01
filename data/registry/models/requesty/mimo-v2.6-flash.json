@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/mimo-v2.6-flash",
   "provider_id": "requesty",
-  "name": "xiaomi/mimo-v2.6-flash",
+  "name": "deepinfra/mimo-v2.6-flash",
   "description": "Xiaomi MiMo V2.6 Flash. 309B total / 15B active MoE with hybrid attention, native omni-modal input (text, image, video, audio), text output. 1M token context window, 128K max output. OpenAI-compatible.",
   "context_window": 1048576,
   "modality": [
@@ -23,5 +23,5 @@
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-30T05:01:15.530Z"
+  "updated_at": "2026-10-01T05:14:40.107Z"
 }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-30T05:01:15.725Z",
+  "generated_at": "2026-10-01T05:14:40.263Z",
   "fatal": false,
   "sources": {
     "openrouter": "ok",
-    "provider_pricing_models": 748,
-    "huggingface_models": 137
+    "provider_pricing_models": 749,
+    "huggingface_models": 133
   },
   "coverage": {
-    "total_models": 2039,
-    "tiered_models": 1377,
-    "pct": 67.5
+    "total_models": 2041,
+    "tiered_models": 1375,
+    "pct": 67.4
   },
   "errors": [
     "Failed to fetch inferx pricing catalog: Pricing catalog failed: HTTP 401 Unauthorized"

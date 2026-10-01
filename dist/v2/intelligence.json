@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "1708cac",
-  "generated_at": "2026-09-30T05:04:16.067Z",
+  "source_revision": "6c5f2cd",
+  "generated_at": "2026-10-01T05:17:42.271Z",
   "count": 26,
   "ranking": [
     {
@@ -38,19 +38,6 @@
       "cheapest_offering": "openrouter/qwen3.8-max-0902",
       "cheapest_provider": "openrouter",
       "blended_cost_per_1m": 3,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "mimo-v2-6-pro",
-      "quality_score": 92.5,
-      "benchmark_count": 2,
-      "categories": [
-        "code",
-        "text"
-      ],
-      "cheapest_offering": "requesty/mimo-v2.6-pro",
-      "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.54,
       "pareto_optimal": false
     },
     {
@@ -112,6 +99,18 @@
       "cheapest_offering": "google/gemini-3.1-pro-preview",
       "cheapest_provider": "google",
       "blended_cost_per_1m": 4.5,
+      "pareto_optimal": false
+    },
+    {
+      "model_id": "mimo-v2-6-pro",
+      "quality_score": 85,
+      "benchmark_count": 1,
+      "categories": [
+        "text"
+      ],
+      "cheapest_offering": "requesty/mimo-v2.6-pro",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.54,
       "pareto_optimal": false
     },
     {
@@ -267,7 +266,7 @@
       ],
       "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.345,
+      "blended_cost_per_1m": 0.8,
       "pareto_optimal": false
     },
     {

@@ -1,39 +1,32 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "1708cac",
-  "generated_at": "2026-09-30T05:04:16.067Z",
+  "source_revision": "6c5f2cd",
+  "generated_at": "2026-10-01T05:17:42.271Z",
   "summary": {
-    "added": 25,
+    "added": 2,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 3
   },
   "added": [
-    "openai/gpt-6.1-sol",
-    "openrouter/gpt-6.1-sol-batch",
-    "openrouter/gpt-6.1-sol-pro-batch",
-    "openrouter/gpt-6.1-sol-pro",
-    "openrouter/gpt-6.1-sol",
-    "requesty/claude-opus-5-5-eu",
-    "requesty/claude-opus-5-5-us",
-    "requesty/claude-sonnet-5-5-eu",
-    "requesty/claude-sonnet-5-5-us",
-    "requesty/claude-sonnet-5-5",
-    "requesty/glm-5.3-flashx",
-    "requesty/gpt-6.1-sol-eastus2",
-    "requesty/gpt-6.1-sol-flex",
-    "requesty/gpt-6.1-sol-francecentral",
-    "requesty/gpt-6.1-sol-germanywestcentral",
-    "requesty/gpt-6.1-sol-swedencentral",
-    "requesty/gpt-6.1-sol-westeurope",
-    "requesty/gpt-6.1-sol",
-    "requesty/hy4-preview",
-    "requesty/kimi-k2.7-code-highspeed",
-    "vercel/d1",
-    "vercel/gpt-6.1-sol-fast",
-    "vercel/gpt-6.1-sol",
-    "vercel/ling-3.1-flash-free",
-    "vercel/ling-3.1-flash"
+    "deepinfra/claude-sonnet-5-5",
+    "requesty/qwen3.8-27b"
   ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "deepinfra/minimax-m2.7-turbo",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-6.1-sol-batch",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/gpt-6.1-sol-pro-batch",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }
