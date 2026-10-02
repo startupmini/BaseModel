@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/mai-transcribe-2-streaming",
+  "provider_id": "vercel",
+  "name": "MAI-Transcribe-2-Streaming",
+  "description": "MAI-Transcribe-2-Streaming is a low-latency, \"speech in, text out\" realtime transcription API. Audio can be sent to the model as a continuous stream over a WebSocket connection and transcripts are returned incrementally as the speaker talks, with no need to wait for the utterance to finish. Intermediate results (aka Partials) update the current transcription; final results confirm a segment.",
+  "modality": [
+    "text",
+    "audio"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-02T05:03:24.768Z"
+}

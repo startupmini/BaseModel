@@ -3,7 +3,7 @@
   "provider_id": "vercel",
   "name": "Liquid d1",
   "description": "Liquid d1 is a decision model for classification, routing, and scoring. It evaluates shared state against typed Choice, Score, and yes/no questions and returns structured answers with calibrated probabilities through the TypeSafe-compatible System One API.",
-  "context_window": 32000,
+  "context_window": 65536,
   "modality": [
     "text"
   ],
@@ -17,5 +17,5 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-09-30T05:01:05.077Z"
+  "updated_at": "2026-10-02T05:03:24.755Z"
 }

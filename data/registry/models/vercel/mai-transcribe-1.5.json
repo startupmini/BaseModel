@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/mai-transcribe-1.5",
+  "provider_id": "vercel",
+  "name": "MAI-Transcribe-1.5",
+  "description": "Microsoft AI's multilingual speech-to-text model for file transcription, with automatic language detection and keyword biasing. Returns the transcript, audio duration, and a timed segment. ",
+  "modality": [
+    "text",
+    "audio"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-02T05:03:24.767Z"
+}

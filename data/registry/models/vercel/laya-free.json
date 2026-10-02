@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/laya-free",
+  "provider_id": "vercel",
+  "name": "Laya (Free)",
+  "description": "Laya is Convai Innovations’ System One evaluation model for fast, structured decisions. It evaluates shared state against choice, score, and yes/no questions and returns typed answers with probabilities in a single forward pass. It supports classification, routing, guardrail checks, and rubric-based assessment without generating free-form text.",
+  "context_window": 8192,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-02T05:03:24.680Z"
+}

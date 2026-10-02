@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/mai-voice-2-flash",
+  "provider_id": "vercel",
+  "name": "MAI-Voice-2-Flash",
+  "description": "Microsoft AI's low-latency text-to-speech model for voice agents and assistants, with the expressive multilingual voices of MAI-Voice-2 at twice the speed.",
+  "modality": [
+    "text",
+    "audio"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-02T05:03:24.769Z"
+}

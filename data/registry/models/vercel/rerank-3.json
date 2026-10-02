@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/rerank-3",
+  "provider_id": "vercel",
+  "name": "Voyage Rerank 3",
+  "description": "A general-purpose reranker optimized for retrieval accuracy.",
+  "context_window": 32000,
+  "modality": [
+    "text",
+    "embedding"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": true,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-02T05:03:24.891Z"
+}

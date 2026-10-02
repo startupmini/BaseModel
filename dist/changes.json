@@ -1,13 +1,52 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "2a756f6b0",
-  "generated_at": "2026-10-01T11:32:48.602Z",
+  "source_revision": "6258cf4",
+  "generated_at": "2026-10-02T05:06:27.644Z",
   "summary": {
-    "added": 0,
+    "added": 12,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 5
   },
-  "added": [],
+  "added": [
+    "vercel/grok-imagine-video-1.5-lite",
+    "vercel/laya-free",
+    "vercel/laya",
+    "vercel/mai-transcribe-1.5",
+    "vercel/mai-transcribe-2-streaming",
+    "vercel/mai-transcribe-2",
+    "vercel/mai-voice-2-flash",
+    "vercel/mai-voice-2.1-flash",
+    "vercel/mai-voice-2.1",
+    "vercel/mai-voice-2",
+    "vercel/rerank-3-lite",
+    "vercel/rerank-3"
+  ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "deepinfra/flux.1-kontext-dev",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "deepinfra/hy3",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "deepinfra/nemotron-3-nano-30b-a3b",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "deepinfra/qwen-image-edit",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/pixel-canary",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }

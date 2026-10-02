@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/grok-imagine-video-1.5-lite",
+  "provider_id": "vercel",
+  "name": "Grok Imagine Video 1.5 Lite",
+  "description": "Grok Imagine Video 1.5 Lite is xAI's lightweight video generation model for turning text prompts and images into clips with native audio. It supports videos from 1 to 15 seconds in 480p, 720p, and 1080p, with seven aspect ratios for formats including widescreen 16:9 and vertical 9:16.",
+  "modality": [
+    "text",
+    "image",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-02T05:03:24.913Z"
+}
