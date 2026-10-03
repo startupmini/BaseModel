@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6258cf4",
-  "generated_at": "2026-10-02T05:06:27.644Z",
-  "count": 1426,
+  "source_revision": "20f5f0c",
+  "generated_at": "2026-10-03T04:49:42.932Z",
+  "count": 1430,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -314,6 +314,30 @@
       ],
       "offering_ids": [
         "google/antigravity-preview-latest"
+      ]
+    },
+    {
+      "model_id": "apodex-1-1-mini-free",
+      "name": "apodex/apodex-1.1-mini:free",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "apodex-1.1-mini-free"
+      ],
+      "offering_ids": [
+        "openrouter/apodex-1.1-mini-free"
       ]
     },
     {
@@ -2139,7 +2163,7 @@
         "vercel/claude-opus-4.7"
       ],
       "quality": {
-        "score": 90.63,
+        "score": 90.56,
         "benchmark_count": 2,
         "categories": [
           "code",
@@ -3560,7 +3584,7 @@
         "vercel/claude-sonnet-4.6"
       ],
       "quality": {
-        "score": 90.25,
+        "score": 90.13,
         "benchmark_count": 1,
         "categories": [
           "code"
@@ -5754,6 +5778,32 @@
       ],
       "offering_ids": [
         "vercel/deepseek-v4.1-flash-beta"
+      ]
+    },
+    {
+      "model_id": "deepseek-v4-1-flash-fast",
+      "name": "DeepSeek V4.1 Flash Fast",
+      "description": "Speed-optimized deployment of DeepSeek V4.1 Flash using tensor parallelism and DSpark speculative decoding for faster token output and lower latency.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "deepseek-v4.1-flash-fast"
+      ],
+      "offering_ids": [
+        "vercel/deepseek-v4.1-flash-fast"
       ]
     },
     {
@@ -22437,17 +22487,7 @@
         "openrouter/kimi-k2.6",
         "requesty/kimi-k2.6",
         "vercel/kimi-k2.6"
-      ],
-      "quality": {
-        "score": 88.63,
-        "benchmark_count": 1,
-        "categories": [
-          "code"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "kimi-k2-6-flex",
@@ -23764,7 +23804,7 @@
     },
     {
       "model_id": "ling-3-1-flash",
-      "name": "Ling 3.1 Flash",
+      "name": "inclusionai/ling-3.1-flash",
       "description": "Ling 3.1 Flash is InclusionAI's hybrid reasoning language model for coding, multi-step analysis, and tool-using agents. It has 560B total parameters with 25B activated parameters and supports long-context text workflows.",
       "modality": [
         "text"
@@ -23784,6 +23824,7 @@
         "ling-3.1-flash"
       ],
       "offering_ids": [
+        "openrouter/ling-3.1-flash",
         "vercel/ling-3.1-flash"
       ]
     },
@@ -30353,6 +30394,30 @@
       ]
     },
     {
+      "model_id": "pareto-26-10-preview",
+      "name": "unbiased/pareto-26.10-preview",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "pareto-26.10-preview"
+      ],
+      "offering_ids": [
+        "openrouter/pareto-26.10-preview"
+      ]
+    },
+    {
       "model_id": "pareto-code",
       "name": "openrouter/pareto-code",
       "modality": [
@@ -32228,7 +32293,7 @@
         "vercel/qwen3.8-27b"
       ],
       "quality": {
-        "score": 98.75,
+        "score": 98.88,
         "benchmark_count": 1,
         "categories": [
           "code"
@@ -35105,6 +35170,30 @@
       ],
       "offering_ids": [
         "vercel/step-5-preview"
+      ]
+    },
+    {
+      "model_id": "switchyard",
+      "name": "nvidia/switchyard",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "switchyard"
+      ],
+      "offering_ids": [
+        "openrouter/switchyard"
       ]
     },
     {

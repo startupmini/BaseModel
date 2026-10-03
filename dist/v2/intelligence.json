@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6258cf4",
-  "generated_at": "2026-10-02T05:06:27.644Z",
-  "count": 31,
+  "source_revision": "20f5f0c",
+  "generated_at": "2026-10-03T04:49:42.932Z",
+  "count": 30,
   "ranking": [
     {
       "model_id": "glm-5-3-flash",
@@ -78,7 +78,7 @@
     },
     {
       "model_id": "qwen3-8-27b",
-      "quality_score": 98.75,
+      "quality_score": 98.88,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -114,7 +114,7 @@
     },
     {
       "model_id": "claude-opus-4-7",
-      "quality_score": 90.63,
+      "quality_score": 90.56,
       "benchmark_count": 2,
       "categories": [
         "code",
@@ -127,7 +127,7 @@
     },
     {
       "model_id": "claude-sonnet-4-6",
-      "quality_score": 90.25,
+      "quality_score": 90.13,
       "benchmark_count": 1,
       "categories": [
         "code"
@@ -161,18 +161,6 @@
       "cheapest_offering": "openrouter/claude-opus-4.6",
       "cheapest_provider": "openrouter",
       "blended_cost_per_1m": 10,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "kimi-k2-6",
-      "quality_score": 88.63,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/kimi-k2.6",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.7825,
       "pareto_optimal": false
     },
     {

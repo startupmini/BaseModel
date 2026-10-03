@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/deepseek-v4.1-flash-fast",
+  "provider_id": "vercel",
+  "name": "DeepSeek V4.1 Flash Fast",
+  "description": "Speed-optimized deployment of DeepSeek V4.1 Flash using tensor parallelism and DSpark speculative decoding for faster token output and lower latency.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-03T04:46:28.939Z"
+}
