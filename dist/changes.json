@@ -1,19 +1,13 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "20f5f0c",
-  "generated_at": "2026-10-03T04:49:42.932Z",
+  "source_revision": "0387698",
+  "generated_at": "2026-10-04T05:21:52.839Z",
   "summary": {
-    "added": 5,
+    "added": 0,
     "removed": 0,
     "status_changed": 0
   },
-  "added": [
-    "openrouter/apodex-1.1-mini-free",
-    "openrouter/ling-3.1-flash",
-    "openrouter/pareto-26.10-preview",
-    "openrouter/switchyard",
-    "vercel/deepseek-v4.1-flash-fast"
-  ],
+  "added": [],
   "removed": [],
   "status_changed": []
 }

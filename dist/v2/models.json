@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "20f5f0c",
-  "generated_at": "2026-10-03T04:49:42.932Z",
+  "source_revision": "0387698",
+  "generated_at": "2026-10-04T05:21:52.839Z",
   "count": 1430,
   "models": [
     {
@@ -2412,10 +2412,11 @@
         "vercel/claude-opus-4.8"
       ],
       "quality": {
-        "score": 91.75,
-        "benchmark_count": 1,
+        "score": 88.06,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -9332,7 +9333,7 @@
     },
     {
       "model_id": "gemini-3-1-flash-lite-flex",
-      "name": "google/gemini-3.1-flash-lite:flex",
+      "name": "vertex/gemini-3.1-flash-lite:flex",
       "description": "Gemini 3.1 Flash Lite Preview is the most cost-efficient model in the Gemini family, optimized for high-volume, low-latency tasks. It delivers fast responses with solid quality for everyday use cases including summarization, classification, and simple reasoning.",
       "modality": [
         "text",
@@ -9618,7 +9619,7 @@
     },
     {
       "model_id": "gemini-3-1-pro-preview-flex",
-      "name": "google/gemini-3.1-pro-preview:flex",
+      "name": "vertex/gemini-3.1-pro-preview:flex",
       "description": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly capable, natively multimodal reasoning models. As of this model card’s date of publication, Gemini 3.1 Pro is Google’s most advanced model for complex tasks. Geminin 3.1 Pro can comprehend vast datasets and challenging problems from massively multimodal information sources, including text, audio, images, video, and entire code repositories.",
       "modality": [
         "text",
@@ -9727,7 +9728,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-flex",
-      "name": "google/gemini-3.5-flash:flex",
+      "name": "vertex/gemini-3.5-flash:flex",
       "description": "Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale.",
       "modality": [
         "text",
@@ -9835,7 +9836,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-lite-flex",
-      "name": "google/gemini-3.5-flash-lite:flex",
+      "name": "vertex/gemini-3.5-flash-lite:flex",
       "description": "Gemini 3.5 Flash-Lite is a high efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi agent workflows.",
       "modality": [
         "text",
@@ -10029,7 +10030,7 @@
     },
     {
       "model_id": "gemini-3-6-flash-flex",
-      "name": "google/gemini-3.6-flash:flex",
+      "name": "vertex/gemini-3.6-flash:flex",
       "description": "Gemini 3.6 Flash is the latest Flash model in the Gemini series, delivering frontier level intelligence at high speed and low cost. Built for the agentic era, it excels at sub agent deployment, multi step workflows, and long horizon tasks at scale.",
       "modality": [
         "text",
@@ -10437,7 +10438,7 @@
     },
     {
       "model_id": "gemini-3-flash-preview-flex",
-      "name": "google/gemini-3-flash-preview:flex",
+      "name": "vertex/gemini-3-flash-preview:flex",
       "description": "Gemini 3 Flash Preview is designed to deliver strong agentic capabilities (near-Pro level) at substantial speed and value. Making it perfect for engaging multi-turn chats, and collaborating back and forth with your coding agent without getting out of flow. Compared to 2.5 Flash it delivers significant improvements across the board.",
       "modality": [
         "text",
@@ -11889,13 +11890,14 @@
       "name": "zai-org/GLM-5.3",
       "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -15634,7 +15636,17 @@
         "openrouter/gpt-5.5",
         "requesty/gpt-5.5",
         "vercel/gpt-5.5"
-      ]
+      ],
+      "quality": {
+        "score": 84.63,
+        "benchmark_count": 1,
+        "categories": [
+          "text"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gpt-5-5-2026-04-23",
@@ -25396,10 +25408,11 @@
         "vercel/mimo-v2.6-pro"
       ],
       "quality": {
-        "score": 100,
-        "benchmark_count": 1,
+        "score": 92.5,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -27640,7 +27653,7 @@
         "vercel/muse-spark-1.1"
       ],
       "quality": {
-        "score": 89.63,
+        "score": 89.56,
         "benchmark_count": 2,
         "categories": [
           "code",
@@ -28276,7 +28289,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1048576,
+      "context_window": 1000000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -32172,7 +32185,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -32409,7 +32422,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -32422,10 +32435,11 @@
         "vercel/qwen3.8-max"
       ],
       "quality": {
-        "score": 100,
-        "benchmark_count": 1,
+        "score": 92.63,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
