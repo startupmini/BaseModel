@@ -1,21 +1,9 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "0387698",
-  "generated_at": "2026-10-04T05:21:52.839Z",
-  "count": 31,
+  "source_revision": "3ec97d1",
+  "generated_at": "2026-10-05T05:05:07.180Z",
+  "count": 34,
   "ranking": [
-    {
-      "model_id": "glm-5-3-flash",
-      "quality_score": 100,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "deepinfra/glm-5.3-flash",
-      "cheapest_provider": "deepinfra",
-      "blended_cost_per_1m": 0.2375,
-      "pareto_optimal": true
-    },
     {
       "model_id": "qwen3-8-flash-next",
       "quality_score": 100,
@@ -26,7 +14,7 @@
       "cheapest_offering": "requesty/qwen3.8-flash-next",
       "cheapest_provider": "requesty",
       "blended_cost_per_1m": 0.275,
-      "pareto_optimal": false
+      "pareto_optimal": true
     },
     {
       "model_id": "hy4-preview",
@@ -65,18 +53,6 @@
       "pareto_optimal": false
     },
     {
-      "model_id": "grok-4-5",
-      "quality_score": 94,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "openrouter/grok-4.5",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 3,
-      "pareto_optimal": false
-    },
-    {
       "model_id": "qwen3-8-max",
       "quality_score": 92.63,
       "benchmark_count": 2,
@@ -103,6 +79,19 @@
       "pareto_optimal": false
     },
     {
+      "model_id": "glm-5-3-flash",
+      "quality_score": 92.06,
+      "benchmark_count": 2,
+      "categories": [
+        "code",
+        "text"
+      ],
+      "cheapest_offering": "deepinfra/glm-5.3-flash",
+      "cheapest_provider": "deepinfra",
+      "blended_cost_per_1m": 0.2375,
+      "pareto_optimal": true
+    },
+    {
       "model_id": "claude-opus-4-7",
       "quality_score": 90.56,
       "benchmark_count": 2,
@@ -113,18 +102,6 @@
       "cheapest_offering": "openrouter/claude-opus-4.7",
       "cheapest_provider": "openrouter",
       "blended_cost_per_1m": 10,
-      "pareto_optimal": false
-    },
-    {
-      "model_id": "claude-sonnet-4-6",
-      "quality_score": 90.13,
-      "benchmark_count": 1,
-      "categories": [
-        "code"
-      ],
-      "cheapest_offering": "openrouter/claude-sonnet-4.6",
-      "cheapest_provider": "openrouter",
-      "blended_cost_per_1m": 6,
       "pareto_optimal": false
     },
     {
@@ -154,6 +131,19 @@
       "pareto_optimal": false
     },
     {
+      "model_id": "grok-4-5",
+      "quality_score": 88.63,
+      "benchmark_count": 2,
+      "categories": [
+        "code",
+        "text"
+      ],
+      "cheapest_offering": "openrouter/grok-4.5",
+      "cheapest_provider": "openrouter",
+      "blended_cost_per_1m": 3,
+      "pareto_optimal": false
+    },
+    {
       "model_id": "claude-opus-4-8",
       "quality_score": 88.06,
       "benchmark_count": 2,
@@ -164,6 +154,19 @@
       "cheapest_offering": "openrouter/claude-opus-4.8",
       "cheapest_provider": "openrouter",
       "blended_cost_per_1m": 10,
+      "pareto_optimal": false
+    },
+    {
+      "model_id": "claude-sonnet-4-6",
+      "quality_score": 87.06,
+      "benchmark_count": 2,
+      "categories": [
+        "code",
+        "text"
+      ],
+      "cheapest_offering": "openrouter/claude-sonnet-4.6",
+      "cheapest_provider": "openrouter",
+      "blended_cost_per_1m": 6,
       "pareto_optimal": false
     },
     {
@@ -188,6 +191,42 @@
       "cheapest_offering": "openai/gpt-5.5",
       "cheapest_provider": "openai",
       "blended_cost_per_1m": 11.25,
+      "pareto_optimal": false
+    },
+    {
+      "model_id": "gemini-3-flash",
+      "quality_score": 84.13,
+      "benchmark_count": 1,
+      "categories": [
+        "text"
+      ],
+      "cheapest_offering": "vercel/gemini-3-flash",
+      "cheapest_provider": "vercel",
+      "blended_cost_per_1m": 0,
+      "pareto_optimal": true
+    },
+    {
+      "model_id": "claude-opus-4-5-20251101",
+      "quality_score": 83.75,
+      "benchmark_count": 1,
+      "categories": [
+        "text"
+      ],
+      "cheapest_offering": "anthropic/claude-opus-4-5-20251101",
+      "cheapest_provider": "anthropic",
+      "blended_cost_per_1m": 0,
+      "pareto_optimal": true
+    },
+    {
+      "model_id": "mimo-v2-5-pro",
+      "quality_score": 83.5,
+      "benchmark_count": 1,
+      "categories": [
+        "text"
+      ],
+      "cheapest_offering": "openrouter/mimo-v2.5-pro",
+      "cheapest_provider": "openrouter",
+      "blended_cost_per_1m": 0.54375,
       "pareto_optimal": false
     },
     {

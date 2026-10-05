@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T05:18:49.895Z",
+  "generated_at": "2026-10-05T05:02:11.632Z",
   "fatal": false,
   "sources": {
     "openrouter": "ok",
@@ -8,7 +8,7 @@
   },
   "coverage": {
     "total_models": 2058,
-    "tiered_models": 1379,
+    "tiered_models": 1378,
     "pct": 67
   },
   "errors": [

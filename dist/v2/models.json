@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "0387698",
-  "generated_at": "2026-10-04T05:21:52.839Z",
+  "source_revision": "3ec97d1",
+  "generated_at": "2026-10-05T05:05:07.180Z",
   "count": 1430,
   "models": [
     {
@@ -1751,7 +1751,17 @@
       ],
       "offering_ids": [
         "anthropic/claude-opus-4-5-20251101"
-      ]
+      ],
+      "quality": {
+        "score": 83.75,
+        "benchmark_count": 1,
+        "categories": [
+          "text"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "claude-opus-4-5-batch",
@@ -3585,10 +3595,11 @@
         "vercel/claude-sonnet-4.6"
       ],
       "quality": {
-        "score": 90.13,
-        "benchmark_count": 1,
+        "score": 87.06,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -10379,7 +10390,17 @@
       ],
       "offering_ids": [
         "vercel/gemini-3-flash"
-      ]
+      ],
+      "quality": {
+        "score": 84.13,
+        "benchmark_count": 1,
+        "categories": [
+          "text"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "gemini-3-flash-preview",
@@ -11992,10 +12013,11 @@
         "vercel/glm-5.3-flash"
       ],
       "quality": {
-        "score": 100,
-        "benchmark_count": 1,
+        "score": 92.06,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -20823,10 +20845,11 @@
         "vercel/grok-4.5"
       ],
       "quality": {
-        "score": 94,
-        "benchmark_count": 1,
+        "score": 88.63,
+        "benchmark_count": 2,
         "categories": [
-          "code"
+          "code",
+          "text"
         ],
         "sources": [
           "mirror"
@@ -25227,7 +25250,17 @@
         "openrouter/mimo-v2.5-pro",
         "requesty/mimo-v2.5-pro",
         "vercel/mimo-v2.5-pro"
-      ]
+      ],
+      "quality": {
+        "score": 83.5,
+        "benchmark_count": 1,
+        "categories": [
+          "text"
+        ],
+        "sources": [
+          "mirror"
+        ]
+      }
     },
     {
       "model_id": "mimo-v2-5-pro-flex",
