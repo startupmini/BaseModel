@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "3ec97d1",
-  "generated_at": "2026-10-05T05:05:07.180Z",
-  "count": 1430,
+  "source_revision": "9609295",
+  "generated_at": "2026-10-06T05:51:20.878Z",
+  "count": 1436,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -1751,17 +1751,7 @@
       ],
       "offering_ids": [
         "anthropic/claude-opus-4-5-20251101"
-      ],
-      "quality": {
-        "score": 83.75,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "claude-opus-4-5-batch",
@@ -2422,11 +2412,10 @@
         "vercel/claude-opus-4.8"
       ],
       "quality": {
-        "score": 88.06,
-        "benchmark_count": 2,
+        "score": 91.75,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -3595,11 +3584,10 @@
         "vercel/claude-sonnet-4.6"
       ],
       "quality": {
-        "score": 87.06,
-        "benchmark_count": 2,
+        "score": 90.13,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -4576,6 +4564,58 @@
       ]
     },
     {
+      "model_id": "clef",
+      "name": "sference/clef",
+      "description": "Clef is a 27B multimodal decision model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 65536,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "clef"
+      ],
+      "offering_ids": [
+        "requesty/clef"
+      ]
+    },
+    {
+      "model_id": "clef-flash",
+      "name": "cloudflare/clef-flash",
+      "description": "Clef-flash is a fast 9B multimodal decision model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 65536,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "clef-flash"
+      ],
+      "offering_ids": [
+        "requesty/clef-flash"
+      ]
+    },
+    {
       "model_id": "clip-vit-b-32",
       "name": "sentence-transformers/clip-ViT-B-32",
       "modality": [
@@ -5378,7 +5418,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 64000,
+      "context_window": 32000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -5874,15 +5914,15 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424",
-      "name": "parasail/deepseek-v4-flash-0424",
+      "name": "doubleword/deepseek-v4-flash-0424",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": true,
-      "structured_output": true,
+      "reasoning_support": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -5899,15 +5939,15 @@
     },
     {
       "model_id": "deepseek-v4-flash-0424-flex",
-      "name": "deepinfra/deepseek-v4-flash-0424:flex",
+      "name": "doubleword/deepseek-v4-flash-0424:flex",
       "description": "DeepSeek V4-Flash is the smaller model in the V4 family, ahead of models like Gemini 3 Flash and Qwen3.5-397B-A17B.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": true,
-      "structured_output": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -6156,15 +6196,15 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424",
-      "name": "tensorx/deepseek-v4-pro-0424",
+      "name": "doubleword/deepseek-v4-pro-0424",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": true,
-      "structured_output": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -6181,15 +6221,15 @@
     },
     {
       "model_id": "deepseek-v4-pro-0424-flex",
-      "name": "deepinfra/deepseek-v4-pro-0424:flex",
+      "name": "doubleword/deepseek-v4-pro-0424:flex",
       "description": "DeepSeek V4-Pro is DeepSeek's flagship open-weights MoE model, with performance in the same class as Claude Sonnet 4.6 and stronger overall results than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": true,
-      "structured_output": true,
+      "reasoning_support": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
@@ -6554,6 +6594,58 @@
       ],
       "offering_ids": [
         "vercel/embed-v4.0"
+      ]
+    },
+    {
+      "model_id": "embed-v5-0-fast",
+      "name": "Embed 5 Fast",
+      "description": "Cohere's lightweight embedding model optimized for low latency and high throughput in interactive search, agent loops, and high-volume retrieval. Embed 5 Fast supports text, images, and mixed content, over 100 languages, and a 128,000-token context window, with output dimensions from 256 to 2,048. It shares an embedding space with Embed 5 Pro.",
+      "modality": [
+        "text",
+        "embedding"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": true,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "embed-v5.0-fast"
+      ],
+      "offering_ids": [
+        "vercel/embed-v5.0-fast"
+      ]
+    },
+    {
+      "model_id": "embed-v5-0-pro",
+      "name": "Embed 5 Pro",
+      "description": "Cohere's most capable embedding model for quality-critical enterprise retrieval across text, images, and mixed content such as PDFs. Embed 5 Pro supports over 100 languages and a 128,000-token context window, with output dimensions from 256 to 2,048. It shares an embedding space with Embed 5 Fast, enabling Pro indexing with Fast querying.",
+      "modality": [
+        "text",
+        "embedding"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": true,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "embed-v5.0-pro"
+      ],
+      "offering_ids": [
+        "vercel/embed-v5.0-pro"
       ]
     },
     {
@@ -7037,6 +7129,31 @@
       "offering_ids": [
         "deepinfra/flux-2-pro",
         "vercel/flux-2-pro"
+      ]
+    },
+    {
+      "model_id": "flux-3-image",
+      "name": "FLUX 3 Image",
+      "description": "FLUX 3 Image is Black Forest Labs’ image generation and editing model. It supports text-to-image generation, editing with up to 10 reference images, and layouts specified with bounding boxes, across five resolution classes from 768 × 768 to 4K.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "flux-3-image"
+      ],
+      "offering_ids": [
+        "vercel/flux-3-image"
       ]
     },
     {
@@ -9344,7 +9461,7 @@
     },
     {
       "model_id": "gemini-3-1-flash-lite-flex",
-      "name": "vertex/gemini-3.1-flash-lite:flex",
+      "name": "google/gemini-3.1-flash-lite:flex",
       "description": "Gemini 3.1 Flash Lite Preview is the most cost-efficient model in the Gemini family, optimized for high-volume, low-latency tasks. It delivers fast responses with solid quality for everyday use cases including summarization, classification, and simple reasoning.",
       "modality": [
         "text",
@@ -9630,7 +9747,7 @@
     },
     {
       "model_id": "gemini-3-1-pro-preview-flex",
-      "name": "vertex/gemini-3.1-pro-preview:flex",
+      "name": "google/gemini-3.1-pro-preview:flex",
       "description": "Gemini 3.1 Pro is the next iteration in the Gemini 3 series of models, a suite of highly capable, natively multimodal reasoning models. As of this model card’s date of publication, Gemini 3.1 Pro is Google’s most advanced model for complex tasks. Geminin 3.1 Pro can comprehend vast datasets and challenging problems from massively multimodal information sources, including text, audio, images, video, and entire code repositories.",
       "modality": [
         "text",
@@ -9739,7 +9856,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-flex",
-      "name": "vertex/gemini-3.5-flash:flex",
+      "name": "google/gemini-3.5-flash:flex",
       "description": "Gemini 3.5 Flash provides sustained frontier-level intelligence optimized for real-world tasks at a higher speed and lower cost. Designed for the agentic era, it excels at sub-agent deployment, multi-step workflows, and long-horizon tasks at scale.",
       "modality": [
         "text",
@@ -9847,7 +9964,7 @@
     },
     {
       "model_id": "gemini-3-5-flash-lite-flex",
-      "name": "vertex/gemini-3.5-flash-lite:flex",
+      "name": "google/gemini-3.5-flash-lite:flex",
       "description": "Gemini 3.5 Flash-Lite is a high efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi agent workflows.",
       "modality": [
         "text",
@@ -10041,7 +10158,7 @@
     },
     {
       "model_id": "gemini-3-6-flash-flex",
-      "name": "vertex/gemini-3.6-flash:flex",
+      "name": "google/gemini-3.6-flash:flex",
       "description": "Gemini 3.6 Flash is the latest Flash model in the Gemini series, delivering frontier level intelligence at high speed and low cost. Built for the agentic era, it excels at sub agent deployment, multi step workflows, and long horizon tasks at scale.",
       "modality": [
         "text",
@@ -10390,17 +10507,7 @@
       ],
       "offering_ids": [
         "vercel/gemini-3-flash"
-      ],
-      "quality": {
-        "score": 84.13,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "gemini-3-flash-preview",
@@ -10459,7 +10566,7 @@
     },
     {
       "model_id": "gemini-3-flash-preview-flex",
-      "name": "vertex/gemini-3-flash-preview:flex",
+      "name": "google/gemini-3-flash-preview:flex",
       "description": "Gemini 3 Flash Preview is designed to deliver strong agentic capabilities (near-Pro level) at substantial speed and value. Making it perfect for engaging multi-turn chats, and collaborating back and forth with your coding agent without getting out of flow. Compared to 2.5 Flash it delivers significant improvements across the board.",
       "modality": [
         "text",
@@ -11859,20 +11966,20 @@
     },
     {
       "model_id": "glm-5-2-flex",
-      "name": "deepinfra/glm-5.2:flex",
+      "name": "doubleword/glm-5.2:flex",
       "description": "Z.ai's next-generation flagship model for agentic software engineering, with significantly stronger coding capabilities than GLM-5.1.",
       "modality": [
         "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
-      "function_calling": true,
-      "structured_output": true,
+      "function_calling": false,
+      "structured_output": false,
       "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 1048576,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -11911,14 +12018,13 @@
       "name": "zai-org/GLM-5.3",
       "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -12013,11 +12119,10 @@
         "vercel/glm-5.3-flash"
       ],
       "quality": {
-        "score": 92.06,
-        "benchmark_count": 2,
+        "score": 100,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -20845,11 +20950,10 @@
         "vercel/grok-4.5"
       ],
       "quality": {
-        "score": 88.63,
-        "benchmark_count": 2,
+        "score": 94,
+        "benchmark_count": 1,
         "categories": [
-          "code",
-          "text"
+          "code"
         ],
         "sources": [
           "mirror"
@@ -23840,7 +23944,7 @@
     {
       "model_id": "ling-3-1-flash",
       "name": "inclusionai/ling-3.1-flash",
-      "description": "Ling 3.1 Flash is InclusionAI's hybrid reasoning language model for coding, multi-step analysis, and tool-using agents. It has 560B total parameters with 25B activated parameters and supports long-context text workflows.",
+      "description": "Ling 3.1 Flash is a hybrid reasoning MoE model from inclusionAI with 560B total and 25B active parameters. Served by Novita with a 256K context window and 32K max output, supporting reasoning and function calling. Free tier.",
       "modality": [
         "text"
       ],
@@ -23860,6 +23964,7 @@
       ],
       "offering_ids": [
         "openrouter/ling-3.1-flash",
+        "requesty/ling-3.1-flash",
         "vercel/ling-3.1-flash"
       ]
     },
@@ -25229,13 +25334,14 @@
       "name": "XiaomiMiMo/MiMo-V2.5-Pro",
       "description": "MiMo-V2.5-Pro is an open-source Mixture-of-Experts (MoE) language model with 1.02T total parameters and 42B active parameters. It utilizes the hybrid attention architecture and 3-layers Multi-Token Prediction (MTP) introduced in [MiMo-V2-Flash](https://github.com/XiaomiMiMo/MiMo-V2-Flash).",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": false,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -25250,17 +25356,7 @@
         "openrouter/mimo-v2.5-pro",
         "requesty/mimo-v2.5-pro",
         "vercel/mimo-v2.5-pro"
-      ],
-      "quality": {
-        "score": 83.5,
-        "benchmark_count": 1,
-        "categories": [
-          "text"
-        ],
-        "sources": [
-          "mirror"
-        ]
-      }
+      ]
     },
     {
       "model_id": "mimo-v2-5-pro-flex",
@@ -25942,7 +26038,7 @@
     },
     {
       "model_id": "minimax-m2-7-highspeed",
-      "name": "minimaxi/minimax-m2.7-highspeed",
+      "name": "novita/minimax/minimax-m2.7-highspeed",
       "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent collaboration, enabling it to plan, execute, and refine complex tasks across dynamic environments.\n\nTrained for production-grade performance, M2.7 handles workflows such as live debugging, root cause analysis, financial modeling, and full document generation across Word, Excel, and PowerPoint. It delivers strong results on benchmarks including 56.2% on SWE-Pro and 57.0% on Terminal Bench 2, while achieving a 1495 ELO on GDPval-AA, setting a new standard for multi-agent systems operating in real-world digital workflows.",
       "modality": [
         "text"
@@ -30723,6 +30819,31 @@
       ]
     },
     {
+      "model_id": "pplx-decider-v1-27b",
+      "name": "perplexity/pplx-decider-v1-27b",
+      "description": "Perplexity decision model. Answers typed questions (noul, choice, score) about the provided state with probabilities instead of text.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "pplx-decider-v1-27b"
+      ],
+      "offering_ids": [
+        "requesty/pplx-decider-v1-27b"
+      ]
+    },
+    {
       "model_id": "pplx-embed-v1-0-6b",
       "name": "Embed v1 0.6b",
       "description": "pplx-embed-v1 is a state-of-the-art text embedding model optimized for real-world, web-scale retrieval tasks.",
@@ -31504,14 +31625,13 @@
       "name": "qwen/qwen3-30b-a3b-instruct-2507",
       "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and agentic tool use. Post-trained on instruction data, it demonstrates competitive performance across reasoning (AIME, ZebraLogic), coding (MultiPL-E, LiveCodeBench), and alignment (IFEval, WritingBench) benchmarks. It outperforms its non-instruct variant on subjective and open-ended tasks while retaining strong factual and coding performance.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
-      "reasoning_support": false,
+      "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -32232,21 +32352,20 @@
     },
     {
       "model_id": "qwen3-8",
-      "name": "tensorx/qwen3.8",
+      "name": "deepinfra/qwen3.8",
       "description": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of Qwen3.8 Max, with 95 billion active parameters out of 2.4 trillion total. It is suited for coding, research, complex reasoning, and agentic workflows.",
       "modality": [
-        "text",
-        "image"
+        "text"
       ],
       "open_weight": false,
       "reasoning_support": true,
       "function_calling": true,
       "structured_output": true,
-      "vision_support": true,
+      "vision_support": false,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 1000000,
+      "context_window": 262144,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -32365,7 +32484,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen3.8-27b-free"
       ],
@@ -35129,7 +35248,7 @@
       "embedding_support": false,
       "context_window": 1000000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "space-bunny-alpha"
       ],

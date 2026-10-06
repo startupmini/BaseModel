@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/clef-flash",
+  "provider_id": "requesty",
+  "name": "cloudflare/clef-flash",
+  "description": "Clef-flash is a fast 9B multimodal decision model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question.",
+  "context_window": 65536,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-06T05:49:36.000Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 65536
+  }
+}

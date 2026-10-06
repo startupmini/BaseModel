@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "3ec97d1",
-  "generated_at": "2026-10-05T05:05:07.180Z",
-  "count": 2058,
+  "source_revision": "9609295",
+  "generated_at": "2026-10-06T05:51:20.878Z",
+  "count": 2065,
   "intelligence": [
     {
       "model_id": "anthropic/claude-3-5-haiku",
@@ -548,9 +548,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -570,9 +570,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -592,9 +592,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -614,9 +614,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -636,9 +636,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -658,9 +658,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -988,9 +988,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -1010,9 +1010,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -1217,7 +1217,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.33125,
+      "blended_cost_per_1m": 0.329,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1261,7 +1261,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3395,
+      "blended_cost_per_1m": 0.3245,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1283,7 +1283,7 @@
     {
       "model_id": "deepinfra/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6625,
+      "blended_cost_per_1m": 0.99,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -1362,9 +1362,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -1384,9 +1384,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -1406,9 +1406,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -2031,7 +2031,7 @@
     {
       "model_id": "deepinfra/gemma-4-26b-a4b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10725000000000001,
+      "blended_cost_per_1m": 0.1215,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2229,7 +2229,7 @@
     {
       "model_id": "deepinfra/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.012,
+      "blended_cost_per_1m": 3.114,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2273,7 +2273,7 @@
     {
       "model_id": "deepinfra/glm-5.3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.15,
+      "blended_cost_per_1m": 1.8025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2484,9 +2484,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -2506,9 +2506,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -2735,7 +2735,7 @@
     {
       "model_id": "deepinfra/kimi-k3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.0025,
+      "blended_cost_per_1m": 4.2125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -2990,9 +2990,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -3364,9 +3364,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -3386,9 +3386,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -3878,8 +3878,8 @@
     },
     {
       "model_id": "deepinfra/qwen3-235b-a22b-instruct-2507",
-      "cost_tier": "Unknown",
-      "blended_cost_per_1m": 0,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.20500000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -4046,9 +4046,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -4068,9 +4068,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -4090,9 +4090,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -4319,7 +4319,7 @@
     {
       "model_id": "deepinfra/qwen3.5-397b-a17b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2875,
+      "blended_cost_per_1m": 1.0875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -4363,7 +4363,7 @@
     {
       "model_id": "deepinfra/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.915,
+      "blended_cost_per_1m": 1.0525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -6343,7 +6343,7 @@
     {
       "model_id": "google/gemma-4-26b-a4b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10725000000000001,
+      "blended_cost_per_1m": 0.1215,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -6871,7 +6871,7 @@
     {
       "model_id": "groq/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.915,
+      "blended_cost_per_1m": 1.0525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -7126,9 +7126,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -7148,9 +7148,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -7566,9 +7566,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -7588,9 +7588,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -10998,9 +10998,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -11020,9 +11020,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -11042,9 +11042,9 @@
           "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Cross-provider alternative from vercel with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Cross-provider alternative from vercel with larger context window (128000)"
         }
       ]
     },
@@ -12503,7 +12503,7 @@
     {
       "model_id": "openrouter/deepseek-pro-latest",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.1925000000000001,
+      "blended_cost_per_1m": 1.3925,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -12701,7 +12701,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.33125,
+      "blended_cost_per_1m": 0.329,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -12723,7 +12723,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.33125,
+      "blended_cost_per_1m": 0.329,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -12789,7 +12789,7 @@
     {
       "model_id": "openrouter/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3395,
+      "blended_cost_per_1m": 0.3245,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -12833,7 +12833,7 @@
     {
       "model_id": "openrouter/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6625,
+      "blended_cost_per_1m": 0.99,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14021,7 +14021,7 @@
     {
       "model_id": "openrouter/gemma-4-26b-a4b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10725000000000001,
+      "blended_cost_per_1m": 0.1215,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14351,7 +14351,7 @@
     {
       "model_id": "openrouter/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.012,
+      "blended_cost_per_1m": 3.114,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14483,7 +14483,7 @@
     {
       "model_id": "openrouter/glm-5.3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.15,
+      "blended_cost_per_1m": 1.8025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14549,7 +14549,7 @@
     {
       "model_id": "openrouter/glm-flash-latest",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.15125,
+      "blended_cost_per_1m": 0.146,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -14571,7 +14571,7 @@
     {
       "model_id": "openrouter/glm-latest",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.0225,
+      "blended_cost_per_1m": 3.0225,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -17805,7 +17805,7 @@
     {
       "model_id": "openrouter/kimi-k3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.0025,
+      "blended_cost_per_1m": 4.2125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -17827,7 +17827,7 @@
     {
       "model_id": "openrouter/kimi-latest",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.715,
+      "blended_cost_per_1m": 3.52375,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -20935,7 +20935,7 @@
     {
       "model_id": "openrouter/qwen3-235b-a22b-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.1535,
+      "blended_cost_per_1m": 0.20500000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21001,7 +21001,7 @@
     {
       "model_id": "openrouter/qwen3-30b-a3b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.08425,
+      "blended_cost_per_1m": 0.15000000000000002,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21509,7 +21509,7 @@
     {
       "model_id": "openrouter/qwen3.5-397b-a17b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.2875,
+      "blended_cost_per_1m": 1.0875,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21641,7 +21641,7 @@
     {
       "model_id": "openrouter/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.915,
+      "blended_cost_per_1m": 1.0525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -21860,7 +21860,7 @@
     },
     {
       "model_id": "openrouter/qwen3.8-27b-free",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -22564,7 +22564,7 @@
     },
     {
       "model_id": "openrouter/space-bunny-alpha",
-      "cost_tier": "Free",
+      "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
         {
@@ -25247,6 +25247,50 @@
       ]
     },
     {
+      "model_id": "requesty/clef-flash",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.0675,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/grok-4.20",
+          "name": "x-ai/grok-4.20",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "requesty/clef",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.18,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/grok-4.20",
+          "name": "x-ai/grok-4.20",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "requesty/codestral-latest",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.495,
@@ -25292,8 +25336,8 @@
     },
     {
       "model_id": "requesty/deepseek-r1-distill-llama-70b",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.8,
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.345,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25337,7 +25381,7 @@
     {
       "model_id": "requesty/deepseek-r1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4,
+      "blended_cost_per_1m": 1.2625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25513,7 +25557,7 @@
     {
       "model_id": "requesty/deepseek-v3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.89,
+      "blended_cost_per_1m": 0.8624999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25600,8 +25644,8 @@
     },
     {
       "model_id": "requesty/deepseek-v4-flash-0731",
-      "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.17500000000000002,
+      "cost_tier": "Balanced",
+      "blended_cost_per_1m": 0.5775,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25667,7 +25711,7 @@
     {
       "model_id": "requesty/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3395,
+      "blended_cost_per_1m": 0.3245,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25711,7 +25755,7 @@
     {
       "model_id": "requesty/deepseek-v4-pro-0424",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.1875,
+      "blended_cost_per_1m": 2.175,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -25834,9 +25878,9 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "vercel/grok-4.20-multi-agent",
-          "name": "Grok 4.20 Multi-Agent",
-          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
         }
       ]
     },
@@ -27713,7 +27757,7 @@
     {
       "model_id": "requesty/gemma-4-31b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.45000000000000007,
+      "blended_cost_per_1m": 0.1925,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27889,7 +27933,7 @@
     {
       "model_id": "requesty/glm-5.1",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.135,
+      "blended_cost_per_1m": 1.6625,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -27990,9 +28034,9 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
@@ -28021,7 +28065,7 @@
     {
       "model_id": "requesty/glm-5.3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.15,
+      "blended_cost_per_1m": 1.9,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -28034,9 +28078,9 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "vercel/grok-4.20-multi-agent",
-          "name": "Grok 4.20 Multi-Agent",
-          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
         }
       ]
     },
@@ -31409,7 +31453,7 @@
     {
       "model_id": "requesty/gpt-oss-120b",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.26249999999999996,
+      "blended_cost_per_1m": 0.3025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -31849,7 +31893,7 @@
     {
       "model_id": "requesty/hy3",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.231,
+      "blended_cost_per_1m": 0.25,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -32463,6 +32507,28 @@
       ]
     },
     {
+      "model_id": "requesty/ling-3.1-flash",
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "requesty/llama-3.1-8b-instruct",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.05,
@@ -32553,7 +32619,7 @@
     {
       "model_id": "requesty/llama-3.3-70b-instruct",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.39,
+      "blended_cost_per_1m": 0.2725,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -32729,7 +32795,7 @@
     {
       "model_id": "requesty/mimo-v2.5-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.54375,
+      "blended_cost_per_1m": 1.5,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -32742,9 +32808,9 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "requesty/grok-4-fast",
-          "name": "xai/grok-4-fast",
-          "reason": "Alternative from the same provider with larger context window (2000000)"
+          "model_id": "vercel/grok-4.20-multi-agent",
+          "name": "Grok 4.20 Multi-Agent",
+          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
         }
       ]
     },
@@ -32817,7 +32883,7 @@
     {
       "model_id": "requesty/mimo-v2.6-pro",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.54375,
+      "blended_cost_per_1m": 0.54,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -33116,9 +33182,9 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "vercel/grok-4.20-multi-agent",
-          "name": "Grok 4.20 Multi-Agent",
-          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
+          "model_id": "openrouter/grok-4.20",
+          "name": "x-ai/grok-4.20",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
         }
       ]
     },
@@ -33432,8 +33498,8 @@
     },
     {
       "model_id": "requesty/nemotron-3-ultra-550b-a55b",
-      "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.5,
+      "cost_tier": "Free",
+      "blended_cost_per_1m": 0,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -34267,6 +34333,28 @@
       ]
     },
     {
+      "model_id": "requesty/pplx-decider-v1-27b",
+      "cost_tier": "Budget-Friendly",
+      "blended_cost_per_1m": 0.03,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
+        }
+      ]
+    },
+    {
       "model_id": "requesty/qwen-2.5-72b-instruct",
       "cost_tier": "Budget-Friendly",
       "blended_cost_per_1m": 0.385,
@@ -34423,7 +34511,7 @@
     {
       "model_id": "requesty/qwen3-235b-a22b-instruct-2507",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.30000000000000004,
+      "blended_cost_per_1m": 0.07824999999999999,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -34524,9 +34612,9 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "vercel/grok-4.20-multi-agent",
-          "name": "Grok 4.20 Multi-Agent",
-          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
         }
       ]
     },
@@ -34863,7 +34951,7 @@
     {
       "model_id": "requesty/qwen3.5-397b-a17b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.35,
+      "blended_cost_per_1m": 1.2675,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -35105,7 +35193,7 @@
     {
       "model_id": "requesty/qwen3.8",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 3.375,
+      "blended_cost_per_1m": 3,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -35118,9 +35206,9 @@
           "reason": "Alternative from the same provider with larger context window (2000000)"
         },
         {
-          "model_id": "vercel/grok-4.20-multi-agent",
-          "name": "Grok 4.20 Multi-Agent",
-          "reason": "Cross-provider alternative from vercel with larger context window (2000000)"
+          "model_id": "requesty/grok-4-fast",
+          "name": "xai/grok-4-fast",
+          "reason": "Alternative from the same provider with larger context window (2000000)"
         }
       ]
     },
@@ -35888,9 +35976,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -36095,7 +36183,7 @@
     {
       "model_id": "vercel/deepseek-v4-flash-0731",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.33125,
+      "blended_cost_per_1m": 0.329,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -36139,7 +36227,7 @@
     {
       "model_id": "vercel/deepseek-v4-flash",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.3395,
+      "blended_cost_per_1m": 0.3245,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -36161,7 +36249,7 @@
     {
       "model_id": "vercel/deepseek-v4-pro-0813",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 1.6625,
+      "blended_cost_per_1m": 0.99,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -36321,6 +36409,60 @@
           "model_id": "openrouter/lyria-3-clip-preview",
           "name": "google/lyria-3-clip-preview",
           "reason": "Cross-provider alternative from openrouter with larger context window (1048576)"
+        },
+        {
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "vercel/embed-v5.0-pro",
+          "name": "Embed 5 Pro",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/embed-v5.0-fast",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "openrouter/lyria-3-clip-preview",
+          "name": "google/lyria-3-clip-preview",
+          "reason": "Cross-provider alternative from openrouter with larger context window (1048576)"
+        },
+        {
+          "model_id": "vercel/embed-v4.0",
+          "name": "Embed v4.0",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "vercel/embed-v5.0-pro",
+          "name": "Embed 5 Pro",
+          "reason": "Alternative from the same provider"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/embed-v5.0-pro",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "openrouter/lyria-3-clip-preview",
+          "name": "google/lyria-3-clip-preview",
+          "reason": "Cross-provider alternative from openrouter with larger context window (1048576)"
+        },
+        {
+          "model_id": "vercel/embed-v4.0",
+          "name": "Embed v4.0",
+          "reason": "Alternative from the same provider"
+        },
+        {
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider"
         }
       ]
     },
@@ -36436,6 +36578,28 @@
     },
     {
       "model_id": "vercel/flux-2-pro",
+      "cost_tier": "Unknown",
+      "blended_cost_per_1m": 0,
+      "alternatives": [
+        {
+          "model_id": "requesty/grok-4-1-fast-non-reasoning",
+          "name": "xai/grok-4-1-fast-non-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "requesty/grok-4-1-fast-reasoning",
+          "name": "xai/grok-4-1-fast-reasoning",
+          "reason": "Cross-provider alternative from requesty with larger context window (2000000)"
+        },
+        {
+          "model_id": "openrouter/grok-4.20",
+          "name": "x-ai/grok-4.20",
+          "reason": "Cross-provider alternative from openrouter with larger context window (2000000)"
+        }
+      ]
+    },
+    {
+      "model_id": "vercel/flux-3-image",
       "cost_tier": "Unknown",
       "blended_cost_per_1m": 0,
       "alternatives": [
@@ -37176,9 +37340,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -37198,9 +37362,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -37229,7 +37393,7 @@
     {
       "model_id": "vercel/gemma-4-26b-a4b-it",
       "cost_tier": "Budget-Friendly",
-      "blended_cost_per_1m": 0.10725000000000001,
+      "blended_cost_per_1m": 0.1215,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -37537,7 +37701,7 @@
     {
       "model_id": "vercel/glm-5.2",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.012,
+      "blended_cost_per_1m": 3.114,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -37647,7 +37811,7 @@
     {
       "model_id": "vercel/glm-5.3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 2.15,
+      "blended_cost_per_1m": 1.8025,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -40375,7 +40539,7 @@
     {
       "model_id": "vercel/kimi-k3",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 4.0025,
+      "blended_cost_per_1m": 4.2125,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -41774,9 +41938,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -42588,9 +42752,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -42610,9 +42774,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -42852,9 +43016,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-4b",
-          "name": "Qwen3 Embedding 4B",
-          "reason": "Alternative from the same provider"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -42874,9 +43038,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -42896,9 +43060,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -43125,7 +43289,7 @@
     {
       "model_id": "vercel/qwen3.6-27b",
       "cost_tier": "Balanced",
-      "blended_cost_per_1m": 0.915,
+      "blended_cost_per_1m": 1.0525,
       "alternatives": [
         {
           "model_id": "requesty/grok-4-1-fast-non-reasoning",
@@ -43622,9 +43786,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -43644,9 +43808,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -43666,9 +43830,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -43688,9 +43852,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -43710,9 +43874,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -43732,9 +43896,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -43754,9 +43918,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44392,9 +44556,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44414,9 +44578,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44436,9 +44600,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44458,9 +44622,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44480,9 +44644,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44502,9 +44666,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44788,9 +44952,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44810,9 +44974,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44832,9 +44996,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44854,9 +45018,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44876,9 +45040,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44898,9 +45062,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/qwen3-embedding-0.6b",
-          "name": "Qwen3 Embedding 0.6B",
-          "reason": "Alternative from the same provider with larger context window (32768)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44920,9 +45084,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44942,9 +45106,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44964,9 +45128,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },
@@ -44986,9 +45150,9 @@
           "reason": "Alternative from the same provider with larger context window (128000)"
         },
         {
-          "model_id": "vercel/pplx-embed-v1-0.6b",
-          "name": "Embed v1 0.6b",
-          "reason": "Alternative from the same provider with larger context window (32000)"
+          "model_id": "vercel/embed-v5.0-fast",
+          "name": "Embed 5 Fast",
+          "reason": "Alternative from the same provider with larger context window (128000)"
         }
       ]
     },

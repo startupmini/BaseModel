@@ -1,13 +1,42 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "3ec97d1",
-  "generated_at": "2026-10-05T05:05:07.180Z",
+  "source_revision": "9609295",
+  "generated_at": "2026-10-06T05:51:20.878Z",
   "summary": {
-    "added": 0,
+    "added": 7,
     "removed": 0,
-    "status_changed": 0
+    "status_changed": 4
   },
-  "added": [],
+  "added": [
+    "requesty/clef-flash",
+    "requesty/clef",
+    "requesty/ling-3.1-flash",
+    "requesty/pplx-decider-v1-27b",
+    "vercel/embed-v5.0-fast",
+    "vercel/embed-v5.0-pro",
+    "vercel/flux-3-image"
+  ],
   "removed": [],
-  "status_changed": []
+  "status_changed": [
+    {
+      "model_id": "deepinfra/qwen3.8-2.4t-a95b",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3.8-27b-free",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/space-bunny-alpha",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/ling-3.0-flash-sante-free",
+      "from": "active",
+      "to": "discontinued"
+    }
+  ]
 }

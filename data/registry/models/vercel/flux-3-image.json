@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/flux-3-image",
+  "provider_id": "vercel",
+  "name": "FLUX 3 Image",
+  "description": "FLUX 3 Image is Black Forest Labs’ image generation and editing model. It supports text-to-image generation, editing with up to 10 reference images, and layouts specified with bounding boxes, across five resolution classes from 768 × 768 to 4K.",
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": true,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-06T05:49:26.614Z"
+}
