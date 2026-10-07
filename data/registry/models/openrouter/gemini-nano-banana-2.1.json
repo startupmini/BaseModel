@@ -1,0 +1,26 @@
+{
+  "model_id": "openrouter/gemini-nano-banana-2.1",
+  "provider_id": "openrouter",
+  "name": "google/gemini-nano-banana-2.1",
+  "context_window": 65536,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-07T05:21:38.659Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 65536
+  }
+}

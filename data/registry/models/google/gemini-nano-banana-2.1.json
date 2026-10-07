@@ -1,0 +1,29 @@
+{
+  "model_id": "google/gemini-nano-banana-2.1",
+  "provider_id": "google",
+  "name": "Nano Banana 2.1",
+  "description": "Gemini Nano Banana 2.1.",
+  "context_window": 65536,
+  "modality": [
+    "text",
+    "image",
+    "audio",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": true,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-07T05:21:38.565Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 65536
+  }
+}
