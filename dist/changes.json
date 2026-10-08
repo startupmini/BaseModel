@@ -1,32 +1,66 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "0dd9595",
-  "generated_at": "2026-10-07T05:24:32.088Z",
+  "source_revision": "6f15efb",
+  "generated_at": "2026-10-08T05:33:47.620Z",
   "summary": {
-    "added": 4,
+    "added": 28,
     "removed": 0,
-    "status_changed": 3
+    "status_changed": 5
   },
   "added": [
-    "google/gemini-nano-banana-2.1",
-    "openrouter/gemini-nano-banana-2.1",
-    "openrouter/mistral-large-4-0",
-    "requesty/mistral-large-4"
+    "anthropic/claude-haiku-5-5",
+    "openrouter/claude-haiku-5.5-batch",
+    "openrouter/claude-haiku-5.5",
+    "requesty/claude-haiku-5-5-eu-central-1",
+    "requesty/claude-haiku-5-5-eu-north-1",
+    "requesty/claude-haiku-5-5-eu-west-1",
+    "requesty/claude-haiku-5-5-eu-west-3",
+    "requesty/claude-haiku-5-5-eu",
+    "requesty/claude-haiku-5-5",
+    "requesty/claude-opus-4-8-ap-northeast-3",
+    "requesty/claude-opus-4-8-ap-southeast-2",
+    "requesty/claude-opus-5-5-ap-northeast-1",
+    "requesty/claude-opus-5-5-ap-northeast-3",
+    "requesty/claude-opus-5-5-ap-southeast-2",
+    "requesty/claude-opus-5-ap-south-1",
+    "requesty/claude-opus-5-ap-southeast-2",
+    "requesty/claude-sonnet-5-ap-south-1",
+    "requesty/gemini-3.5-flash-asia-northeast1",
+    "requesty/gpt-5.6-sol-japaneast",
+    "requesty/gpt-5.6-sol-koreacentral",
+    "vercel/claude-haiku-5.5",
+    "vercel/gemini-nano-banana-2.1",
+    "vercel/glyph-cluster",
+    "vercel/gpt-6-luna-decisions",
+    "vercel/mistral-large-4",
+    "vercel/proteus",
+    "vercel/starlight-precise-2.6",
+    "vercel/wonder-3.5"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "deepinfra/ling-3.0-flash-fin",
+      "model_id": "vercel/deepseek-v3.1-terminus",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "google/veo-3.1-fast-generate-preview",
+      "model_id": "vercel/deepseek-v4.1-flash-fast",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/kat-coder-pro-v2.5",
+      "model_id": "vercel/kimi-k2-thinking",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/mai-transcribe-1.5",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/step-3.5-flash",
       "from": "active",
       "to": "discontinued"
     }

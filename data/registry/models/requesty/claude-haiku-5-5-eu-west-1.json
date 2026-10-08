@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/claude-haiku-5-5-eu-west-1",
+  "provider_id": "requesty",
+  "name": "bedrock/claude-haiku-5-5@eu-west-1",
+  "description": "Claude Haiku 5.5 is the fastest model in the Claude 5.5 family, built for high volume, speed sensitive workloads. It is much stronger than Haiku 4.5 and is the first Haiku with effort levels to control how much it thinks.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-08T05:30:41.357Z",
+  "is_free": false,
+  "tier": "budget",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}

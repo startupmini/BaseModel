@@ -3,25 +3,25 @@
   "provider_id": "requesty",
   "name": "mistral/mistral-large-4",
   "description": "Mistral Large 4 is a state-of-the-art, open-weight, general-purpose multimodal model with a granular Mixture-of-Experts architecture. It features 49B active parameters and 1.05T total parameters, and a 1.6B vision encoder. Public preview, 1M context.",
-  "context_window": 1000000,
+  "context_window": 524288,
   "modality": [
     "text",
     "image"
   ],
   "open_weight": false,
-  "reasoning_support": false,
+  "reasoning_support": true,
   "function_calling": true,
   "structured_output": true,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
   "embedding_support": false,
-  "capability_ids": [],
-  "status": "active",
-  "updated_at": "2026-10-07T05:21:39.069Z",
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1000000
-  }
+    "max_input_tokens": 524288
+  },
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-08T05:30:41.586Z"
 }

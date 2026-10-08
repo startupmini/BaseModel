@@ -1,0 +1,24 @@
+{
+  "model_id": "vercel/mistral-large-4",
+  "provider_id": "vercel",
+  "name": "Mistral Large 4",
+  "description": "Mistral Large 4 is Mistral AI's open-weight, natively multimodal model, available in public preview with 1.05 trillion total parameters and 49 billion active parameters. It leads aggregated benchmarks among open-weight models from the US and Europe, with strengths in cyber defense, manufacturing, finance, and visual grounding.",
+  "context_window": 524288,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-08T05:30:41.758Z",
+  "tier": "balanced",
+  "is_free": false
+}

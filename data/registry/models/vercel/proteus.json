@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/proteus",
+  "provider_id": "vercel",
+  "name": "Proteus",
+  "description": "Proteus is Topaz Labs’ video enhancement model for detail-preserving upscaling, denoising, and restoration. It enhances an existing video with automatic adjustments or fine control over detail recovery, compression artifacts, noise, blur, and grain. An input video and output resolution are required, supporting workflows that improve footage quality while preserving its source characteristics.",
+  "modality": [
+    "text",
+    "image",
+    "video"
+  ],
+  "open_weight": false,
+  "reasoning_support": false,
+  "function_calling": false,
+  "structured_output": false,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-08T05:30:31.299Z"
+}
