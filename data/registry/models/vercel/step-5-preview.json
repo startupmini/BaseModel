@@ -18,5 +18,10 @@
   "embedding_support": false,
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-10-08T05:30:31.292Z"
+  "updated_at": "2026-10-09T05:34:36.071Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
 }

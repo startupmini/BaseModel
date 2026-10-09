@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "6f15efb",
-  "generated_at": "2026-10-08T05:33:47.620Z",
+  "source_revision": "ffb775f",
+  "generated_at": "2026-10-09T05:37:37.476Z",
   "count": 26,
   "ranking": [
     {
@@ -151,10 +151,10 @@
         "overall",
         "reasoning"
       ],
-      "cheapest_offering": "hyperbolic/llama-3.3-70b-instruct",
-      "cheapest_provider": "hyperbolic",
-      "blended_cost_per_1m": 0.15500000000000003,
-      "pareto_optimal": true
+      "cheapest_offering": "requesty/llama-3.3-70b-instruct",
+      "cheapest_provider": "requesty",
+      "blended_cost_per_1m": 0.1975,
+      "pareto_optimal": false
     },
     {
       "model_id": "llama-3-1-70b-instruct",
@@ -265,7 +265,7 @@
       ],
       "cheapest_offering": "requesty/deepseek-r1-distill-llama-70b",
       "cheapest_provider": "requesty",
-      "blended_cost_per_1m": 0.8,
+      "blended_cost_per_1m": 0.345,
       "pareto_optimal": false
     },
     {

@@ -2,7 +2,7 @@
   "model_id": "openrouter/mistral-large-4-0",
   "provider_id": "openrouter",
   "name": "mistralai/mistral-large-4-0",
-  "context_window": 524288,
+  "context_window": 1048576,
   "modality": [
     "text"
   ],
@@ -17,9 +17,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 524288
+    "max_input_tokens": 1048576
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-10-08T05:30:41.280Z"
+  "updated_at": "2026-10-09T05:34:35.639Z"
 }
