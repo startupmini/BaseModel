@@ -1,7 +1,7 @@
 {
   "model_id": "requesty/minimax-m3",
   "provider_id": "requesty",
-  "name": "tencent/minimax-m3",
+  "name": "tensorx/minimax-m3",
   "description": "MiniMax M3 is a frontier multimodal model with a 1M token context window built on MiniMax Sparse Attention (MSA). It delivers frontier level performance on coding and agentic tasks, outperforming GPT 5.5 and Gemini 3.1 Pro on SWE Bench Pro and approaching Claude Opus 4.7. It natively handles image and video input and is the first open weight model to combine frontier coding, ultra long context, and native multimodality.",
   "context_window": 1048576,
   "modality": [
@@ -10,8 +10,8 @@
   ],
   "open_weight": false,
   "reasoning_support": true,
-  "function_calling": false,
-  "structured_output": false,
+  "function_calling": true,
+  "structured_output": true,
   "vision_support": true,
   "audio_support": false,
   "image_generation": false,
@@ -19,9 +19,9 @@
   "is_free": false,
   "tier": "balanced",
   "limits": {
-    "max_input_tokens": 1000000
+    "max_input_tokens": 512000
   },
   "capability_ids": [],
   "status": "active",
-  "updated_at": "2026-10-09T05:34:35.935Z"
+  "updated_at": "2026-10-10T05:18:52.021Z"
 }

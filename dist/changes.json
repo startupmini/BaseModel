@@ -1,39 +1,81 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ffb775f",
-  "generated_at": "2026-10-09T05:37:37.476Z",
+  "source_revision": "228c495",
+  "generated_at": "2026-10-10T05:21:42.167Z",
   "summary": {
-    "added": 6,
+    "added": 3,
     "removed": 0,
-    "status_changed": 4
+    "status_changed": 13
   },
   "added": [
-    "openrouter/ling-3.0-flash-sante",
-    "openrouter/step-5-preview",
-    "requesty/claude-sonnet-5-5-eu-central-1",
-    "requesty/claude-sonnet-5-5-eu-north-1",
-    "requesty/claude-sonnet-5-5-eu-west-1",
-    "requesty/claude-sonnet-5-5-eu-west-3"
+    "vercel/apex",
+    "vercel/heygen-video-1",
+    "vercel/microsoft-decision-1"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "openrouter/ernie-4.5-vl-424b-a47b",
+      "model_id": "deepinfra/qwen3-max-thinking",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "openrouter/gpt-6.1-sol-batch",
-      "from": "discontinued",
-      "to": "active"
+      "model_id": "deepinfra/qwen3-max",
+      "from": "active",
+      "to": "discontinued"
     },
     {
-      "model_id": "openrouter/gpt-6.1-sol-pro-batch",
-      "from": "discontinued",
-      "to": "active"
+      "model_id": "openrouter/qwen-plus-2025-07-28",
+      "from": "active",
+      "to": "discontinued"
     },
     {
-      "model_id": "openrouter/ling-3.0-flash-sante-free",
+      "model_id": "openrouter/qwen3-235b-a22b",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-30b-a3b-thinking-2507",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-8b",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-coder-plus",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-max-thinking",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-max",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-vl-235b-a22b-thinking",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-vl-32b-instruct",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3-vl-8b-thinking",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "openrouter/qwen3.6-max-preview",
       "from": "active",
       "to": "discontinued"
     }

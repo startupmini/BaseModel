@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "ffb775f",
-  "generated_at": "2026-10-09T05:37:37.476Z",
+  "source_revision": "228c495",
+  "generated_at": "2026-10-10T05:21:42.167Z",
   "count": 12,
   "providers": [
     {
@@ -14,7 +14,7 @@
       "description": "AI safety company and developer of the Claude model family.",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-10-09T05:34:25.416Z"
+      "updated_at": "2026-10-10T05:18:41.413Z"
     },
     {
       "provider_id": "cerebras",
@@ -23,7 +23,7 @@
       "website": "https://www.cerebras.ai",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-10-09T05:34:24.543Z"
+      "updated_at": "2026-10-10T05:18:40.629Z"
     },
     {
       "provider_id": "deepinfra",
@@ -32,7 +32,7 @@
       "website": "https://deepinfra.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-10-09T05:34:24.758Z"
+      "updated_at": "2026-10-10T05:18:40.824Z"
     },
     {
       "provider_id": "google",
@@ -53,7 +53,7 @@
       "website": "https://groq.com",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-10-09T05:34:24.761Z"
+      "updated_at": "2026-10-10T05:18:40.630Z"
     },
     {
       "provider_id": "hyperbolic",
@@ -62,7 +62,7 @@
       "website": "https://hyperbolic.xyz",
       "provider_type": "first-party",
       "status": "active",
-      "updated_at": "2026-10-09T05:34:24.894Z"
+      "updated_at": "2026-10-10T05:18:40.631Z"
     },
     {
       "provider_id": "meta",
@@ -106,7 +106,7 @@
       "website": "https://openrouter.ai",
       "provider_type": "router",
       "status": "active",
-      "updated_at": "2026-10-09T05:34:24.962Z"
+      "updated_at": "2026-10-10T05:18:40.780Z"
     },
     {
       "provider_id": "requesty",
@@ -115,7 +115,7 @@
       "website": "https://requesty.ai",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-10-09T05:34:25.625Z"
+      "updated_at": "2026-10-10T05:18:41.614Z"
     },
     {
       "provider_id": "vercel",
@@ -124,7 +124,7 @@
       "website": "https://vercel.com",
       "provider_type": "gateway",
       "status": "active",
-      "updated_at": "2026-10-08T05:30:30.667Z"
+      "updated_at": "2026-10-10T05:18:41.392Z"
     }
   ]
 }
