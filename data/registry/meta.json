@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T05:18:52.218Z",
+  "generated_at": "2026-10-11T05:09:36.489Z",
   "fatal": false,
   "sources": {
     "openrouter": "ok",
     "provider_pricing_models": 781,
-    "huggingface_models": 127
+    "huggingface_models": 129
   },
   "coverage": {
     "total_models": 2106,
