@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-11T05:09:30.831Z",
+  "generated_at": "2026-10-12T05:23:22.229Z",
   "summary": {
     "gateways": 17,
     "failed": 1,
-    "partial": 7,
-    "total_fetched": 1915,
-    "total_errors": 9
+    "partial": 8,
+    "total_fetched": 1501,
+    "total_errors": 10
   },
   "gateways": [
     {
@@ -16,33 +16,7 @@
       "errors": [
         "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
       ],
-      "duration_ms": 1859
-    },
-    {
-      "plugin": "openai",
-      "provider_id": "openai",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\n  \"error\": {\n    \"message\": \"Incorrect API key provided: sk-svcac*************************************************************************************************************************************"
-      ],
-      "duration_ms": 1834
-    },
-    {
-      "plugin": "cerebras",
-      "provider_id": "cerebras",
-      "status": "ok",
-      "fetched": 2,
-      "errors": [],
-      "duration_ms": 1909
-    },
-    {
-      "plugin": "groq",
-      "provider_id": "groq",
-      "status": "ok",
-      "fetched": 11,
-      "errors": [],
-      "duration_ms": 1907
+      "duration_ms": 2598
     },
     {
       "plugin": "together",
@@ -52,15 +26,41 @@
       "errors": [
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
       ],
-      "duration_ms": 1938
+      "duration_ms": 2568
     },
     {
-      "plugin": "deepinfra",
-      "provider_id": "deepinfra",
+      "plugin": "openai",
+      "provider_id": "openai",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\n  \"error\": {\n    \"message\": \"Incorrect API key provided: sk-svcac*************************************************************************************************************************************"
+      ],
+      "duration_ms": 2688
+    },
+    {
+      "plugin": "cerebras",
+      "provider_id": "cerebras",
       "status": "ok",
-      "fetched": 179,
+      "fetched": 2,
       "errors": [],
-      "duration_ms": 2041
+      "duration_ms": 2779
+    },
+    {
+      "plugin": "groq",
+      "provider_id": "groq",
+      "status": "ok",
+      "fetched": 11,
+      "errors": [],
+      "duration_ms": 2766
+    },
+    {
+      "plugin": "hyperbolic",
+      "provider_id": "hyperbolic",
+      "status": "ok",
+      "fetched": 5,
+      "errors": [],
+      "duration_ms": 2845
     },
     {
       "plugin": "inferx",
@@ -71,15 +71,25 @@
         "No API key is registered for gateway inferx.",
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
       ],
-      "duration_ms": 2041
+      "duration_ms": 2854
     },
     {
-      "plugin": "openrouter",
-      "provider_id": "openrouter",
+      "plugin": "deepinfra",
+      "provider_id": "deepinfra",
       "status": "ok",
-      "fetched": 458,
+      "fetched": 177,
       "errors": [],
-      "duration_ms": 2109
+      "duration_ms": 2925
+    },
+    {
+      "plugin": "mistral-ai",
+      "provider_id": "mistral-ai",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"detail\":\"Invalid API Key\"}"
+      ],
+      "duration_ms": 2890
     },
     {
       "plugin": "helicone",
@@ -89,15 +99,31 @@
       "errors": [
         "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
       ],
-      "duration_ms": 2239
+      "duration_ms": 3095
     },
     {
-      "plugin": "vercel",
-      "provider_id": "vercel",
+      "plugin": "openrouter",
+      "provider_id": "openrouter",
       "status": "ok",
-      "fetched": 415,
+      "fetched": 458,
       "errors": [],
-      "duration_ms": 2511
+      "duration_ms": 3060
+    },
+    {
+      "plugin": "anthropic",
+      "provider_id": "anthropic",
+      "status": "ok",
+      "fetched": 14,
+      "errors": [],
+      "duration_ms": 3483
+    },
+    {
+      "plugin": "google",
+      "provider_id": "google",
+      "status": "ok",
+      "fetched": 50,
+      "errors": [],
+      "duration_ms": 3637
     },
     {
       "plugin": "cloudflare",
@@ -107,23 +133,15 @@
       "errors": [
         "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
       ],
-      "duration_ms": 2688
+      "duration_ms": 3669
     },
     {
-      "plugin": "google",
-      "provider_id": "google",
+      "plugin": "requesty",
+      "provider_id": "requesty",
       "status": "ok",
-      "fetched": 50,
+      "fetched": 784,
       "errors": [],
-      "duration_ms": 2716
-    },
-    {
-      "plugin": "anthropic",
-      "provider_id": "anthropic",
-      "status": "ok",
-      "fetched": 14,
-      "errors": [],
-      "duration_ms": 2793
+      "duration_ms": 4208
     },
     {
       "plugin": "portkey",
@@ -133,26 +151,10 @@
       "errors": [
         "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
       ],
-      "duration_ms": 2746
+      "duration_ms": 5106
     },
     {
-      "plugin": "hyperbolic",
-      "provider_id": "hyperbolic",
-      "status": "ok",
-      "fetched": 5,
-      "errors": [],
-      "duration_ms": 3217
-    },
-    {
-      "plugin": "requesty",
-      "provider_id": "requesty",
-      "status": "ok",
-      "fetched": 781,
-      "errors": [],
-      "duration_ms": 3289
-    },
-    {
-      "plugin": "mistral-ai",
+      "plugin": "vercel",
       "status": "failed",
       "fetched": 0,
       "errors": [
