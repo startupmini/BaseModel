@@ -1,26 +1,115 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d72f64f",
-  "generated_at": "2026-10-12T05:26:25.394Z",
+  "source_revision": "715286d",
+  "generated_at": "2026-10-13T06:25:01.585Z",
   "summary": {
-    "added": 3,
+    "added": 52,
     "removed": 0,
-    "status_changed": 2
+    "status_changed": 10
   },
   "added": [
-    "requesty/decision-1-francecentral",
-    "requesty/decision-1-swedencentral",
-    "requesty/decision-1"
+    "openrouter/muse-wonder",
+    "vercel/claude-fable-5-batch",
+    "vercel/claude-fable-5.1-batch",
+    "vercel/claude-haiku-4.5-batch",
+    "vercel/claude-haiku-5.5-batch",
+    "vercel/claude-opus-4.5-batch",
+    "vercel/claude-opus-4.6-batch",
+    "vercel/claude-opus-4.7-batch",
+    "vercel/claude-opus-4.8-batch",
+    "vercel/claude-opus-5-batch",
+    "vercel/claude-opus-5.5-batch",
+    "vercel/claude-sonnet-4.5-batch",
+    "vercel/claude-sonnet-4.6-batch",
+    "vercel/claude-sonnet-5-batch",
+    "vercel/claude-sonnet-5.5-batch",
+    "vercel/gemini-2.5-flash-batch",
+    "vercel/gemini-2.5-flash-lite-batch",
+    "vercel/gemini-2.5-pro-batch",
+    "vercel/gemini-3-flash-batch",
+    "vercel/gemini-3.1-flash-lite-batch",
+    "vercel/gemini-3.1-pro-preview-batch",
+    "vercel/gemini-3.5-flash-batch",
+    "vercel/gemini-3.5-flash-lite-batch",
+    "vercel/gemini-3.6-flash-batch",
+    "vercel/gemini-3.7-flash-batch",
+    "vercel/gpt-4.1-batch",
+    "vercel/gpt-4.1-mini-batch",
+    "vercel/gpt-4.1-nano-batch",
+    "vercel/gpt-4o-batch",
+    "vercel/gpt-4o-mini-batch",
+    "vercel/gpt-5-batch",
+    "vercel/gpt-5-mini-batch",
+    "vercel/gpt-5-nano-batch",
+    "vercel/gpt-5-pro-batch",
+    "vercel/gpt-5.2-batch",
+    "vercel/gpt-5.4-batch",
+    "vercel/gpt-5.4-mini-batch",
+    "vercel/gpt-5.4-nano-batch",
+    "vercel/gpt-5.5-batch",
+    "vercel/gpt-5.5-pro-batch",
+    "vercel/gpt-5.6-luna-batch",
+    "vercel/gpt-5.6-sol-batch",
+    "vercel/gpt-5.6-terra-batch",
+    "vercel/gpt-6-astra-batch",
+    "vercel/gpt-6-luna-batch",
+    "vercel/gpt-6-sol-batch",
+    "vercel/gpt-6.1-sol-batch",
+    "vercel/grok-4.20-multi-agent-batch",
+    "vercel/grok-4.20-non-reasoning-batch",
+    "vercel/grok-4.20-reasoning-batch",
+    "vercel/grok-4.3-batch",
+    "vercel/muse-wonder-1.0"
   ],
   "removed": [],
   "status_changed": [
     {
-      "model_id": "deepinfra/granite-4.2-30b",
+      "model_id": "vercel/claude-3-haiku",
       "from": "active",
       "to": "discontinued"
     },
     {
-      "model_id": "deepinfra/granite-4.2-3b",
+      "model_id": "vercel/claude-opus-4",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/deepseek-v4.1-flash-fast",
+      "from": "discontinued",
+      "to": "active"
+    },
+    {
+      "model_id": "vercel/qwen-3.6-max-preview",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/qwen3-235b-a22b-thinking",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/qwen3-coder-plus",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/qwen3-max-preview",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/qwen3-max",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/qwen3-vl-235b-a22b-instruct",
+      "from": "active",
+      "to": "discontinued"
+    },
+    {
+      "model_id": "vercel/qwen3-vl-thinking",
       "from": "active",
       "to": "discontinued"
     }

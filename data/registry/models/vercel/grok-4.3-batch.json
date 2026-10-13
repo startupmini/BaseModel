@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/grok-4.3-batch",
+  "provider_id": "vercel",
+  "name": "Grok 4.3 (Batch)",
+  "description": "Grok 4.3 is a new model matching the scale of Grok 4.20 with an improved architecture and a December 2025 knowledge cutoff.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-13T06:21:55.550Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}

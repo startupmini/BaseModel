@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/gemini-2.5-pro-batch",
+  "provider_id": "vercel",
+  "name": "Gemini 2.5 Pro (Batch)",
+  "description": "Gemini 2.5 Pro is our most advanced reasoning Gemini model, capable of solving complex problems. Gemini 2.5 Pro can comprehend vast datasets and challenging problems from different information sources, including text, audio, images, video, and even entire code repositories.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-13T06:21:55.514Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

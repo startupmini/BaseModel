@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/gemini-3.1-pro-preview-batch",
+  "provider_id": "vercel",
+  "name": "Gemini 3.1 Pro Preview (Batch)",
+  "description": "Improved SWE and agentic capabilities, improved token efficiency and thinking, and expanded thinking levels.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-13T06:21:55.517Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

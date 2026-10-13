@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/claude-sonnet-4.6-batch",
+  "provider_id": "vercel",
+  "name": "Claude Sonnet 4.6 (Batch)",
+  "description": "Claude Sonnet 4.6 is the most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with memory, polished document creation, and confident computer use for web QA and workflow automation.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-13T06:21:55.503Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}

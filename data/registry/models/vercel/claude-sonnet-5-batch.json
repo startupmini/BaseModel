@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/claude-sonnet-5-batch",
+  "provider_id": "vercel",
+  "name": "Claude Sonnet 5 (Batch)",
+  "description": "Sonnet 5 is an upgrade to Sonnet 4.6, with gains across agentic coding and professional work. It builds on the strengths of previous Sonnet models, bringing top-tier intelligence at Sonnet pricing for coding, agents, and everyday professional work at scale.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-13T06:21:55.505Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1000000
+  }
+}

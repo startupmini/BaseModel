@@ -1,0 +1,22 @@
+{
+  "model_id": "vercel/muse-wonder-1.0",
+  "provider_id": "vercel",
+  "name": "Muse Wonder",
+  "description": "Muse Wonder is Meta’s model for frontier coding, long-running agents, and advanced computer use. It plans long tasks, delegates work to sub-agents, and recovers from errors.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-13T06:21:46.697Z"
+}

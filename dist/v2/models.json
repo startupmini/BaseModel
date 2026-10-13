@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d72f64f",
-  "generated_at": "2026-10-12T05:26:25.394Z",
-  "count": 1472,
+  "source_revision": "715286d",
+  "generated_at": "2026-10-13T06:25:01.585Z",
+  "count": 1478,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -1006,7 +1006,7 @@
       "embedding_support": false,
       "context_window": 200000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "claude-3-haiku"
       ],
@@ -1080,14 +1080,16 @@
     {
       "model_id": "claude-fable-5-1-batch",
       "name": "anthropic/claude-fable-5.1:batch",
+      "description": "Claude Fable 5.1 improves on Fable 5 across long-running agentic coding, knowledge work, and research, following instructions precisely over sessions that run unattended for hours.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -1098,7 +1100,8 @@
         "claude-fable-5.1-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-fable-5.1-batch"
+        "openrouter/claude-fable-5.1-batch",
+        "vercel/claude-fable-5.1-batch"
       ]
     },
     {
@@ -1130,14 +1133,16 @@
     {
       "model_id": "claude-fable-5-batch",
       "name": "anthropic/claude-fable-5:batch",
+      "description": "Claude Fable 5 is a Mythos-class model with robust safeguards. It can handle long-running, complex, and asynchronous tasks where previous models would have needed more frequent check-ins.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -1148,7 +1153,8 @@
         "claude-fable-5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-fable-5-batch"
+        "openrouter/claude-fable-5-batch",
+        "vercel/claude-fable-5-batch"
       ]
     },
     {
@@ -1311,14 +1317,15 @@
     {
       "model_id": "claude-haiku-4-5-batch",
       "name": "anthropic/claude-haiku-4.5:batch",
+      "description": "Claude Haiku 4.5 matches Sonnet 4's performance on coding, computer use, and agent tasks at substantially lower cost and faster speeds. It delivers near-frontier performance and Claude’s unique character at a price point that works for scaled sub-agent deployments, free tier products, and intelligence-sensitive applications with budget constraints.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -1330,7 +1337,8 @@
         "claude-haiku-4.5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-haiku-4.5-batch"
+        "openrouter/claude-haiku-4.5-batch",
+        "vercel/claude-haiku-4.5-batch"
       ]
     },
     {
@@ -1601,14 +1609,15 @@
     {
       "model_id": "claude-haiku-5-5-batch",
       "name": "anthropic/claude-haiku-5.5:batch",
+      "description": "Claude Haiku 5.5 brings adaptive reasoning to Anthropic’s low-cost Haiku family for everyday tasks, tool use, and scaled sub-agent deployments. It is the first Haiku with adjustable effort levels, letting developers balance reasoning depth and token usage for each task, with the option to turn thinking off for simpler requests.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -1620,7 +1629,8 @@
         "claude-haiku-5.5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-haiku-5.5-batch"
+        "openrouter/claude-haiku-5.5-batch",
+        "vercel/claude-haiku-5.5-batch"
       ]
     },
     {
@@ -1968,14 +1978,15 @@
     {
       "model_id": "claude-opus-4-5-batch",
       "name": "anthropic/claude-opus-4.5:batch",
+      "description": "Claude Opus 4.5 is Anthropic’s latest model in the Opus series, meant for demanding reasoning tasks and complex problem solving. This model has improvements in general intelligence and vision compared to previous iterations. In addition, it is suited for difficult coding tasks and agentic workflows, especially those with computer use and tool use, and can effectively handle context usage and external memory files.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -1987,7 +1998,8 @@
         "claude-opus-4.5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-opus-4.5-batch"
+        "openrouter/claude-opus-4.5-batch",
+        "vercel/claude-opus-4.5-batch"
       ]
     },
     {
@@ -2268,14 +2280,15 @@
     {
       "model_id": "claude-opus-4-6-batch",
       "name": "anthropic/claude-opus-4.6:batch",
+      "description": "Opus 4.6 is the world’s best model for coding and professional work, built to power agents that take on whole categories of real-world work. It excels across the entire SDLC, breaking through on hard problems, identifying complex bugs, and demonstrating deeper codebase understanding. It also delivers a step-change in knowledge work, with near-production-ready documents, presentations, and spreadsheets on the first pass.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -2287,7 +2300,8 @@
         "claude-opus-4.6-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-opus-4.6-batch"
+        "openrouter/claude-opus-4.6-batch",
+        "vercel/claude-opus-4.6-batch"
       ]
     },
     {
@@ -2387,14 +2401,15 @@
     {
       "model_id": "claude-opus-4-7-batch",
       "name": "anthropic/claude-opus-4.7:batch",
+      "description": "Opus 4.7 builds on the coding and agentic strengths of Opus 4.6 with stronger performance on complex, multi-step tasks and more reliable agentic execution. It also brings improved performance on knowledge work, from drafting documents to building presentations and analyzing data.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -2406,7 +2421,8 @@
         "claude-opus-4.7-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-opus-4.7-batch"
+        "openrouter/claude-opus-4.7-batch",
+        "vercel/claude-opus-4.7-batch"
       ]
     },
     {
@@ -2703,14 +2719,15 @@
     {
       "model_id": "claude-opus-4-8-batch",
       "name": "anthropic/claude-opus-4.8:batch",
+      "description": "Opus 4.8 is a focused upgrade to Opus 4.7 and is Anthropic's best generally available model for coding, agentic tasks, and enterprise workflows. It builds on the strengths of previous Opus models with stronger performance on complex, multi-step coding tasks. Anthropic recommends using it on long-horizon coding and agentic tasks. It is also stronger on professional work, including document drafting, data analysis, and presentations.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -2722,7 +2739,8 @@
         "claude-opus-4.8-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-opus-4.8-batch"
+        "openrouter/claude-opus-4.8-batch",
+        "vercel/claude-opus-4.8-batch"
       ]
     },
     {
@@ -3078,14 +3096,15 @@
     {
       "model_id": "claude-opus-5-5-batch",
       "name": "anthropic/claude-opus-5.5:batch",
+      "description": "Claude Opus 5.5 is a step-change improvement over Opus 5 for agentic coding, long-running agentic tasks, knowledge work, communication, and vision. It is more token-efficient per completed task and reports progress, findings, and next steps in clear language.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -3097,7 +3116,8 @@
         "claude-opus-5.5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-opus-5.5-batch"
+        "openrouter/claude-opus-5.5-batch",
+        "vercel/claude-opus-5.5-batch"
       ]
     },
     {
@@ -3363,14 +3383,15 @@
     {
       "model_id": "claude-opus-5-batch",
       "name": "anthropic/claude-opus-5:batch",
+      "description": "Claude Opus 5 is the latest model in Anthropic's Opus family and a step-change improvement over Opus 4.8. It delivers major gains over Opus 4.8 in agentic coding, professional knowledge work, and long-horizon reasoning, and it is stronger per token across effort levels.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -3382,7 +3403,8 @@
         "claude-opus-5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-opus-5-batch"
+        "openrouter/claude-opus-5-batch",
+        "vercel/claude-opus-5-batch"
       ]
     },
     {
@@ -3678,14 +3700,15 @@
     {
       "model_id": "claude-sonnet-4-5-batch",
       "name": "anthropic/claude-sonnet-4.5:batch",
+      "description": "Claude Sonnet 4.5 is the newest model in the Sonnet series, offering improvements and updates over Sonnet 4.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -3697,7 +3720,8 @@
         "claude-sonnet-4.5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-sonnet-4.5-batch"
+        "openrouter/claude-sonnet-4.5-batch",
+        "vercel/claude-sonnet-4.5-batch"
       ]
     },
     {
@@ -3995,14 +4019,15 @@
     {
       "model_id": "claude-sonnet-4-6-batch",
       "name": "anthropic/claude-sonnet-4.6:batch",
+      "description": "Claude Sonnet 4.6 is the most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with memory, polished document creation, and confident computer use for web QA and workflow automation.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -4014,7 +4039,8 @@
         "claude-sonnet-4.6-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-sonnet-4.6-batch"
+        "openrouter/claude-sonnet-4.6-batch",
+        "vercel/claude-sonnet-4.6-batch"
       ]
     },
     {
@@ -4551,14 +4577,15 @@
     {
       "model_id": "claude-sonnet-5-5-batch",
       "name": "anthropic/claude-sonnet-5.5:batch",
+      "description": "Claude Sonnet 5.5 is a step-change improvement over Sonnet 5 for well-scoped everyday work like building features, fixing bugs, and creating polished documents, slides, and spreadsheets. It also writes more clearly than Sonnet 5.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -4570,7 +4597,8 @@
         "claude-sonnet-5.5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-sonnet-5.5-batch"
+        "openrouter/claude-sonnet-5.5-batch",
+        "vercel/claude-sonnet-5.5-batch"
       ]
     },
     {
@@ -4784,14 +4812,15 @@
     {
       "model_id": "claude-sonnet-5-batch",
       "name": "anthropic/claude-sonnet-5:batch",
+      "description": "Sonnet 5 is an upgrade to Sonnet 4.6, with gains across agentic coding and professional work. It builds on the strengths of previous Sonnet models, bringing top-tier intelligence at Sonnet pricing for coding, agents, and everyday professional work at scale.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -4803,7 +4832,8 @@
         "claude-sonnet-5-batch"
       ],
       "offering_ids": [
-        "openrouter/claude-sonnet-5-batch"
+        "openrouter/claude-sonnet-5-batch",
+        "vercel/claude-sonnet-5-batch"
       ]
     },
     {
@@ -6429,7 +6459,7 @@
       "embedding_support": false,
       "context_window": 1048576,
       "capability_ids": [],
-      "status": "discontinued",
+      "status": "active",
       "aliases": [
         "deepseek-v4.1-flash-fast"
       ],
@@ -8316,14 +8346,15 @@
     {
       "model_id": "gemini-2-5-flash-batch",
       "name": "google/gemini-2.5-flash:batch",
+      "description": "Gemini 2.5 Flash is a thinking model that offers great, well-rounded capabilities. It is designed to offer a balance between price and performance with multimodal support and a 1M token context window.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8335,7 +8366,8 @@
         "gemini-2.5-flash-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-2.5-flash-batch"
+        "openrouter/gemini-2.5-flash-batch",
+        "vercel/gemini-2.5-flash-batch"
       ]
     },
     {
@@ -8897,14 +8929,15 @@
     {
       "model_id": "gemini-2-5-flash-lite-batch",
       "name": "google/gemini-2.5-flash-lite:batch",
+      "description": "Gemini 2.5 Flash-Lite is a balanced, low-latency model with configurable thinking budgets and tool connectivity (e.g., Google Search grounding and code execution). It supports multimodal input and offers a 1M-token context window.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -8916,7 +8949,8 @@
         "gemini-2.5-flash-lite-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-2.5-flash-lite-batch"
+        "openrouter/gemini-2.5-flash-lite-batch",
+        "vercel/gemini-2.5-flash-lite-batch"
       ]
     },
     {
@@ -9482,14 +9516,15 @@
     {
       "model_id": "gemini-2-5-pro-batch",
       "name": "google/gemini-2.5-pro:batch",
+      "description": "Gemini 2.5 Pro is our most advanced reasoning Gemini model, capable of solving complex problems. Gemini 2.5 Pro can comprehend vast datasets and challenging problems from different information sources, including text, audio, images, video, and even entire code repositories.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -9501,7 +9536,8 @@
         "gemini-2.5-pro-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-2.5-pro-batch"
+        "openrouter/gemini-2.5-pro-batch",
+        "vercel/gemini-2.5-pro-batch"
       ]
     },
     {
@@ -9990,14 +10026,15 @@
     {
       "model_id": "gemini-3-1-flash-lite-batch",
       "name": "google/gemini-3.1-flash-lite:batch",
+      "description": "Gemini 3.1 Flash Lite outperforms 2.5 Flash Lite on overall quality and lands close to 2.5 Flash performance across key capability areas. It is a workhorse model for high-volume use cases, with improvements across audio input/ASR, RAG snippet ranking, translation, data extraction, and code completion.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -10009,7 +10046,8 @@
         "gemini-3.1-flash-lite-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-3.1-flash-lite-batch"
+        "openrouter/gemini-3.1-flash-lite-batch",
+        "vercel/gemini-3.1-flash-lite-batch"
       ]
     },
     {
@@ -10273,14 +10311,15 @@
     {
       "model_id": "gemini-3-1-pro-preview-batch",
       "name": "google/gemini-3.1-pro-preview:batch",
+      "description": "Improved SWE and agentic capabilities, improved token efficiency and thinking, and expanded thinking levels.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -10292,7 +10331,8 @@
         "gemini-3.1-pro-preview-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-3.1-pro-preview-batch"
+        "openrouter/gemini-3.1-pro-preview-batch",
+        "vercel/gemini-3.1-pro-preview-batch"
       ]
     },
     {
@@ -10411,14 +10451,15 @@
     {
       "model_id": "gemini-3-5-flash-batch",
       "name": "google/gemini-3.5-flash:batch",
+      "description": "Google's latest model, highly optimized for coding proficiency and parallel agentic execution loops. Defaults to medium thinking effort for faster and more cost-efficient responses.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -10430,7 +10471,8 @@
         "gemini-3.5-flash-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-3.5-flash-batch"
+        "openrouter/gemini-3.5-flash-batch",
+        "vercel/gemini-3.5-flash-batch"
       ]
     },
     {
@@ -10519,14 +10561,15 @@
     {
       "model_id": "gemini-3-5-flash-lite-batch",
       "name": "google/gemini-3.5-flash-lite:batch",
+      "description": "Gemini 3.5 Flash Lite features upgraded agentic capabilities, making the model ideal for subagents in complex workflows.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -10538,7 +10581,8 @@
         "gemini-3.5-flash-lite-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-3.5-flash-lite-batch"
+        "openrouter/gemini-3.5-flash-lite-batch",
+        "vercel/gemini-3.5-flash-lite-batch"
       ]
     },
     {
@@ -10739,14 +10783,15 @@
     {
       "model_id": "gemini-3-6-flash-batch",
       "name": "google/gemini-3.6-flash:batch",
+      "description": "Gemini 3.6 Flash delivers higher quality across coding, agentic workflows, and web development with reduced token consumption and fewer model calls compared to previous model iterations.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -10758,7 +10803,8 @@
         "gemini-3.6-flash-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-3.6-flash-batch"
+        "openrouter/gemini-3.6-flash-batch",
+        "vercel/gemini-3.6-flash-batch"
       ]
     },
     {
@@ -10822,14 +10868,15 @@
     {
       "model_id": "gemini-3-7-flash-batch",
       "name": "google/gemini-3.7-flash:batch",
+      "description": "Gemini 3.7 Flash is the next iteration in the Gemini 3 model family, featuring algorithmic improvements to its core reasoning foundation. It supports customizable thinking configurations to control the mix of quality, cost and latency.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -10841,7 +10888,8 @@
         "gemini-3.7-flash-batch"
       ],
       "offering_ids": [
-        "openrouter/gemini-3.7-flash-batch"
+        "openrouter/gemini-3.7-flash-batch",
+        "vercel/gemini-3.7-flash-batch"
       ]
     },
     {
@@ -11112,6 +11160,32 @@
       ],
       "offering_ids": [
         "vercel/gemini-3-flash"
+      ]
+    },
+    {
+      "model_id": "gemini-3-flash-batch",
+      "name": "Gemini 3 Flash (Batch)",
+      "description": "Google's most intelligent model built for speed, combining frontier intelligence with superior search and grounding.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-3-flash-batch"
+      ],
+      "offering_ids": [
+        "vercel/gemini-3-flash-batch"
       ]
     },
     {
@@ -13255,14 +13329,15 @@
     {
       "model_id": "gpt-4-1-batch",
       "name": "openai/gpt-4.1:batch",
+      "description": "GPT 4.1 is OpenAI's flagship model for complex tasks. It is well suited for problem solving across domains.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -13274,7 +13349,8 @@
         "gpt-4.1-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-4.1-batch"
+        "openrouter/gpt-4.1-batch",
+        "vercel/gpt-4.1-batch"
       ]
     },
     {
@@ -13437,14 +13513,15 @@
     {
       "model_id": "gpt-4-1-mini-batch",
       "name": "openai/gpt-4.1-mini:batch",
+      "description": "GPT 4.1 mini provides a balance between intelligence, speed, and cost that makes it an attractive model for many use cases.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -13456,7 +13533,8 @@
         "gpt-4.1-mini-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-4.1-mini-batch"
+        "openrouter/gpt-4.1-mini-batch",
+        "vercel/gpt-4.1-mini-batch"
       ]
     },
     {
@@ -13645,14 +13723,15 @@
     {
       "model_id": "gpt-4-1-nano-batch",
       "name": "openai/gpt-4.1-nano:batch",
+      "description": "GPT-4.1 nano is the fastest, most cost-effective GPT 4.1 model.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -13664,7 +13743,8 @@
         "gpt-4.1-nano-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-4.1-nano-batch"
+        "openrouter/gpt-4.1-nano-batch",
+        "vercel/gpt-4.1-nano-batch"
       ]
     },
     {
@@ -14180,14 +14260,15 @@
     {
       "model_id": "gpt-4o-batch",
       "name": "openai/gpt-4o:batch",
+      "description": "GPT-4o from OpenAI has broad general knowledge and domain expertise allowing it to follow complex instructions in natural language and solve difficult problems accurately. It matches GPT-4 Turbo performance with a faster and cheaper API.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -14199,7 +14280,8 @@
         "gpt-4o-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-4o-batch"
+        "openrouter/gpt-4o-batch",
+        "vercel/gpt-4o-batch"
       ]
     },
     {
@@ -14294,14 +14376,15 @@
     {
       "model_id": "gpt-4o-mini-batch",
       "name": "openai/gpt-4o-mini:batch",
+      "description": "GPT-4o mini from OpenAI is their most advanced and cost-efficient small model. It is multi-modal (accepting text or image inputs and outputting text) and has higher intelligence than gpt-3.5-turbo but is just as fast.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
       "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -14313,7 +14396,8 @@
         "gpt-4o-mini-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-4o-mini-batch"
+        "openrouter/gpt-4o-mini-batch",
+        "vercel/gpt-4o-mini-batch"
       ]
     },
     {
@@ -15221,14 +15305,15 @@
     {
       "model_id": "gpt-5-2-batch",
       "name": "openai/gpt-5.2:batch",
+      "description": "GPT-5.2 is OpenAI's best general-purpose model, part of the GPT-5 flagship model family. It's their most intelligent model yet for both general and agentic tasks.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -15240,7 +15325,8 @@
         "gpt-5.2-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.2-batch"
+        "openrouter/gpt-5.2-batch",
+        "vercel/gpt-5.2-batch"
       ]
     },
     {
@@ -15716,14 +15802,15 @@
     {
       "model_id": "gpt-5-4-batch",
       "name": "openai/gpt-5.4:batch",
+      "description": "GPT-5.4 is OpenAI's best general-purpose model, part of the GPT-5 flagship model family. It's their most intelligent model yet for both general and agentic tasks.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -15735,7 +15822,8 @@
         "gpt-5.4-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.4-batch"
+        "openrouter/gpt-5.4-batch",
+        "vercel/gpt-5.4-batch"
       ]
     },
     {
@@ -15949,14 +16037,15 @@
     {
       "model_id": "gpt-5-4-mini-batch",
       "name": "openai/gpt-5.4-mini:batch",
+      "description": "GPT-5.4 Mini brings the strengths of GPT-5.4 to a faster, more efficient model designed for high-volume workloads.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -15968,7 +16057,8 @@
         "gpt-5.4-mini-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.4-mini-batch"
+        "openrouter/gpt-5.4-mini-batch",
+        "vercel/gpt-5.4-mini-batch"
       ]
     },
     {
@@ -16104,14 +16194,15 @@
     {
       "model_id": "gpt-5-4-nano-batch",
       "name": "openai/gpt-5.4-nano:batch",
+      "description": "GPT-5.4 Nano is designed for tasks where speed and cost matter most like classification, data extraction, ranking, and sub-agents.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -16123,7 +16214,8 @@
         "gpt-5.4-nano-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.4-nano-batch"
+        "openrouter/gpt-5.4-nano-batch",
+        "vercel/gpt-5.4-nano-batch"
       ]
     },
     {
@@ -16442,14 +16534,15 @@
     {
       "model_id": "gpt-5-5-batch",
       "name": "openai/gpt-5.5:batch",
+      "description": "GPT‑5.5 understands what you’re trying to do faster and can carry more of the work itself. It excels at writing and debugging code, researching online, analyzing data, creating documents and spreadsheets, operating software, and moving across tools until a task is finished. Instead of carefully managing every step, you can give GPT‑5.5 a messy, multi-part task and trust it to plan, use tools, check its work, navigate through ambiguity, and keep going.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -16461,7 +16554,8 @@
         "gpt-5.5-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.5-batch"
+        "openrouter/gpt-5.5-batch",
+        "vercel/gpt-5.5-batch"
       ]
     },
     {
@@ -16629,9 +16723,9 @@
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -16643,7 +16737,8 @@
         "gpt-5.5-pro-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.5-pro-batch"
+        "openrouter/gpt-5.5-pro-batch",
+        "vercel/gpt-5.5-pro-batch"
       ]
     },
     {
@@ -16782,14 +16877,15 @@
     {
       "model_id": "gpt-5-6-luna-batch",
       "name": "openai/gpt-5.6-luna:batch",
+      "description": "GPT-5.6 Luna is a fast, affordable GPT-5.6 model that brings strong capability at the lowest cost in the series.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -16801,7 +16897,8 @@
         "gpt-5.6-luna-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.6-luna-batch"
+        "openrouter/gpt-5.6-luna-batch",
+        "vercel/gpt-5.6-luna-batch"
       ]
     },
     {
@@ -17146,14 +17243,15 @@
     {
       "model_id": "gpt-5-6-sol-batch",
       "name": "openai/gpt-5.6-sol:batch",
+      "description": "GPT-5.6 Sol is the flagship of OpenAI's GPT-5.6 series, its most capable model for long-horizon agentic work across coding, biology, and cybersecurity.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -17165,7 +17263,8 @@
         "gpt-5.6-sol-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.6-sol-batch"
+        "openrouter/gpt-5.6-sol-batch",
+        "vercel/gpt-5.6-sol-batch"
       ]
     },
     {
@@ -17536,14 +17635,15 @@
     {
       "model_id": "gpt-5-6-terra-batch",
       "name": "openai/gpt-5.6-terra:batch",
+      "description": "GPT-5.6 Terra is a balanced GPT-5.6 model for everyday work, with performance comparable to the previous generation at half the cost.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -17555,7 +17655,8 @@
         "gpt-5.6-terra-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5.6-terra-batch"
+        "openrouter/gpt-5.6-terra-batch",
+        "vercel/gpt-5.6-terra-batch"
       ]
     },
     {
@@ -17871,14 +17972,15 @@
     {
       "model_id": "gpt-5-batch",
       "name": "openai/gpt-5:batch",
+      "description": "GPT-5 is OpenAI's flagship language model that excels at complex reasoning, broad real-world knowledge, code-intensive, and multi-step agentic tasks.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -17890,7 +17992,8 @@
         "gpt-5-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5-batch"
+        "openrouter/gpt-5-batch",
+        "vercel/gpt-5-batch"
       ]
     },
     {
@@ -18206,14 +18309,15 @@
     {
       "model_id": "gpt-5-mini-batch",
       "name": "openai/gpt-5-mini:batch",
+      "description": "GPT-5 mini is a cost optimized model that excels at reasoning/chat tasks. It offers an optimal balance between speed, cost, and capability.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -18225,7 +18329,8 @@
         "gpt-5-mini-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5-mini-batch"
+        "openrouter/gpt-5-mini-batch",
+        "vercel/gpt-5-mini-batch"
       ]
     },
     {
@@ -18512,14 +18617,15 @@
     {
       "model_id": "gpt-5-nano-batch",
       "name": "openai/gpt-5-nano:batch",
+      "description": "GPT-5 nano is a high throughput model that excels at simple instruction or classification tasks.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -18531,7 +18637,8 @@
         "gpt-5-nano-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5-nano-batch"
+        "openrouter/gpt-5-nano-batch",
+        "vercel/gpt-5-nano-batch"
       ]
     },
     {
@@ -18767,14 +18874,15 @@
     {
       "model_id": "gpt-5-pro-batch",
       "name": "openai/gpt-5-pro:batch",
+      "description": "GPT-5 pro uses more compute to think harder and provide consistently better answers. Since GPT-5 pro is designed to tackle tough problems, some requests may take several minutes to finish.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -18786,7 +18894,8 @@
         "gpt-5-pro-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-5-pro-batch"
+        "openrouter/gpt-5-pro-batch",
+        "vercel/gpt-5-pro-batch"
       ]
     },
     {
@@ -18947,14 +19056,16 @@
     {
       "model_id": "gpt-6-1-sol-batch",
       "name": "openai/gpt-6.1-sol:batch",
+      "description": "GPT-6.1 Sol is OpenAI's reasoning model for complex coding, computer use, and professional work. It accepts text and images, generates text, and supports a 1,050,000-token context window with up to 128,000 output tokens. Configurable reasoning effort, structured outputs, prompt caching, and Responses API tools support multi-step workflows.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -18965,7 +19076,8 @@
         "gpt-6.1-sol-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-6.1-sol-batch"
+        "openrouter/gpt-6.1-sol-batch",
+        "vercel/gpt-6.1-sol-batch"
       ]
     },
     {
@@ -19230,14 +19342,16 @@
     {
       "model_id": "gpt-6-astra-batch",
       "name": "openai/gpt-6-astra:batch",
+      "description": "GPT-6 Astra is OpenAI's most capable model for complex reasoning, coding, computer use, research, and document creation.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -19248,7 +19362,8 @@
         "gpt-6-astra-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-6-astra-batch"
+        "openrouter/gpt-6-astra-batch",
+        "vercel/gpt-6-astra-batch"
       ]
     },
     {
@@ -19409,14 +19524,16 @@
     {
       "model_id": "gpt-6-luna-batch",
       "name": "openai/gpt-6-luna:batch",
+      "description": "GPT-6 Luna is OpenAI's efficient reasoning model for focused, high-volume tasks. It accepts text and images, generates text, and supports a 1,050,000-token context window with up to 128,000 output tokens. Configurable reasoning effort, structured outputs, prompt caching, and Responses API tools support cost-sensitive applications, coding tasks, and automated workflows.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -19427,7 +19544,8 @@
         "gpt-6-luna-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-6-luna-batch"
+        "openrouter/gpt-6-luna-batch",
+        "vercel/gpt-6-luna-batch"
       ]
     },
     {
@@ -19717,14 +19835,16 @@
     {
       "model_id": "gpt-6-sol-batch",
       "name": "openai/gpt-6-sol:batch",
+      "description": "GPT-6 Sol is OpenAI's reasoning model for complex coding and agentic workflows. It accepts text and images, generates text, and supports a 1,050,000-token context window with up to 128,000 output tokens. Configurable reasoning effort, structured outputs, prompt caching, and Responses API tools make it suited to software development and multi-step automation.",
       "modality": [
-        "text"
+        "text",
+        "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
-      "vision_support": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
@@ -19735,7 +19855,8 @@
         "gpt-6-sol-batch"
       ],
       "offering_ids": [
-        "openrouter/gpt-6-sol-batch"
+        "openrouter/gpt-6-sol-batch",
+        "vercel/gpt-6-sol-batch"
       ]
     },
     {
@@ -21457,6 +21578,32 @@
       ]
     },
     {
+      "model_id": "grok-4-20-multi-agent-batch",
+      "name": "Grok 4.20 Multi-Agent (Batch)",
+      "description": "Multiple agents collaborate in parallel to perform deep research tasks.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 2000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "grok-4.20-multi-agent-batch"
+      ],
+      "offering_ids": [
+        "vercel/grok-4.20-multi-agent-batch"
+      ]
+    },
+    {
       "model_id": "grok-4-20-multi-agent-beta",
       "name": "Grok 4.20 Multi Agent Beta",
       "description": "Multiple agents collaborate in parallel to perform deep research tasks.",
@@ -21509,6 +21656,32 @@
       ]
     },
     {
+      "model_id": "grok-4-20-non-reasoning-batch",
+      "name": "Grok 4.20 Non-Reasoning (Batch)",
+      "description": "Grok 4.20 Beta is the newest flagship model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherence, delivering consistently precise and truthful responses.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 2000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "grok-4.20-non-reasoning-batch"
+      ],
+      "offering_ids": [
+        "vercel/grok-4.20-non-reasoning-batch"
+      ]
+    },
+    {
       "model_id": "grok-4-20-non-reasoning-beta",
       "name": "Grok 4.20 Beta Non-Reasoning",
       "description": "Grok 4.20 Beta is the newest flagship model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.",
@@ -21558,6 +21731,32 @@
       ],
       "offering_ids": [
         "vercel/grok-4.20-reasoning"
+      ]
+    },
+    {
+      "model_id": "grok-4-20-reasoning-batch",
+      "name": "Grok 4.20 Reasoning (Batch)",
+      "description": "Grok 4.20 Beta is the newest flagship model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherence, delivering consistently precise and truthful responses.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 2000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "grok-4.20-reasoning-batch"
+      ],
+      "offering_ids": [
+        "vercel/grok-4.20-reasoning-batch"
       ]
     },
     {
@@ -21617,14 +21816,15 @@
     {
       "model_id": "grok-4-3-batch",
       "name": "x-ai/grok-4.3:batch",
+      "description": "Grok 4.3 is a new model matching the scale of Grok 4.20 with an improved architecture and a December 2025 knowledge cutoff.",
       "modality": [
         "text",
         "image"
       ],
       "open_weight": false,
-      "reasoning_support": false,
-      "function_calling": false,
-      "structured_output": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
       "vision_support": true,
       "audio_support": false,
       "image_generation": false,
@@ -21636,7 +21836,8 @@
         "grok-4.3-batch"
       ],
       "offering_ids": [
-        "openrouter/grok-4.3-batch"
+        "openrouter/grok-4.3-batch",
+        "vercel/grok-4.3-batch"
       ]
     },
     {
@@ -28720,6 +28921,56 @@
       ]
     },
     {
+      "model_id": "muse-wonder",
+      "name": "meta/muse-wonder",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "muse-wonder"
+      ],
+      "offering_ids": [
+        "openrouter/muse-wonder"
+      ]
+    },
+    {
+      "model_id": "muse-wonder-1-0",
+      "name": "Muse Wonder",
+      "description": "Muse Wonder is Meta’s model for frontier coding, long-running agents, and advanced computer use. It plans long tasks, delegates work to sub-agents, and recovers from errors.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "muse-wonder-1.0"
+      ],
+      "offering_ids": [
+        "vercel/muse-wonder-1.0"
+      ]
+    },
+    {
       "model_id": "mythomax-l2-13b",
       "name": "Gryphe/MythoMax-L2-13b",
       "description": "The idea behind this merge is that each layer is composed of several tensors, which are in turn responsible for specific functions. Using MythoLogic-L2's robust understanding as its input and Huginn's extensive writing capability as its output seems to have resulted in a model that exceeds at both, confirming my theory. (More details to be released at a later time).",
@@ -31930,7 +32181,7 @@
       "embedding_support": false,
       "context_window": 240000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen-3.6-max-preview"
       ],
@@ -32379,7 +32630,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen3-235b-a22b-thinking"
       ],
@@ -33958,7 +34209,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen3-max-preview"
       ],
@@ -34290,7 +34541,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 131072,
+      "context_window": 262144,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -34318,7 +34569,7 @@
       "embedding_support": false,
       "context_window": 131072,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "qwen3-vl-thinking"
       ],
