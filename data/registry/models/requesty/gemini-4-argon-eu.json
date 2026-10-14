@@ -1,0 +1,27 @@
+{
+  "model_id": "requesty/gemini-4-argon-eu",
+  "provider_id": "requesty",
+  "name": "vertex/gemini-4-argon@eu",
+  "description": "Gemini 4 Argon is Google's frontier model for deep work on complex, real world tasks across coding, finance, legal, cybersecurity and science. It sustains long multi step workflows with strong reasoning and multimodal understanding over a 1M token context.",
+  "context_window": 1048576,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-14T04:22:47.911Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

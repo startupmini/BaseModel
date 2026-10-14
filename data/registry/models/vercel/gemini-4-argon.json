@@ -1,0 +1,27 @@
+{
+  "model_id": "vercel/gemini-4-argon",
+  "provider_id": "vercel",
+  "name": "Gemini 4 Argon",
+  "description": "Gemini 4 Argon is Google’s multimodal reasoning model, supporting text, image, and file inputs with configurable reasoning levels. It combines tool calling, structured outputs, and Google Search and Maps grounding to support document analysis and agent workflows. Long-form generation supports continuation across requests, allowing applications to resume output beyond a single request’s token limit.",
+  "context_window": 1000000,
+  "modality": [
+    "text",
+    "image"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": true,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-14T04:22:48.090Z",
+  "is_free": false,
+  "tier": "balanced",
+  "limits": {
+    "max_input_tokens": 1048576
+  }
+}

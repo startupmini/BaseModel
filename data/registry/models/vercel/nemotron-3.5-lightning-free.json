@@ -1,7 +1,7 @@
 {
   "model_id": "vercel/nemotron-3.5-lightning-free",
   "provider_id": "vercel",
-  "name": "Nemotron 3.5 Lightning 30B (Free)",
+  "name": "Nemotron 3.5 Lightning Free",
   "description": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4 is a large language model (LLM) trained by NVIDIA.\n\nThe model employs a hybrid Mixture-of-Experts architecture, utilizing interleaved Mamba-2 and MoE layers, along with select Attention layers. The Lightning 3.5 model is released alongside a number of speculative decoding methods for faster text generation. The model has 3B active parameters and 30B parameters in total.",
   "context_window": 1000000,
   "modality": [
@@ -21,6 +21,6 @@
     "max_input_tokens": 1000000
   },
   "capability_ids": [],
-  "status": "discontinued",
-  "updated_at": "2026-10-13T06:21:55.570Z"
+  "status": "active",
+  "updated_at": "2026-10-14T04:22:48.142Z"
 }

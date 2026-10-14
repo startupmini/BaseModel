@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "715286d",
-  "generated_at": "2026-10-13T06:25:01.585Z",
-  "count": 1478,
+  "source_revision": "d431e51",
+  "generated_at": "2026-10-14T04:25:51.149Z",
+  "count": 1492,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -358,7 +358,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "apodex-1.1-mini-free"
       ],
@@ -7132,6 +7132,31 @@
       ]
     },
     {
+      "model_id": "drama-3",
+      "name": "Drama 3",
+      "description": "Drama 3 is Fish Audio’s text-to-speech model, currently in preview, that lets you direct voice performances using natural-language instructions. It supports control over emotion, pacing, pauses, and vocal sounds, with tags that apply effects to specific words. Multi-speaker dialogue and directions written in different languages make it well suited to expressive voiceovers, character dialogue, and audio storytelling.",
+      "modality": [
+        "text",
+        "audio"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "drama-3"
+      ],
+      "offering_ids": [
+        "vercel/drama-3"
+      ]
+    },
+    {
       "model_id": "e5-base-v2",
       "name": "intfloat/e5-base-v2",
       "modality": [
@@ -7377,6 +7402,30 @@
       ],
       "offering_ids": [
         "deepinfra/expand"
+      ]
+    },
+    {
+      "model_id": "extract",
+      "name": "scaledown/extract",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "extract"
+      ],
+      "offering_ids": [
+        "openrouter/extract"
       ]
     },
     {
@@ -9936,6 +9985,32 @@
       ]
     },
     {
+      "model_id": "gemini-3-1-flash-image-eu",
+      "name": "vertex/gemini-3.1-flash-image@eu",
+      "description": "Gemini 3.1 Flash Image is optimized for image understanding and generation and offers a balance of price and performance.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "context_window": 131072,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-3.1-flash-image-eu"
+      ],
+      "offering_ids": [
+        "requesty/gemini-3.1-flash-image-eu"
+      ]
+    },
+    {
       "model_id": "gemini-3-1-flash-image-flex",
       "name": "vertex/gemini-3.1-flash-image:flex",
       "description": "Gemini 3.1 Flash Image is optimized for image understanding and generation and offers a balance of price and performance.",
@@ -11409,6 +11484,88 @@
       ],
       "offering_ids": [
         "requesty/gemini-3-pro-preview-flex"
+      ]
+    },
+    {
+      "model_id": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "description": "Gemini 4 Argon",
+      "modality": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": true,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-4-argon"
+      ],
+      "offering_ids": [
+        "google/gemini-4-argon",
+        "openrouter/gemini-4-argon",
+        "requesty/gemini-4-argon",
+        "vercel/gemini-4-argon"
+      ]
+    },
+    {
+      "model_id": "gemini-4-argon-batch",
+      "name": "google/gemini-4-argon:batch",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-4-argon-batch"
+      ],
+      "offering_ids": [
+        "openrouter/gemini-4-argon-batch"
+      ]
+    },
+    {
+      "model_id": "gemini-4-argon-eu",
+      "name": "vertex/gemini-4-argon@eu",
+      "description": "Gemini 4 Argon is Google's frontier model for deep work on complex, real world tasks across coding, finance, legal, cybersecurity and science. It sustains long multi step workflows with strong reasoning and multimodal understanding over a 1M token context.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1048576,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "gemini-4-argon-eu"
+      ],
+      "offering_ids": [
+        "requesty/gemini-4-argon-eu"
       ]
     },
     {
@@ -13633,7 +13790,7 @@
       "embedding_support": false,
       "context_window": 1047576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-4.1-mini-uksouth"
       ],
@@ -13895,7 +14052,7 @@
       "embedding_support": false,
       "context_window": 1047576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-4.1-nano-uksouth"
       ],
@@ -13999,7 +14156,7 @@
       "embedding_support": false,
       "context_window": 1047576,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-4.1-uksouth"
       ],
@@ -18528,7 +18685,7 @@
       "embedding_support": false,
       "context_window": 200000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5-mini-uksouth"
       ],
@@ -18990,7 +19147,7 @@
       "embedding_support": false,
       "context_window": 400000,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "gpt-5-uksouth"
       ],
@@ -24561,6 +24718,55 @@
       ]
     },
     {
+      "model_id": "lfm-2-5-24b-a2b",
+      "name": "liquid/lfm-2.5-24b-a2b",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "lfm-2.5-24b-a2b"
+      ],
+      "offering_ids": [
+        "openrouter/lfm-2.5-24b-a2b"
+      ]
+    },
+    {
+      "model_id": "lfm2-5-24b-a2b",
+      "name": "LFM2.5-24B-A2B",
+      "description": "LFM2.5-24B-A2B is a text-generation model from Liquid AI with a 128,000-token context window.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": true,
+      "function_calling": true,
+      "structured_output": true,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 128000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "lfm2.5-24b-a2b"
+      ],
+      "offering_ids": [
+        "vercel/lfm2.5-24b-a2b"
+      ]
+    },
+    {
       "model_id": "ling-2-6-1t",
       "name": "inclusionai/ling-2.6-1t",
       "description": "Inclusion AI ling-2.6-1t",
@@ -24786,7 +24992,7 @@
       "audio_support": false,
       "image_generation": false,
       "embedding_support": false,
-      "context_window": 262144,
+      "context_window": 256000,
       "capability_ids": [],
       "status": "active",
       "aliases": [
@@ -24920,7 +25126,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "ling-3.1-flash-free"
       ],
@@ -25807,6 +26013,56 @@
       ],
       "offering_ids": [
         "openrouter/magnum-v4-72b"
+      ]
+    },
+    {
+      "model_id": "mai-image-2-6",
+      "name": "MAI-Image-2.6",
+      "description": "MAI-Image-2.6 is a diffusion-based generative model designed for both high-quality text-to-image synthesis and precise, controllable image-to-image editing. It progressively transforms random noise into a coherent image aligned with a given text prompt, leveraging a flow-matching loss to learn a continuous transformation between the noise distribution and the data distribution. MAI-Image-2.6 excels at precise, surgical edits with consistency - enabling users and developers to make targeted object edits, adapt layouts, update text, clean up artifacts like motion blur, and preserve visual consistency across iterations.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "mai-image-2.6"
+      ],
+      "offering_ids": [
+        "vercel/mai-image-2.6"
+      ]
+    },
+    {
+      "model_id": "mai-image-2-6-flash",
+      "name": "MAI-Image-2.6-Flash",
+      "description": "MAI-Image-2.6 is a diffusion-based generative model designed for both high-quality text-to-image synthesis and precise, controllable image-to-image editing. It progressively transforms random noise into a coherent image aligned with a given text prompt, leveraging a flow-matching loss to learn a continuous transformation between the noise distribution and the data distribution. MAI-Image-2.6 excels at precise, surgical edits with consistency - enabling users and developers to make targeted object edits, adapt layouts, update text, clean up artifacts like motion blur, and preserve visual consistency across iterations.",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": true,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "mai-image-2.6-flash"
+      ],
+      "offering_ids": [
+        "vercel/mai-image-2.6-flash"
       ]
     },
     {
@@ -28869,7 +29125,7 @@
     {
       "model_id": "muse-spark-1-3",
       "name": "meta/muse-spark-1.3",
-      "description": "Muse Spark 1.3 is Meta’s multimodal reasoning model for long-horizon agentic and coding workflows. With a 1M-token context window, reliable tool calling, higher first-attempt accuracy, and native understanding of video, images, and documents, it helps developers build capable coding agents and AI development workflows with fewer unnecessary turns and cleaner output.",
+      "description": "Muse Spark 1.3 is a reasoning model from Meta built for long horizon coding and multi step agentic work, with improved tool, browser and computer use, native tool calling and MCP support, and fewer tokens than 1.2. It accepts text, images, video and PDF documents with a 1M token context and returns text.",
       "modality": [
         "text",
         "image"
@@ -28890,6 +29146,7 @@
       ],
       "offering_ids": [
         "openrouter/muse-spark-1.3",
+        "requesty/muse-spark-1.3",
         "vercel/muse-spark-1.3"
       ]
     },
@@ -28946,8 +29203,8 @@
     },
     {
       "model_id": "muse-wonder-1-0",
-      "name": "Muse Wonder",
-      "description": "Muse Wonder is Meta’s model for frontier coding, long-running agents, and advanced computer use. It plans long tasks, delegates work to sub-agents, and recovers from errors.",
+      "name": "meta/muse-wonder-1.0",
+      "description": "Muse Wonder is a frontier reasoning model from Meta, built for complex personal and professional agentic tasks such as coding, research, legal, finance and health work. It accepts text, images, video, audio and PDF documents with a 1M token context and returns text.",
       "modality": [
         "text",
         "image"
@@ -28967,6 +29224,7 @@
         "muse-wonder-1.0"
       ],
       "offering_ids": [
+        "requesty/muse-wonder-1.0",
         "vercel/muse-wonder-1.0"
       ]
     },
@@ -31596,7 +31854,7 @@
       "embedding_support": false,
       "context_window": 262144,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "pareto"
       ],
@@ -31629,6 +31887,30 @@
       ]
     },
     {
+      "model_id": "pareto-26-9",
+      "name": "unbiased/pareto-26.9",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "pareto-26.9"
+      ],
+      "offering_ids": [
+        "openrouter/pareto-26.9"
+      ]
+    },
+    {
       "model_id": "pareto-code",
       "name": "openrouter/pareto-code",
       "modality": [
@@ -31650,6 +31932,30 @@
       ],
       "offering_ids": [
         "openrouter/pareto-code"
+      ]
+    },
+    {
+      "model_id": "pareto-latest",
+      "name": "~unbiased/pareto-latest",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "pareto-latest"
+      ],
+      "offering_ids": [
+        "openrouter/pareto-latest"
       ]
     },
     {
@@ -35424,6 +35730,30 @@
       ]
     },
     {
+      "model_id": "scaledown-classify-1",
+      "name": "Classify-1",
+      "description": "ScaleDown Classify-1 is a task-specific small language model for text classification. It assigns text to custom labels and returns probability scores, supporting intent detection, content categorization, and routing workflows. Its deterministic, encoder-only approach produces consistent classification results without sampling variability.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "scaledown-classify-1"
+      ],
+      "offering_ids": [
+        "vercel/scaledown-classify-1"
+      ]
+    },
+    {
       "model_id": "schematron-v2-small",
       "name": "inference-net/schematron-v2-small",
       "description": "Schematron V2 Small is a specialized model from Inference.net for extracting structured data from HTML. It uses a supplied JSON Schema to produce conforming JSON and is designed for complex schemas and long pages.",
@@ -36449,6 +36779,30 @@
       ]
     },
     {
+      "model_id": "summarize",
+      "name": "scaledown/summarize",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 1000000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "summarize"
+      ],
+      "offering_ids": [
+        "openrouter/summarize"
+      ]
+    },
+    {
       "model_id": "switchyard",
       "name": "nvidia/switchyard",
       "modality": [
@@ -37187,7 +37541,7 @@
       "embedding_support": false,
       "context_window": 480,
       "capability_ids": [],
-      "status": "active",
+      "status": "discontinued",
       "aliases": [
         "veo-3.1-generate-preview"
       ],

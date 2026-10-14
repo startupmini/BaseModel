@@ -1,0 +1,21 @@
+{
+  "model_id": "vercel/lfm2.5-24b-a2b",
+  "provider_id": "vercel",
+  "name": "LFM2.5-24B-A2B",
+  "description": "LFM2.5-24B-A2B is a text-generation model from Liquid AI with a 128,000-token context window.",
+  "context_window": 128000,
+  "modality": [
+    "text"
+  ],
+  "open_weight": false,
+  "reasoning_support": true,
+  "function_calling": true,
+  "structured_output": true,
+  "vision_support": false,
+  "audio_support": false,
+  "image_generation": false,
+  "embedding_support": false,
+  "capability_ids": [],
+  "status": "active",
+  "updated_at": "2026-10-14T04:22:38.637Z"
+}
