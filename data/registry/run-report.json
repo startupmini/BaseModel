@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-10-14T04:22:42.318Z",
+  "generated_at": "2026-10-15T04:05:00.844Z",
   "summary": {
     "gateways": 17,
-    "failed": 0,
-    "partial": 8,
-    "total_fetched": 1969,
+    "failed": 1,
+    "partial": 7,
+    "total_fetched": 1979,
     "total_errors": 9
   },
   "gateways": [
+    {
+      "plugin": "cerebras",
+      "provider_id": "cerebras",
+      "status": "ok",
+      "fetched": 2,
+      "errors": [],
+      "duration_ms": 1720
+    },
     {
       "plugin": "fireworks",
       "provider_id": "fireworks",
@@ -16,7 +24,7 @@
       "errors": [
         "HTTP 412: Precondition Failed (Precondition failed: the provider may require billing setup, or the account is suspended or rate-limited.): {\"error\":{\"message\":\"Account xmlze is suspended, possibly due to reaching the monthly spending limit or failure to pay past invoices. Please go to https://fireworks.ai/account/billing for more informa"
       ],
-      "duration_ms": 2233
+      "duration_ms": 1726
     },
     {
       "plugin": "groq",
@@ -24,7 +32,17 @@
       "status": "ok",
       "fetched": 11,
       "errors": [],
-      "duration_ms": 2297
+      "duration_ms": 1740
+    },
+    {
+      "plugin": "together",
+      "provider_id": "together",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
+      ],
+      "duration_ms": 1685
     },
     {
       "plugin": "openai",
@@ -34,15 +52,17 @@
       "errors": [
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\n  \"error\": {\n    \"message\": \"Incorrect API key provided: sk-svcac*************************************************************************************************************************************"
       ],
-      "duration_ms": 2371
+      "duration_ms": 1728
     },
     {
-      "plugin": "cerebras",
-      "provider_id": "cerebras",
-      "status": "ok",
-      "fetched": 2,
-      "errors": [],
-      "duration_ms": 2451
+      "plugin": "mistral-ai",
+      "provider_id": "mistral-ai",
+      "status": "partial",
+      "fetched": 0,
+      "errors": [
+        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"detail\":\"Invalid API Key\"}"
+      ],
+      "duration_ms": 1803
     },
     {
       "plugin": "inferx",
@@ -53,27 +73,15 @@
         "No API key is registered for gateway inferx.",
         "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): service failure: no tenant context: set a default tenant or use a tenant-restricted API key"
       ],
-      "duration_ms": 2416
+      "duration_ms": 1833
     },
     {
-      "plugin": "together",
-      "provider_id": "together",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"error\":{\"message\":\"Unauthorized\"}}"
-      ],
-      "duration_ms": 2417
-    },
-    {
-      "plugin": "mistral-ai",
-      "provider_id": "mistral-ai",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "HTTP 401: Unauthorized (Unauthorized: check that the API key is valid and has not expired or been rotated.): {\"detail\":\"Invalid API Key\"}"
-      ],
-      "duration_ms": 2479
+      "plugin": "deepinfra",
+      "provider_id": "deepinfra",
+      "status": "ok",
+      "fetched": 180,
+      "errors": [],
+      "duration_ms": 1914
     },
     {
       "plugin": "openrouter",
@@ -81,7 +89,7 @@
       "status": "ok",
       "fetched": 462,
       "errors": [],
-      "duration_ms": 2553
+      "duration_ms": 1983
     },
     {
       "plugin": "hyperbolic",
@@ -89,17 +97,7 @@
       "status": "ok",
       "fetched": 5,
       "errors": [],
-      "duration_ms": 2624
-    },
-    {
-      "plugin": "helicone",
-      "provider_id": "helicone",
-      "status": "partial",
-      "fetched": 0,
-      "errors": [
-        "Helicone is a proxy with no model catalog. Set HELICONE_API_KEY to use as proxy."
-      ],
-      "duration_ms": 2922
+      "duration_ms": 2087
     },
     {
       "plugin": "google",
@@ -107,15 +105,7 @@
       "status": "ok",
       "fetched": 50,
       "errors": [],
-      "duration_ms": 3070
-    },
-    {
-      "plugin": "deepinfra",
-      "provider_id": "deepinfra",
-      "status": "ok",
-      "fetched": 177,
-      "errors": [],
-      "duration_ms": 3152
+      "duration_ms": 2328
     },
     {
       "plugin": "cloudflare",
@@ -125,7 +115,7 @@
       "errors": [
         "HTTP 404: Cloudflare returned Not Found for the Workers AI catalog. Check that CLOUDFLARE_ACCOUNT_ID is correct, Workers AI is enabled on the account, and CLOUDFLARE_API_TOKEN has the Workers AI \"AI Models\" read permission."
       ],
-      "duration_ms": 3216
+      "duration_ms": 2359
     },
     {
       "plugin": "anthropic",
@@ -133,15 +123,23 @@
       "status": "ok",
       "fetched": 14,
       "errors": [],
-      "duration_ms": 3245
+      "duration_ms": 2461
     },
     {
       "plugin": "vercel",
       "provider_id": "vercel",
       "status": "ok",
-      "fetched": 464,
+      "fetched": 465,
       "errors": [],
-      "duration_ms": 3304
+      "duration_ms": 2496
+    },
+    {
+      "plugin": "requesty",
+      "provider_id": "requesty",
+      "status": "ok",
+      "fetched": 790,
+      "errors": [],
+      "duration_ms": 2940
     },
     {
       "plugin": "portkey",
@@ -151,15 +149,16 @@
       "errors": [
         "Portkey returned an empty model catalog. This is a known upstream issue (https://github.com/Portkey-AI/gateway/issues/1371); Portkey lists no models until a provider or virtual key is configured in the account."
       ],
-      "duration_ms": 3348
+      "duration_ms": 3157
     },
     {
-      "plugin": "requesty",
-      "provider_id": "requesty",
-      "status": "ok",
-      "fetched": 784,
-      "errors": [],
-      "duration_ms": 3436
+      "plugin": "helicone",
+      "status": "failed",
+      "fetched": 0,
+      "errors": [
+        "Error: Plugin worker exited before responding (code 0)."
+      ],
+      "duration_ms": 0
     }
   ]
 }

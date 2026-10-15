@@ -1,8 +1,8 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d431e51",
-  "generated_at": "2026-10-14T04:25:51.149Z",
-  "count": 1492,
+  "source_revision": "13effb1",
+  "generated_at": "2026-10-15T04:08:31.901Z",
+  "count": 1495,
   "models": [
     {
       "model_id": "aion-2-0",
@@ -12882,7 +12882,7 @@
     {
       "model_id": "glm-5-3",
       "name": "zai-org/GLM-5.3",
-      "description": "GLM-5.3 is the latest flagship model for complex software engineering and long-horizon Agent tasks. It delivers a 50% improvement in coding experience over its predecessor, matches Mythos 5 on selected cybersecurity capabilities, and achieves a better balance between performance and token efficiency.",
+      "description": "GLM 5.3 by Z.ai is an open weights model served by Mistral on EU infrastructure with no Mistral modifications. 1M token context window, 128K max output. Text only. Supports reasoning, function calling, structured outputs, predicted outputs and prefix. Built for long context coding and agentic workflows.",
       "modality": [
         "text"
       ],
@@ -12898,11 +12898,13 @@
       "capability_ids": [],
       "status": "active",
       "aliases": [
+        "glm-5-3",
         "glm-5.3"
       ],
       "offering_ids": [
         "deepinfra/glm-5.3",
         "openrouter/glm-5.3",
+        "requesty/glm-5-3",
         "requesty/glm-5.3",
         "vercel/glm-5.3"
       ]
@@ -23322,6 +23324,31 @@
       ]
     },
     {
+      "model_id": "jev-1-14-0",
+      "name": "typesafe/jev-1.14.0",
+      "description": "Jev is TypeSafe’s flagship model and the first System One model.",
+      "modality": [
+        "text"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 64000,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "jev-1.14.0"
+      ],
+      "offering_ids": [
+        "requesty/jev-1.14.0"
+      ]
+    },
+    {
       "model_id": "jev-router",
       "name": "typesafe/jev-router",
       "modality": [
@@ -25084,7 +25111,7 @@
     },
     {
       "model_id": "ling-3-1-flash",
-      "name": "inclusionai/ling-3.1-flash",
+      "name": "inclusionAI/Ling-3.1-flash",
       "description": "Ling 3.1 Flash is a hybrid reasoning MoE model from inclusionAI with 560B total and 25B active parameters. Served by Novita with a 256K context window and 32K max output, supporting reasoning and function calling. Free tier.",
       "modality": [
         "text"
@@ -25104,6 +25131,7 @@
         "ling-3.1-flash"
       ],
       "offering_ids": [
+        "deepinfra/ling-3.1-flash",
         "openrouter/ling-3.1-flash",
         "requesty/ling-3.1-flash",
         "vercel/ling-3.1-flash"
@@ -32194,6 +32222,32 @@
       ]
     },
     {
+      "model_id": "pplx-decider-v1-1-27b",
+      "name": "Decider V1.1 27B",
+      "description": "Perplexity Decider V1.1 27B is Perplexity’s multimodal decision model for classification, routing, and scoring. It evaluates text, structured JSON, and images against yes/no questions, custom choices, and ordered rubrics, returning typed answers with probabilities. It supports multiple questions over shared content, making it useful for support triage, content moderation, visual inspection, and automated decision workflows",
+      "modality": [
+        "text",
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": true,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "context_window": 262144,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "pplx-decider-v1.1-27b"
+      ],
+      "offering_ids": [
+        "vercel/pplx-decider-v1.1-27b"
+      ]
+    },
+    {
       "model_id": "pplx-decider-v1-27b",
       "name": "perplexity/pplx-decider-v1-27b",
       "description": "Perplexity decision model. Answers typed questions (noul, choice, score) about the provided state with probabilities instead of text.",
@@ -35324,6 +35378,29 @@
       ]
     },
     {
+      "model_id": "remove-background-guided",
+      "name": "Bria/remove_background_guided",
+      "modality": [
+        "image"
+      ],
+      "open_weight": false,
+      "reasoning_support": false,
+      "function_calling": false,
+      "structured_output": false,
+      "vision_support": false,
+      "audio_support": false,
+      "image_generation": false,
+      "embedding_support": false,
+      "capability_ids": [],
+      "status": "active",
+      "aliases": [
+        "remove-background-guided"
+      ],
+      "offering_ids": [
+        "deepinfra/remove-background-guided"
+      ]
+    },
+    {
       "model_id": "rerank-2-5",
       "name": "Voyage Rerank 2.5",
       "description": "A generalist reranker optimized for quality with instruction-following and multilingual support.",
@@ -36753,7 +36830,7 @@
     },
     {
       "model_id": "step-5-preview",
-      "name": "stepfun/step-5-preview",
+      "name": "stepfun-ai/Step-5-Preview",
       "description": "Step 5 Preview is StepFun’s flagship AI model for agentic coding, professional knowledge work, and financial analysis. Built on a sparse Mixture-of-Experts architecture with 600B total parameters and 27B active per token, it combines a 1M-token context window with vision input. From building interactive applications and debugging code to conducting research and producing analytical reports, it supports complex workflows that require sustained reasoning, tool use, and iterative refinement.",
       "modality": [
         "text",
@@ -36774,6 +36851,7 @@
         "step-5-preview"
       ],
       "offering_ids": [
+        "deepinfra/step-5-preview",
         "openrouter/step-5-preview",
         "vercel/step-5-preview"
       ]

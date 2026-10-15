@@ -1,94 +1,20 @@
 {
   "schema_version": "0.1.0",
-  "source_revision": "d431e51",
-  "generated_at": "2026-10-14T04:25:51.149Z",
+  "source_revision": "13effb1",
+  "generated_at": "2026-10-15T04:08:31.901Z",
   "summary": {
-    "added": 19,
+    "added": 6,
     "removed": 0,
-    "status_changed": 12
+    "status_changed": 0
   },
   "added": [
-    "google/gemini-4-argon",
-    "openrouter/extract",
-    "openrouter/gemini-4-argon-batch",
-    "openrouter/gemini-4-argon",
-    "openrouter/lfm-2.5-24b-a2b",
-    "openrouter/pareto-26.9",
-    "openrouter/pareto-latest",
-    "openrouter/summarize",
-    "requesty/gemini-3.1-flash-image-eu",
-    "requesty/gemini-4-argon-eu",
-    "requesty/gemini-4-argon",
-    "requesty/muse-spark-1.3",
-    "requesty/muse-wonder-1.0",
-    "vercel/drama-3",
-    "vercel/gemini-4-argon",
-    "vercel/lfm2.5-24b-a2b",
-    "vercel/mai-image-2.6-flash",
-    "vercel/mai-image-2.6",
-    "vercel/scaledown-classify-1"
+    "deepinfra/ling-3.1-flash",
+    "deepinfra/remove-background-guided",
+    "deepinfra/step-5-preview",
+    "requesty/glm-5-3",
+    "requesty/jev-1.14.0",
+    "vercel/pplx-decider-v1.1-27b"
   ],
   "removed": [],
-  "status_changed": [
-    {
-      "model_id": "google/veo-3.1-generate-preview",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/apodex-1.1-mini-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/ling-3.0-flash-fin",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/ling-3.0-flash-sante",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "openrouter/pareto",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "requesty/gpt-4.1-mini-uksouth",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "requesty/gpt-4.1-nano-uksouth",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "requesty/gpt-4.1-uksouth",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "requesty/gpt-5-mini-uksouth",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "requesty/gpt-5-uksouth",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/ling-3.1-flash-free",
-      "from": "active",
-      "to": "discontinued"
-    },
-    {
-      "model_id": "vercel/nemotron-3.5-lightning-free",
-      "from": "discontinued",
-      "to": "active"
-    }
-  ]
+  "status_changed": []
 }
